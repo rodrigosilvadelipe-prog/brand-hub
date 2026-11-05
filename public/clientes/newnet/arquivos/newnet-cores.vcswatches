@@ -1,0 +1,254 @@
+{
+  "format": "vcswatches",
+  "version": 1,
+  "name": "NewNet / Cores",
+  "swatches": [
+    {
+      "name": "NN / aplicacao-magenta-laranja",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.6901961,
+                "g": 0.09019608,
+                "b": 0.7176471
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NN / magenta-apoio"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.35686275,
+                "b": 0.03137255
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NN / laranja-principal"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "NN / base-roxa",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.18039216,
+                "g": 0.050980393,
+                "b": 0.24313726
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NN / roxo-profundo"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.30588236,
+                "g": 0.15294118,
+                "b": 0.4509804
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NN / roxo-principal"
+            }
+          ]
+        },
+        "angle": 35.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "NN / oferta-laranja-magenta",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.35686275,
+                "b": 0.03137255
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NN / laranja-principal"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.6901961,
+                "g": 0.09019608,
+                "b": 0.7176471
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NN / magenta-apoio"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "NN / Cores",
+      "swatches": [
+        {
+          "name": "NN / roxo-profundo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.18039216,
+              "g": 0.050980393,
+              "b": 0.24313726
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / roxo-principal",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.30588236,
+              "g": 0.15294118,
+              "b": 0.4509804
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / magenta-apoio",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.6901961,
+              "g": 0.09019608,
+              "b": 0.7176471
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / laranja-principal",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.35686275,
+              "b": 0.03137255
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / laranja-suave",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.9607843,
+              "g": 0.5254902,
+              "b": 0.20392157
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / laranja-acao",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.5372549,
+              "b": 0.16078432
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / branco",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / laranja-logo-inicio",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.9098039,
+              "g": 0.31764707,
+              "b": 0.11764706
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NN / laranja-logo-fim",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.9490196,
+              "g": 0.5686275,
+              "b": 0.105882354
+            }
+          },
+          "global": true,
+          "spot": false
+        }
+      ]
+    }
+  ]
+}

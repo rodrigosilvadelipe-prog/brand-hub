@@ -1,0 +1,477 @@
+{
+  "slug": "slimnet",
+  "nome": "Slim Net",
+  "sigla": "SN",
+  "status": "provisório",
+  "atualizado": "2026-11-04",
+  "fundo": "#0B0B0D",
+  "capa": {
+    "logo": "/clientes/slimnet/logo/slimnet-logotipo-horizontal-positivo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Degradê laranja presente, alternando com peças em tinta",
+    "Logo no topo, horizontal, com as cores originais",
+    "Oferta com velocidade e apps famosos",
+    "Preço com prazo dizendo quanto custa depois",
+    "Títulos menores, com respiro e margem da borda"
+  ],
+  "evite": [
+    "Citar PlayHub, Standard ou Top",
+    "Linha fina chamativa",
+    "Fundo branco ou creme chapado",
+    "Branco fino sobre amarelo",
+    "Recolorir o logo"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Sobre tinta e creme, no topo das peças",
+      "fundo": "#0B0B0D",
+      "src": "/clientes/slimnet/logo/slimnet-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Sobre foto, gradiente e laranja, no topo das peças",
+      "fundo": "#FF8829",
+      "src": "/clientes/slimnet/logo/slimnet-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Sobre tinta e creme",
+      "fundo": "#0B0B0D",
+      "src": "/clientes/slimnet/logo/slimnet-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Sobre foto, gradiente e laranja",
+      "fundo": "#FF8829",
+      "src": "/clientes/slimnet/logo/slimnet-logotipo-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Ícone positivo",
+      "quando": "Sobre tinta e creme",
+      "fundo": "#0B0B0D",
+      "src": "/clientes/slimnet/logo/slimnet-icone-positivo.svg"
+    },
+    {
+      "titulo": "Ícone negativo",
+      "quando": "Sobre foto, gradiente e laranja",
+      "fundo": "#FF8829",
+      "src": "/clientes/slimnet/logo/slimnet-icone-negativo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Tinta",
+      "hex": "#0B0B0D",
+      "rgb": "11 11 13",
+      "papel": "fundo padrão, texto sobre claro",
+      "proporcao": "60%",
+      "pct": 60,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Tinta 2",
+      "hex": "#141317",
+      "rgb": "20 19 23",
+      "papel": "seções e cards",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Tinta 3",
+      "hex": "#1D1B21",
+      "rgb": "29 27 33",
+      "papel": "seções e cards",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja",
+      "hex": "#FF8829",
+      "rgb": "255 136 41",
+      "papel": "cor principal, destaques, fios",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Amarelo",
+      "hex": "#FFCD00",
+      "rgb": "255 205 0",
+      "papel": "início do gradiente, luz",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja forte",
+      "hex": "#F26B00",
+      "rgb": "242 107 0",
+      "papel": "fim do gradiente",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Creme",
+      "hex": "#FBF7F2",
+      "rgb": "251 247 242",
+      "papel": "seções claras, títulos",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "seções claras, títulos",
+      "proporcao": "10%",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Cinza",
+      "hex": "#8B8894",
+      "rgb": "139 136 148",
+      "papel": "apoio sobre escuro",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Tinta quente",
+      "hex": "#1A0E00",
+      "rgb": "26 14 0",
+      "papel": "texto sobre o gradiente",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja fogo",
+      "hex": "#FF4A01",
+      "rgb": "255 74 1",
+      "papel": "fundo de campanha [confirmar]",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Verde WhatsApp",
+      "hex": "#008B2D",
+      "rgb": "0 139 45",
+      "papel": "só no WhatsApp",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "marca",
+      "css": "linear-gradient(100deg, #FFCD00 0%, #FF8829 58%, #F26B00 100%)",
+      "direcao": "amarelo à esquerda, laranja forte à direita (CSS 100deg)"
+    },
+    {
+      "nome": "fogo",
+      "css": "linear-gradient(90deg, #F26B00 0%, #FF4A01 100%)",
+      "direcao": "laranja forte para laranja de fogo"
+    },
+    {
+      "nome": "whatsapp",
+      "css": "linear-gradient(90deg, #008B2D 0%, #00D04C 100%)",
+      "direcao": "esquerda para direita"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco e laranja sobre tinta",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#0B0B0D"
+      },
+      {
+        "texto": "tinta sobre o gradiente, amarelo e laranja",
+        "razao": null,
+        "fg": "#0B0B0D",
+        "bg": "#FFCD00"
+      },
+      {
+        "texto": "tinta sobre creme e branco",
+        "razao": null,
+        "fg": "#0B0B0D",
+        "bg": "#FBF7F2"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "branco fino sobre amarelo",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#FFCD00"
+      },
+      {
+        "texto": "laranja como texto sobre creme em corpo pequeno",
+        "razao": null,
+        "fg": "#FF8829",
+        "bg": "#FBF7F2"
+      },
+      {
+        "texto": "recolorir o logo"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Archivo",
+      "uso": "títulos e destaques",
+      "pesos": "ExtraBold e Black nos títulos, Bold em subtítulos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Archivo"
+    },
+    {
+      "nome": "Inter",
+      "uso": "demais textos, botões em caixa alta e legal",
+      "pesos": "Regular, Medium, SemiBold, Bold",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Inter"
+    }
+  ],
+  "familiaPrincipal": "Archivo",
+  "fontesGoogle": [
+    {
+      "nome": "Archivo",
+      "pesos": [
+        400,
+        700,
+        800,
+        900
+      ]
+    },
+    {
+      "nome": "Inter",
+      "pesos": [
+        400,
+        500,
+        600
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Archivo",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 220,
+      "entrelinha": 0.86
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Archivo",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 0.86
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Archivo",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 60,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Archivo",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 34,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 24,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1.4
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Inter",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 16,
+      "entrelinha": 1.35
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "SL1",
+      "estrutura": "logo no topo, título em caixa alta, card de oferta, apps, botão",
+      "quando": "ADS oferta",
+      "src": null
+    },
+    {
+      "codigo": "SL2",
+      "estrutura": "cidade no título, foto local, velocidade",
+      "quando": "ADS regional",
+      "src": null
+    },
+    {
+      "codigo": "SL3",
+      "estrutura": "selo Black Slim Play, 900 mega, 8 apps, legal na lateral, faixa verde",
+      "quando": "Black",
+      "src": "/clientes/slimnet/img/black-oferta.webp"
+    },
+    {
+      "codigo": "SL4",
+      "estrutura": "cinema em casa, duelo de apps",
+      "quando": "FEED conteúdo",
+      "src": null
+    },
+    {
+      "codigo": "SL5",
+      "estrutura": "cor do tema, logo no topo",
+      "quando": "FEED data",
+      "src": "/clientes/slimnet/img/ref-sl5.webp"
+    },
+    {
+      "codigo": "SL6",
+      "estrutura": "capa com pessoa e apps; um app e título por slide",
+      "quando": "Carrossel",
+      "src": "/clientes/slimnet/img/carrossel-apps.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/slimnet/arquivos/slimnet-logos.zip",
+      "tamanho": "17 KB",
+      "ext": "zip"
+    },
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "href": "/clientes/slimnet/arquivos/slimnet-cores.ase",
+      "tamanho": "1 KB",
+      "ext": "ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo SN / Cores",
+      "href": "/clientes/slimnet/arquivos/slimnet-cores.vcswatches",
+      "tamanho": "7 KB",
+      "ext": "vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos SN",
+      "href": "/clientes/slimnet/arquivos/slimnet-estilos.vcstyles",
+      "tamanho": "4 KB",
+      "ext": "vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, fundos, cards e botões. Modelos de plano citam PlayHub: não usar",
+      "href": "/clientes/slimnet/arquivos/slimnet-simbolos.vectorcraft",
+      "tamanho": "992 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo. Página de planos cita PlayHub: não usar",
+      "href": "/clientes/slimnet/arquivos/slimnet-brand-kit.vectorcraft",
+      "tamanho": "7,5 MB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas. Página de planos cita PlayHub: não usar",
+      "href": "/clientes/slimnet/arquivos/slimnet-brand-kit-board.pdf",
+      "tamanho": "982 KB",
+      "ext": "pdf"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Card de oferta, botões, diferenciais, gradiente, tiles de apps, fios de luz e letreiro",
+      "src": "/clientes/slimnet/img/elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "Degradê com laranja, a fonte das peças antigas e apps famosos.",
+  "naoGosta": "Fonte do site em título, fundo branco sólido, termos PlayHub, Standard e Top, linha fina chamativa e texto perto da borda.",
+  "licoes": [
+    "Peças antigas com Watch ou pôster servem só de linguagem, nunca de modelo de conteúdo.",
+    "O kit ainda está provisório: a fonte de título depende da validação do cliente."
+  ],
+  "html": {
+    "regras": "<ul>\n<li>Nunca usar travessão nas peças, mesmo que o site use.</li>\n<li>Preço com prazo sempre diz quanto custa depois.</li>\n<li>Não citar PlayHub, Standard nem Top, nem usar o logo da PlayHub: comunique velocidade e apps.</li>\n<li>Watch Brasil não aparece em nenhuma peça.</li>\n<li>A linguagem do site não substitui a das peças aprovadas sem validar com o cliente: siga a linha do material de campanha elogiado.</li>\n<li>Alternar peças tinta com peças de predominância laranja: o degradê laranja não pode faltar.</li>\n<li>Mais respiro: títulos menores e texto longe da borda.</li>\n<li>Linha fina discreta, nunca chamativa.</li>\n<li>Evitar fundo claro chapado: creme liso se lê como branco.</li>\n<li>Sem pôster, cena ou personagem de filme ou série sem exceção autorizada. Parceiros só com logo oficial.</li>\n</ul>\n",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet 100% fibra com rede própria, valor fixo na fatura, roteador em comodato e upload de metade do download. Também casa inteligente, rastreador veicular e energia solar.</li>\n<li><strong>Assinaturas:</strong> &quot;Ultravelocidade que conecta você!&quot; · &quot;A fibra que não te deixa na mão&quot; · &quot;Sem letra miúda&quot; · &quot;O básico bem feito&quot; · &quot;Sua internet local&quot; (peças).</li>\n<li><strong>Personalidade:</strong> honesta, técnica sem pose, local e direta / nunca: exagerada, promocional sem clareza, distante. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Onde:</strong> Itaituba, Miritituba, Rurópolis, Santarém e Trairão (PA).</li>\n<li><strong>Quem compra:</strong> casas com várias telas, jogos, streaming e home office; empresas (link dedicado, IP fixo).</li>\n<li><strong>Concorrentes:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></li>\n</ul>\n",
+    "voz": "<p><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong> (o site usa; nas peças não entra), &quot;você&quot; e &quot;a gente&quot;, &quot;até X mega&quot; em promessa.</p>\n<ul>\n<li><strong>Grafia:</strong> &quot;Slim Net&quot; em texto (site). As peças escrevem &quot;Slimnet&quot;: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n<li><strong>Tom do site:</strong> direto e sem enrolação. Explica por que: &quot;Se o sinal não chegar no padrão, a instalação não é feita. Ponto.&quot; · &quot;Sem promoção de 3 meses. O valor da assinatura é o valor da fatura.&quot;</li>\n<li><strong>Regra de ouro:</strong> preço com prazo sempre diz quanto custa depois: informe o valor, o prazo e o valor seguinte.</li>\n</ul>\n<h3>ADS</h3>\n<p>&quot;A melhor internet de Santarém.&quot; · &quot;Sua internet não anda. Ela decola.&quot; · &quot;Não precisa ser Buda pra ter estabilidade.&quot; · &quot;A melhor internet ainda tá te esperando.&quot; · &quot;Oportunidade única!&quot;</p>\n<h3>FEED</h3>\n<p>Conteúdo e apps: &quot;Sua casa vai virar cinema!&quot; · &quot;A magia começa no play!&quot; · &quot;Duelo de gigantes!&quot;. Humor pop: &quot;Terror é o sinal sumir!&quot;. Serviços: &quot;Seu carro no mapa, sua paz no lugar!&quot;. Datas com a cor do tema.</p>\n<h3>Carrossel</h3>\n<p>&quot;Os melhores apps chegaram na Slimnet!&quot;, depois um app e seus títulos por slide.</p>\n<p><strong>CTAs:</strong> Assine agora · Falar no WhatsApp · Quero a Black no WhatsApp · Ver planos · Entre em contato e saiba mais!</p>\n",
+    "logo": "<ul>\n<li>Triângulo arredondado com &quot;S&quot; + &quot;SLIM&quot; pesado e &quot;NET&quot; fino. Símbolos <code>Logo / Horizontal positivo</code> e <code>negativo</code>, <code>Logo / Vertical positivo</code> e <code>negativo</code>, <code>Ícone / Positivo</code> e <code>negativo</code>, extraídos do <code>.ai</code> oficial, sem redesenho.</li>\n<li>O logo mantém as cores dele (#FBC601, #FB7720), sem recolorir para a paleta.</li>\n<li>Positivo sobre tinta e creme; negativo branco sobre foto, gradiente e laranja. Nas peças: no topo, horizontal. Mínimo 160 px <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>.</li>\n</ul>\n",
+    "cores": "<ul>\n<li><strong>Gradientes:</strong> <code>marca</code> (amarelo, laranja, laranja forte), <code>fogo</code> (campanha), <code>whatsapp</code>.</li>\n<li>A cor de conversão do guia (#00001A) não entra: o CTA do site usa o gradiente <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n</ul>\n",
+    "tipografia": "<ul>\n<li>As mesmas do site. Título como no site: ExtraBold, caixa alta, entrelinha 0,86, tracking -0,038 em.</li>\n<li>Estilos <code>SN / numero-oferta</code> (Black 220), <code>titulo-1</code> (ExtraBold 96), <code>titulo-2</code> (Black 60), <code>subtitulo</code> (Bold 34), <code>selo-pill</code> (Inter SemiBold 20), <code>cta</code> (Inter SemiBold 24), <code>corpo</code> (Inter 26), <code>apoio-preco</code> (Inter Medium 22), <code>legal</code> (Inter 16).</li>\n<li>Preço em texto único com trechos de estilo (&quot;R$&quot; Inter, inteiro Archivo Black, &quot;,00&quot; menor, &quot;/mês&quot; Inter).</li>\n<li>Atenção: o cliente reprovou a fonte do site em título e prefere a das peças antigas. O nome dessa fonte ainda não foi confirmado <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><code>Fundo / Tinta</code> (com luz laranja), <code>Fundo / Gradiente</code>, <code>Fundo / Fogo campanha</code>, <code>Grafismo / Fios de luz</code> (com opacidade, sem cruzar texto).</li>\n<li><code>Letreiro / Diferenciais</code>: faixa laranja com itens e estrelas de 4 pontas em vetor (o ✦ do site não existe na Inter).</li>\n<li><code>Card / Oferta</code>: card tinta 3, borda laranja fina, raio 14, velocidade e preço.</li>\n<li><code>Botão / Assine</code> (pílula em gradiente), <code>Botão / WhatsApp</code>, <code>Pill / Cidade</code>, <code>Sobretítulo / Laranja</code>, <code>Tile / App</code>, <code>Item / Diferencial</code>.</li>\n<li>Selo &quot;Black Slim Play&quot;: usar a arte da campanha, não recriar.</li>\n<li>Blocos de plano e preço em positivo e negativo: os modelos atuais citam PlayHub, Standard e Top e precisam ser refeitos antes do uso <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Fundo escuro com luz laranja; pessoas reais em casa; produtos (roteador, TV box, controle) com brilho; cidades do Pará; cultura pop e datas.</li>\n<li>Evitar banco de imagem frio, cores fora da paleta, pôster de filme ou série sem exceção autorizada. Parceiros só com logo oficial.</li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><p><strong>Preços variam por cidade</strong> e ficam na Central de Clientes.</p>\n</li>\n<li><p><strong>Legal do site:</strong> &quot;Valores válidos para pagamento até a data do vencimento. Instalação gratuita e roteador em comodato inclusos. Contrato com prazo de 12 meses. Consulte a disponibilidade na sua rua. Apps inclusos apenas nos planos indicados, sujeitos às condições e à disponibilidade dos parceiros.&quot;</p>\n</li>\n<li><p><strong>Contato:</strong> WhatsApp (93) 99194-0054 · <a href=\"mailto:contato@slimnet.com.br\">contato@slimnet.com.br</a> · Rod. Santarém-Cuiabá, 1280, Caranazal, Santarém/PA.</p>\n</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>SKY+, Prime Video, Disney+, HBO Max, Globoplay, Apple TV, Indie, Leitura 360 (site)</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logo oficial</td>\n</tr>\n</tbody></table>\n"
+  }
+}

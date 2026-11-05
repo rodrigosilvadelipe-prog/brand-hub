@@ -1,0 +1,110 @@
+{
+  "format": "vcstyles",
+  "version": 1,
+  "name": "NewNet / Aparência",
+  "styles": [
+    {
+      "name": "NN / Fundo roxo",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.18039216,
+                      "g": 0.050980393,
+                      "b": 0.24313726
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.30588236,
+                      "g": 0.15294118,
+                      "b": 0.4509804
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 35.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 1.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "NN / Card claro",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 1.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "NN / Ação laranja",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.5372549,
+                "b": 0.16078432
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 1.0
+          }
+        ]
+      },
+      "unit_box": true
+    }
+  ]
+}

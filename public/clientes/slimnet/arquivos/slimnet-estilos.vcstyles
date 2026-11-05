@@ -1,0 +1,170 @@
+{
+  "format": "vcstyles",
+  "version": 1,
+  "name": "Slim Net / Aparência",
+  "styles": [
+    {
+      "name": "SN / Fundo tinta",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.043137256,
+                "g": 0.043137256,
+                "b": 0.050980393
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "SN / Gradiente marca",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 1.0,
+                      "g": 0.8039216,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.58,
+                    "color": {
+                      "model": "rgb",
+                      "r": 1.0,
+                      "g": 0.53333336,
+                      "b": 0.16078432
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.9490196,
+                      "g": 0.41960785,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": -10.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "SN / Card oferta",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.11372549,
+                "g": 0.105882354,
+                "b": 0.12941177
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "SN / WhatsApp",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.0,
+                      "g": 0.54509807,
+                      "b": 0.1764706
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.0,
+                      "g": 0.8156863,
+                      "b": 0.29803923
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 0.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    }
+  ]
+}

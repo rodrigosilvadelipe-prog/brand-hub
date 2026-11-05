@@ -1,0 +1,127 @@
+{
+  "substituir": {
+    "- **Regra de ouro:** preço com prazo sempre diz quanto custa depois. \"R$ 129,00 nos 12 primeiros meses. Do 13º mês em diante, R$ 159,00.\"": "- **Regra de ouro:** preço com prazo sempre diz quanto custa depois: informe o valor, o prazo e o valor seguinte.",
+    "- **Planos (site, Santarém, 04/11/2026):** 500 mega R$ 99,00 · 600 mega R$ 119,00 · 700 mega R$ 139,00 + 15 apps · Black Slim Play 900 mega + 8 apps de R$ 159,00 por R$ 129,00 nos 12 primeiros meses, depois R$ 159,00, contratação até 30/11. **Preços variam por cidade.**": "- **Preços variam por cidade** e ficam na Central de Clientes.",
+    "- **Casa inteligente:** + R$ 30/mês (kit de 1 cômodo).": "",
+    "- `Plano / <500|600|700|900> <positivo|negativo>`: bloco de plano e preço, com número, pílula \"mega\", \"+\", PlayHub, fio e preço. `Plano linha / <700|900> <positivo|negativo>`: versão em linha, sem preço. Negativo em fundo escuro, positivo em fundo claro. Formato do arquivo `ASSETS\u000betores-planos-preços.ai`; página 11 do board.": "- Blocos de plano e preço em positivo e negativo: os modelos atuais citam PlayHub, Standard e Top e precisam ser refeitos antes do uso [confirmar].",
+    "- As peças antigas usam letra condensada itálica: a partir deste kit, Archivo reta.": "- Atenção: o cliente reprovou a fonte do site em título e prefere a das peças antigas. O nome dessa fonte ainda não foi confirmado [confirmar].",
+    "| Watch (peças antigas) | [confirmar se segue] | só logo oficial |": ""
+  },
+  "regras": [
+    "Nunca usar travessão nas peças, mesmo que o site use.",
+    "Preço com prazo sempre diz quanto custa depois.",
+    "Não citar PlayHub, Standard nem Top, nem usar o logo da PlayHub: comunique velocidade e apps.",
+    "Watch Brasil não aparece em nenhuma peça.",
+    "A linguagem do site não substitui a das peças aprovadas sem validar com o cliente: siga a linha do material de campanha elogiado.",
+    "Alternar peças tinta com peças de predominância laranja: o degradê laranja não pode faltar.",
+    "Mais respiro: títulos menores e texto longe da borda.",
+    "Linha fina discreta, nunca chamativa.",
+    "Evitar fundo claro chapado: creme liso se lê como branco.",
+    "Sem pôster, cena ou personagem de filme ou série sem exceção autorizada. Parceiros só com logo oficial."
+  ],
+  "faca": [
+    "Degradê laranja presente, alternando com peças em tinta",
+    "Logo no topo, horizontal, com as cores originais",
+    "Oferta com velocidade e apps famosos",
+    "Preço com prazo dizendo quanto custa depois",
+    "Títulos menores, com respiro e margem da borda"
+  ],
+  "evite": [
+    "Citar PlayHub, Standard ou Top",
+    "Linha fina chamativa",
+    "Fundo branco ou creme chapado",
+    "Branco fino sobre amarelo",
+    "Recolorir o logo"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Sobre tinta e creme, no topo das peças",
+      "fundo": "#0B0B0D",
+      "arquivo": "curadoria/slimnet/logo/slimnet-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Sobre foto, gradiente e laranja, no topo das peças",
+      "fundo": "#FF8829",
+      "arquivo": "curadoria/slimnet/logo/slimnet-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Sobre tinta e creme",
+      "fundo": "#0B0B0D",
+      "arquivo": "curadoria/slimnet/logo/slimnet-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Sobre foto, gradiente e laranja",
+      "fundo": "#FF8829",
+      "arquivo": "curadoria/slimnet/logo/slimnet-logotipo-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Ícone positivo",
+      "quando": "Sobre tinta e creme",
+      "fundo": "#0B0B0D",
+      "arquivo": "curadoria/slimnet/logo/slimnet-icone-positivo.svg"
+    },
+    {
+      "titulo": "Ícone negativo",
+      "quando": "Sobre foto, gradiente e laranja",
+      "fundo": "#FF8829",
+      "arquivo": "curadoria/slimnet/logo/slimnet-icone-negativo.svg"
+    }
+  ],
+  "capa": {
+    "fundo": "#0B0B0D",
+    "logo": "curadoria/slimnet/logo/slimnet-logotipo-horizontal-positivo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/slimnet/elementos.png",
+      "legenda": "Card de oferta, botões, diferenciais, gradiente, tiles de apps, fios de luz e letreiro"
+    }
+  ],
+  "layouts": {
+    "SL3": "jobs/2026-11-brand-kit/assets/referencias/black-oferta.png",
+    "SL5": "curadoria/slimnet/ref-sl5.png",
+    "SL6": "jobs/2026-11-brand-kit/assets/referencias/carrossel-apps.png"
+  },
+  "arquivos": [
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "origem": "vectorcraft/bibliotecas/slimnet-cores.ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo SN / Cores",
+      "origem": "vectorcraft/bibliotecas/slimnet-cores.vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos SN",
+      "origem": "vectorcraft/bibliotecas/slimnet-estilos.vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, fundos, cards e botões. Modelos de plano citam PlayHub: não usar",
+      "origem": "vectorcraft/bibliotecas/slimnet-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo. Página de planos cita PlayHub: não usar",
+      "origem": "vectorcraft/slimnet-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas. Página de planos cita PlayHub: não usar",
+      "origem": "vectorcraft/slimnet-brand-kit-board.pdf"
+    }
+  ],
+  "licoes": [
+    "Peças antigas com Watch ou pôster servem só de linguagem, nunca de modelo de conteúdo.",
+    "O kit ainda está provisório: a fonte de título depende da validação do cliente."
+  ],
+  "gosta": "Degradê com laranja, a fonte das peças antigas e apps famosos.",
+  "naoGosta": "Fonte do site em título, fundo branco sólido, termos PlayHub, Standard e Top, linha fina chamativa e texto perto da borda."
+}

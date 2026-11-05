@@ -9,6 +9,7 @@ export function getStaticPaths() {
 
 const { c } = Astro.props;
 const fonte = c.familiaPrincipal;
+const fontePrincipal = c.familias.find((f) => f.nome === fonte);
 const temCliente = Boolean(c.gosta || c.naoGosta || c.licoes.length);
 const prosa = 'prose prose-sm max-w-3xl prose-headings:font-semibold prose-strong:text-noite prose-a:text-laranja prose-code:rounded prose-code:bg-areia/50 prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none text-ameixa';
 const menu = [
@@ -27,7 +28,7 @@ const menu = [
 const dataBR = (d) => d.split('-').reverse().join('/');
 const proporcao = c.cores.filter((x) => x.pct > 0);
 ---
-<Base titulo={`${c.nome} · Brand Hub Delipe`} fonteCliente={c.familiaGoogle ? fonte : null} pesos={c.pesosFonte}>
+<Base titulo={`${c.nome} · Brand Hub Delipe`} fontes={c.fontesGoogle}>
   <div class="lg:flex">
     <aside class="sticky top-0 z-20 bg-noite text-white lg:h-screen lg:w-64 lg:shrink-0 lg:overflow-y-auto">
       <div class="flex items-center justify-between gap-3 px-4 py-3 lg:block lg:px-6 lg:pt-7">
@@ -60,11 +61,19 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
           <div class="grid gap-6 lg:grid-cols-[1.1fr_1fr]">
             <div class={prosa} set:html={c.html.essencia} />
             <div>
-              <div class="flex h-20 overflow-hidden rounded-xl">
-                {proporcao.map((x) => <span style={`background:${x.hex};flex:${x.pct}`} title={`${x.nome} ${x.proporcao}`}></span>)}
-              </div>
-              <p class="mt-2 text-xs text-ameixa/70">Proporção das cores nas peças</p>
-              <p class="mt-5 text-3xl font-extrabold tracking-tight" style={`font-family:'${fonte}',sans-serif`}>{fonte}</p>
+              {proporcao.length > 0 && (
+                <div class="mb-5">
+                  <div class="flex h-20 overflow-hidden rounded-xl">
+                    {proporcao.map((x) => <span style={`background:${x.hex};flex:${x.pct}`} title={`${x.nome} ${x.proporcao}`}></span>)}
+                  </div>
+                  <p class="mt-2 text-xs text-ameixa/70">Proporção das cores nas peças</p>
+                </div>
+              )}
+              {fontePrincipal.link
+                ? <p class="text-3xl font-extrabold tracking-tight" style={`font-family:'${fonte}',sans-serif`}>{fonte}</p>
+                : fontePrincipal.disponivel
+                  ? <img src={fontePrincipal.nomeImg} alt={fonte} class="h-11 w-auto max-w-full object-contain object-left" />
+                  : <p class="text-lg font-semibold">{fonte}</p>}
               <p class="text-xs text-ameixa/70">Fonte principal da marca</p>
             </div>
           </div>
@@ -139,7 +148,9 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
               <ul class="mt-4 space-y-2">
                 {c.contraste.ok.map((x) => (
                   <li class="flex items-center gap-3 text-sm">
-                    <span class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-areia text-base font-bold" style={`background:${x.bg};color:${x.fg}`}>Aa</span>
+                    {x.bg && x.fg
+                      ? <span class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-areia text-base font-bold" style={`background:${x.bg};color:${x.fg}`}>Aa</span>
+                      : <span class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-areia text-emerald-700" aria-hidden="true">✓</span>}
                     <span>{x.texto}</span>
                   </li>
                 ))}
@@ -150,7 +161,7 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
               <ul class="mt-4 space-y-2">
                 {c.contraste.nao.map((x) => (
                   <li class="flex items-center gap-3 text-sm">
-                    {x.bg
+                    {x.bg && x.fg
                       ? <span class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-areia text-base font-bold" style={`background:${x.bg};color:${x.fg}`}>Aa</span>
                       : <span class="flex size-11 shrink-0 items-center justify-center rounded-lg border border-areia text-rose-700" aria-hidden="true">✕</span>}
                     <span>{x.texto}</span>
@@ -165,13 +176,16 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
         <Secao id="tipografia" titulo="Tipografia">
           <div class="grid gap-4 sm:grid-cols-2">
             {c.familias.map((f) => (
-              <div class="rounded-2xl border border-areia bg-white p-5">
-                <p class="text-3xl font-bold" style={f.link ? `font-family:'${f.nome}',sans-serif` : undefined}>{f.nome}</p>
+              <div class:list={['rounded-2xl border border-areia bg-white p-5', { 'sm:col-span-2': f.especime }]}>
+                {f.link && <p class="text-3xl font-bold" style={`font-family:'${f.nome}',sans-serif`}>{f.nome}</p>}
+                {f.nomeImg && <img src={f.nomeImg} alt={f.nome} class="h-11 w-auto max-w-full object-contain object-left" />}
+                {!f.link && !f.nomeImg && <p class="text-lg font-semibold">{f.nome}</p>}
                 <p class="mt-2 text-sm text-ameixa">{f.uso}</p>
                 <p class="mt-1 text-xs text-ameixa/70">Pesos: {f.pesos}</p>
+                {f.especime && <img src={f.especime} alt={`Amostra da fonte ${f.nome} nos pesos da marca`} loading="lazy" class="mt-4 w-full max-w-2xl" />}
                 {f.link
                   ? <a href={f.link} target="_blank" rel="noopener" class="mt-3 inline-block text-xs font-semibold text-laranja hover:underline">Baixar no Google Fonts</a>
-                  : <p class="mt-3 text-xs text-ameixa/70">{f.onde}</p>}
+                  : <p class="mt-3 text-xs text-ameixa/70">{f.disponivel ? 'Amostra em imagem: esta fonte não fica no site.' : 'Sem amostra: esta fonte não está disponível para gerar a imagem.'} <span class="font-semibold">Onde encontrar:</span> {f.onde}</p>}
               </div>
             ))}
           </div>
@@ -186,7 +200,9 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
                 {c.estilos.map((e) => (
                   <tr class="border-b border-areia/60 last:border-0">
                     <td class="p-3 font-medium whitespace-nowrap">{e.papel}</td>
-                    <td class="p-3 whitespace-nowrap" style={`font-family:'${fonte}',sans-serif;font-weight:${e.wght};font-style:${e.italico ? 'italic' : 'normal'};font-size:${Math.max(12, Math.min(40, e.px / 2.4))}px;line-height:1.1`}>Aa 123</td>
+                    {c.fontesGoogle.some((f) => f.nome === e.familia)
+                      ? <td class="p-3 whitespace-nowrap" style={`font-family:'${e.familia}',sans-serif;font-weight:${e.wght};font-style:${e.italico ? 'italic' : 'normal'};font-size:${Math.max(12, Math.min(40, e.px / 2.4))}px;line-height:1.1`}>Aa 123</td>
+                      : <td class="p-3 whitespace-nowrap">{e.img ? <img src={e.img} alt={`Aa 123 em ${e.familia} ${e.peso}`} style={`height:${e.imgAltura}px;width:auto;max-width:none`} /> : <span class="text-xs text-ameixa/70">Sem amostra</span>}</td>}
                     <td class="p-3">{e.peso}</td>
                     <td class="p-3">{e.px} px</td>
                     <td class="p-3">{String(e.entrelinha).replace('.', ',')}</td>
@@ -240,7 +256,7 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
           <p class="mb-6 rounded-xl bg-orange-50 p-4 text-sm text-orange-950"><strong>Preços e planos mudam.</strong> Os blocos abaixo são modelos: antes de usar um valor, confira sempre na Central de Clientes ou no briefing do account.</p>
           <div class={prosa} set:html={c.html.ofertas} />
           {c.planos.length > 0 && (
-            <div class="mt-8 grid gap-4 lg:grid-cols-2">
+            <div class:list={['mt-8 grid gap-4', { 'lg:grid-cols-2': c.planos.length > 1 }]}>
               {c.planos.map((i) => (
                 <figure>
                   <img src={i.src} alt={i.legenda} loading="lazy" class="w-full rounded-2xl border border-areia" />

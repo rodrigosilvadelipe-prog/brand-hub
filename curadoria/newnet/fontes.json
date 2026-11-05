@@ -1,0 +1,55 @@
+{
+  "Uni Neue": {
+    "disponivel": true,
+    "nome": "curadoria/newnet/fonte-uni-neue-nome.png",
+    "especime": "curadoria/newnet/fonte-uni-neue-especime.png",
+    "pesos": [
+      "Thin",
+      "Light",
+      "Book",
+      "Regular",
+      "Bold",
+      "Heavy",
+      "Black"
+    ],
+    "estilos": {
+      "numero-oferta": {
+        "src": "curadoria/newnet/fonte-uni-neue-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/newnet/fonte-uni-neue-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/newnet/fonte-uni-neue-titulo-2.png",
+        "altura": 42
+      },
+      "subtitulo": {
+        "src": "curadoria/newnet/fonte-uni-neue-subtitulo.png",
+        "altura": 26
+      },
+      "selo-pill": {
+        "src": "curadoria/newnet/fonte-uni-neue-selo-pill.png",
+        "altura": 21
+      },
+      "cta": {
+        "src": "curadoria/newnet/fonte-uni-neue-cta.png",
+        "altura": 19
+      },
+      "corpo": {
+        "src": "curadoria/newnet/fonte-uni-neue-corpo.png",
+        "altura": 18
+      },
+      "apoio-preco": {
+        "src": "curadoria/newnet/fonte-uni-neue-apoio-preco.png",
+        "altura": 17
+      },
+      "legal": {
+        "src": "curadoria/newnet/fonte-uni-neue-legal.png",
+        "altura": 17
+      }
+    },
+    "faltam": []
+  }
+}

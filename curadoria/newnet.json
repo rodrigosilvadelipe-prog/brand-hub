@@ -1,0 +1,138 @@
+{
+  "substituir": {
+    " Sem geração de imagem neste job até a síntese.": "",
+    "Sem fonte independente ou confirmação de mascote; não recortar, redesenhar ou gerar novas poses nesta etapa.": "Sem confirmação como mascote: não recortar, redesenhar nem gerar novas poses.",
+    "- Sem substituta na rota local. Figma não utilizado; disponibilidade remota não verificada.": "",
+    "- NN1/NN2 aproximam L4/L2; NN3 aproxima L3; NN4 aproxima L2; NN5 aproxima L5; NN6 aproxima L6. L1 reservado a pauta tipográfica. Mapeamento operacional [sugerido].": "",
+    "Página “Como apresentar planos” acrescentada com base nos dois prints enviados pelo usuário em 29/10/2026. Quatro variantes": "Quatro variantes",
+    " Gradiente registrado separadamente, conforme os novos prints.": "",
+    " Nos exemplos com apps não inserir preço, seguindo o print 2.": " Nos exemplos com apps não inserir preço.",
+    "- Valores dos dois exemplos residenciais transcritos do print: 400 Mega, R$79,90/mês; 850 Mega, R$99,90/mês. Exemplos de linguagem visual, não confirmação de vigência comercial.": "",
+    "- Nenhuma oferta nova aprovada neste kit.": "",
+    "Planos e preços ficam na ficha, identificados como cópia histórica. Consultar briefing atualizado antes de uso.": "Planos e preços vigentes ficam na Central de Clientes. Consultar o briefing atualizado antes de usar.",
+    "- Para exemplo do kit, usar mensagem institucional sem preço nem velocidade, identificada como demonstração.": "",
+    "Entrelinhas e tracking em tokens.json. Uso": "Uso",
+    "; preservar enquadramento do rafe aprovado": ""
+  },
+  "faca": [
+    "Base roxa com variação tonal e luz magenta",
+    "Símbolo Wi-Fi laranja ampliado nos cantos, sempre do SVG oficial",
+    "Cards de cantos arredondados, brancos ou roxos",
+    "CTA laranja com texto roxo e seta à direita",
+    "Uni Neue em todos os textos, sem misturar outra família"
+  ],
+  "evite": [
+    "Texto branco sobre laranja em corpo normal",
+    "Redesenhar, recolorir ou deformar o logo",
+    "Promessa sem prova, como \"sem lags e travamentos\" ou \"melhor\"",
+    "Recortar, redesenhar ou gerar novas poses do personagem 3D",
+    "Reaproveitar preço, QR ou selo sazonal de peça antiga"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/newnet/logo/newnet-logotipo-horizontal-padrao-positivo.svg"
+    },
+    {
+      "titulo": "Negativo colorido",
+      "quando": "Lettering branco e símbolo laranja, para fundo roxo",
+      "fundo": "#4E2773",
+      "arquivo": "curadoria/newnet/logo/newnet-logotipo-horizontal-roxo-negativo.svg"
+    },
+    {
+      "titulo": "Branco",
+      "quando": "Todo branco, para superfícies escuras",
+      "fundo": "#2E0D3E",
+      "arquivo": "curadoria/newnet/logo/newnet-logotipo-horizontal-branco-negativo.svg"
+    },
+    {
+      "titulo": "Ícone laranja",
+      "quando": "Em fundo com contraste",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/newnet/logo/newnet-icone-padrao.svg"
+    },
+    {
+      "titulo": "Ícone branco",
+      "quando": "Em fundo escuro",
+      "fundo": "#2E0D3E",
+      "arquivo": "curadoria/newnet/logo/newnet-icone-branco-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "base-roxa",
+    "logo": "curadoria/newnet/logo/newnet-logotipo-horizontal-roxo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/newnet/elementos.png",
+      "legenda": "Wi-Fi da marca, cards arredondados, CTA, selos circulares, faixa curva e base roxa"
+    },
+    {
+      "origem": "vectorcraft/newnet-exemplo-1080.png",
+      "legenda": "Exemplo de composição montado com os elementos da marca"
+    }
+  ],
+  "planos": [
+    {
+      "origem": "curadoria/newnet/planos.png",
+      "legenda": "Quatro modelos de card: residencial, com recursos, com apps e apps com recursos"
+    }
+  ],
+  "layouts": {
+    "NN1": "jobs/2026-10-brand-kit/assets/referencias/match.png",
+    "NN2": "jobs/2026-10-brand-kit/assets/referencias/personagem.png",
+    "NN3": "jobs/2026-10-brand-kit/assets/referencias/comparativo.png",
+    "NN4": "jobs/2026-10-brand-kit/assets/referencias/saude.png",
+    "NN6": "curadoria/newnet/ref-nn6.png"
+  },
+  "fontes": {
+    "Uni Neue": {
+      "onde": "pasta da marca do cliente, em Tipografia. Licença a confirmar antes de distribuir."
+    }
+  },
+  "arquivos": [
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "origem": "vectorcraft/bibliotecas/newnet-cores.ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo NN / Cores",
+      "origem": "vectorcraft/bibliotecas/newnet-cores.vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Aparências NN",
+      "origem": "vectorcraft/bibliotecas/newnet-estilos.vcstyles"
+    },
+    {
+      "titulo": "Modelo tipográfico",
+      "descricao": "Os nove papéis de texto NN",
+      "origem": "vectorcraft/bibliotecas/newnet-tipografia.vectorcraft"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, elementos e modelos de planos",
+      "origem": "vectorcraft/bibliotecas/newnet-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "origem": "vectorcraft/newnet-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "origem": "vectorcraft/newnet-brand-kit-board.pdf"
+    }
+  ],
+  "licoes": [
+    "O logo tem laranjas próprios no SVG, diferentes das cores de aplicação: preserve o arquivo original.",
+    "A Uni Neue é mais estreita que outras fontes: dimensione o título pela largura.",
+    "Peças antigas têm texto branco em pílulas laranja: nas novas, use texto roxo profundo."
+  ],
+  "gosta": "Roxo e laranja, Uni Neue, Wi-Fi em destaque, cards arredondados e CTA laranja com texto roxo."
+}

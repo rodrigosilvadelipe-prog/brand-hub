@@ -1,0 +1,97 @@
+{
+  "substituir": {
+    "- Fixos: apps parceiros em tiles brancos, card \"Planos de internet de até 800 MEGA · A partir de R$ 88,10/mês\", faixa verde \"CONTRATE PELO WHATSAPP!\".": "- Fixos: apps parceiros em tiles brancos, card de oferta com velocidade e preço, faixa verde \"CONTRATE PELO WHATSAPP!\".",
+    "- **Planos (site, 03/11/2026):** Básico 300 mega R$ 99,80 ou R$ 88,10 [confirmar condição] · Essencial 400 · Mix HD 600 R$ 119,60 · Geek 800 R$ 203,30 · Energy 800 · Família Full 800 R$ 215,00 / R$ 184,40 · Lightcam 600 R$ 134,00 · Smartcam R$ 152,00 · Alertacam R$ 161,00 · Ultracam R$ 170,00.": "- **Planos e preços** ficam na Central de Clientes.",
+    "- **Nos ADS:** \"Planos de internet de até 800 mega · A partir de R$ 88,10/mês\" [confirmar vigência].": "- **Nos ADS:** card \"Planos de internet de até\", com a velocidade e \"A partir de\", sempre com o valor vigente da Central.",
+    "- Definida pelo usuário em 03/11/2026.": ""
+  },
+  "faca": [
+    "Logo no topo, centralizado",
+    "Título em 2 linhas, com a 2ª em amarelo",
+    "Fundo azul com ondas magenta e ciano nos cantos",
+    "Card azul de oferta com selo MEGA laranja",
+    "Humor de situação no feed"
+  ],
+  "evite": [
+    "Recolorir as pétalas ou separar o ícone do nome",
+    "Amarelo ou ciano como texto sobre branco",
+    "Vermelho como fundo de texto",
+    "\"A internet mais rápida do Brasil\" e promessa sem prova",
+    "Pôster de filme ou série sem exceção autorizada"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo branco",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/netserv/logo/netserv-logotipo-padrao-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Fundos azuis e magenta, padrão das peças",
+      "fundo": "#0042BA",
+      "arquivo": "curadoria/netserv/logo/netserv-logotipo-padrao-negativo.svg"
+    },
+    {
+      "titulo": "Ícone colorido",
+      "quando": "As 6 pétalas, sem recolorir",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/netserv/logo/netserv-icone.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-azul",
+    "logo": "curadoria/netserv/logo/netserv-logotipo-padrao-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/netserv/elementos.png",
+      "legenda": "Card de oferta, CTA, selo, tiles de apps, depoimento, ondas e faixa do WhatsApp"
+    },
+    {
+      "origem": "vectorcraft/netserv-exemplo-1080.png",
+      "legenda": "Exemplo de composição montado com os elementos da marca"
+    }
+  ],
+  "layouts": {
+    "NS1": "jobs/2026-11-brand-kit/assets/referencias/ads-acelerar.png",
+    "NS3": "jobs/2026-11-brand-kit/assets/referencias/feed-crime.png",
+    "NS5": "jobs/2026-11-brand-kit/assets/referencias/feed-alturas.png",
+    "NS6": "curadoria/netserv/ref-ns6.png"
+  },
+  "arquivos": [
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "origem": "vectorcraft/bibliotecas/netserv-cores.ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo NS / Cores",
+      "origem": "vectorcraft/bibliotecas/netserv-cores.vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos NS",
+      "origem": "vectorcraft/bibliotecas/netserv-estilos.vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, fundos, ondas, cards e faixa",
+      "origem": "vectorcraft/bibliotecas/netserv-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "origem": "vectorcraft/netserv-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "origem": "vectorcraft/netserv-brand-kit-board.pdf"
+    }
+  ],
+  "licoes": [
+    "O mascote roteador não tem arquivo próprio nem autorização para novas poses: confirme antes de usar."
+  ]
+}

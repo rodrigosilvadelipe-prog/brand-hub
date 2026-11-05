@@ -1,0 +1,137 @@
+{
+  "format": "vcstyles",
+  "version": 1,
+  "name": "NETserv / Aparência",
+  "styles": [
+    {
+      "name": "NS / Fundo azul",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.0,
+                      "g": 0.25882354,
+                      "b": 0.7294118
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.0,
+                      "g": 0.05490196,
+                      "b": 0.3137255
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": -90.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "NS / Card oferta",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.16078432,
+                "g": 0.17254902,
+                "b": 0.5882353
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "NS / Ação laranja",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.5137255,
+                "b": 0.003921569
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "NS / Faixa WhatsApp",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.65882355,
+                "b": 0.28235295
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    }
+  ]
+}

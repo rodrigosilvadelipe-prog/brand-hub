@@ -1,0 +1,463 @@
+{
+  "slug": "newnet",
+  "nome": "NewNet",
+  "sigla": "NN",
+  "status": "aprovado",
+  "atualizado": "2026-10-29",
+  "fundo": "linear-gradient(135deg, #2E0D3E 0%, #4E2773 100%)",
+  "capa": {
+    "logo": "/clientes/newnet/logo/newnet-logotipo-horizontal-roxo-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Base roxa com variação tonal e luz magenta",
+    "Símbolo Wi-Fi laranja ampliado nos cantos, sempre do SVG oficial",
+    "Cards de cantos arredondados, brancos ou roxos",
+    "CTA laranja com texto roxo e seta à direita",
+    "Uni Neue em todos os textos, sem misturar outra família"
+  ],
+  "evite": [
+    "Texto branco sobre laranja em corpo normal",
+    "Redesenhar, recolorir ou deformar o logo",
+    "Promessa sem prova, como \"sem lags e travamentos\" ou \"melhor\"",
+    "Recortar, redesenhar ou gerar novas poses do personagem 3D",
+    "Reaproveitar preço, QR ou selo sazonal de peça antiga"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/newnet/logo/newnet-logotipo-horizontal-padrao-positivo.svg"
+    },
+    {
+      "titulo": "Negativo colorido",
+      "quando": "Lettering branco e símbolo laranja, para fundo roxo",
+      "fundo": "#4E2773",
+      "src": "/clientes/newnet/logo/newnet-logotipo-horizontal-roxo-negativo.svg"
+    },
+    {
+      "titulo": "Branco",
+      "quando": "Todo branco, para superfícies escuras",
+      "fundo": "#2E0D3E",
+      "src": "/clientes/newnet/logo/newnet-logotipo-horizontal-branco-negativo.svg"
+    },
+    {
+      "titulo": "Ícone laranja",
+      "quando": "Em fundo com contraste",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/newnet/logo/newnet-icone-padrao.svg"
+    },
+    {
+      "titulo": "Ícone branco",
+      "quando": "Em fundo escuro",
+      "fundo": "#2E0D3E",
+      "src": "/clientes/newnet/logo/newnet-icone-branco-negativo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Roxo profundo",
+      "hex": "#2E0D3E",
+      "rgb": "46 13 62",
+      "papel": "Fundos e texto escuro",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo principal",
+      "hex": "#4E2773",
+      "rgb": "78 39 115",
+      "papel": "Marca, cards e títulos",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Magenta de apoio",
+      "hex": "#B017B7",
+      "rgb": "176 23 183",
+      "papel": "Luz, faixas, detalhes",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja principal",
+      "hex": "#FF5B08",
+      "rgb": "255 91 8",
+      "papel": "Destaque e ação",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja suave",
+      "hex": "#F58634",
+      "rgb": "245 134 52",
+      "papel": "Luz e transições",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja de ação",
+      "hex": "#FF8929",
+      "rgb": "255 137 41",
+      "papel": "CTA alternativo",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "Texto e superfícies claras",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja do logo, início",
+      "hex": "#E8511E",
+      "rgb": "232 81 30",
+      "papel": "Uso interno ao logo",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja do logo, fim",
+      "hex": "#F2911B",
+      "rgb": "242 145 27",
+      "papel": "Uso interno ao logo",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "aplicacao-magenta-laranja",
+      "css": "linear-gradient(90deg, #B017B7 0%, #FF5B08 100%)",
+      "direcao": "esquerda para direita; CSS 90deg"
+    },
+    {
+      "nome": "base-roxa",
+      "css": "linear-gradient(135deg, #2E0D3E 0%, #4E2773 100%)",
+      "direcao": "diagonal superior esquerda para inferior direita"
+    },
+    {
+      "nome": "oferta-laranja-magenta",
+      "css": "linear-gradient(90deg, #FF5B08 0%, #B017B7 100%)",
+      "direcao": "esquerda para direita"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "Branco sobre Roxo profundo",
+        "razao": "16,89",
+        "fg": "#FFFFFF",
+        "bg": "#2E0D3E"
+      },
+      {
+        "texto": "Branco sobre Roxo principal",
+        "razao": "11,28",
+        "fg": "#FFFFFF",
+        "bg": "#4E2773"
+      },
+      {
+        "texto": "Roxo profundo sobre Laranja principal",
+        "razao": "5,43",
+        "fg": "#2E0D3E",
+        "bg": "#FF5B08"
+      },
+      {
+        "texto": "Roxo profundo sobre Laranja de ação",
+        "razao": "7,13",
+        "fg": "#2E0D3E",
+        "bg": "#FF8929"
+      },
+      {
+        "texto": "Roxo principal sobre Branco",
+        "razao": "11,28",
+        "fg": "#4E2773",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "Branco sobre Laranja principal",
+        "razao": "3,11",
+        "fg": "#FFFFFF",
+        "bg": "#FF5B08"
+      },
+      {
+        "texto": "Branco sobre Laranja de ação",
+        "razao": "2,37",
+        "fg": "#FFFFFF",
+        "bg": "#FF8929"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Uni Neue",
+      "uso": "Títulos, números, corpo e apoio",
+      "pesos": "Thin, Light, Book, Regular, Bold, Heavy, Black; todos com itálico",
+      "onde": "pasta da marca do cliente, em Tipografia. Licença a confirmar antes de distribuir.",
+      "link": null,
+      "disponivel": true,
+      "nomeImg": "/clientes/newnet/img/fonte-uni-neue-nome.webp",
+      "especime": "/clientes/newnet/img/fonte-uni-neue-especime.webp"
+    }
+  ],
+  "familiaPrincipal": "Uni Neue",
+  "fontesGoogle": [],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Uni Neue",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 240,
+      "entrelinha": 0.85,
+      "img": "/clientes/newnet/img/fonte-uni-neue-numero-oferta.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Uni Neue",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 0.95,
+      "img": "/clientes/newnet/img/fonte-uni-neue-titulo-1.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Uni Neue",
+      "peso": "Heavy",
+      "wght": 800,
+      "italico": false,
+      "px": 72,
+      "entrelinha": 1,
+      "img": "/clientes/newnet/img/fonte-uni-neue-titulo-2.webp",
+      "imgAltura": 42
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Uni Neue",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.1,
+      "img": "/clientes/newnet/img/fonte-uni-neue-subtitulo.webp",
+      "imgAltura": 26
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Uni Neue",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 36,
+      "entrelinha": 1,
+      "img": "/clientes/newnet/img/fonte-uni-neue-selo-pill.webp",
+      "imgAltura": 21
+    },
+    {
+      "papel": "CTA",
+      "familia": "Uni Neue",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1,
+      "img": "/clientes/newnet/img/fonte-uni-neue-cta.webp",
+      "imgAltura": 19
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Uni Neue",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.3,
+      "img": "/clientes/newnet/img/fonte-uni-neue-corpo.webp",
+      "imgAltura": 18
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Uni Neue",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1.15,
+      "img": "/clientes/newnet/img/fonte-uni-neue-apoio-preco.webp",
+      "imgAltura": 17
+    },
+    {
+      "papel": "Legal",
+      "familia": "Uni Neue",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1.3,
+      "img": "/clientes/newnet/img/fonte-uni-neue-legal.webp",
+      "imgAltura": 17
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "NN1",
+      "estrutura": "Base roxa, headline central, objeto/card, CTA inferior",
+      "quando": "Entretenimento, benefício",
+      "src": "/clientes/newnet/img/match.webp"
+    },
+    {
+      "codigo": "NN2",
+      "estrutura": "Base clara, título roxo/laranja, pessoa central e faixa curva",
+      "quando": "Rotina, proximidade",
+      "src": "/clientes/newnet/img/personagem.webp"
+    },
+    {
+      "codigo": "NN3",
+      "estrutura": "Dois cards claro/roxo e barra inferior",
+      "quando": "Comparação de benefícios",
+      "src": "/clientes/newnet/img/comparativo.webp"
+    },
+    {
+      "codigo": "NN4",
+      "estrutura": "Texto à esquerda e fotos arredondadas à direita",
+      "quando": "Serviço, saúde, uso prático",
+      "src": "/clientes/newnet/img/saude.webp"
+    },
+    {
+      "codigo": "NN5",
+      "estrutura": "Grade 2x2 com personagem e headline superior",
+      "quando": "Engajamento, lista curta",
+      "src": null
+    },
+    {
+      "codigo": "NN6",
+      "estrutura": "Plano/número forte, selos e CTA",
+      "quando": "Oferta com dados vigentes",
+      "src": "/clientes/newnet/img/ref-nn6.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/newnet/arquivos/newnet-logos.zip",
+      "tamanho": "11 KB",
+      "ext": "zip"
+    },
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "href": "/clientes/newnet/arquivos/newnet-cores.ase",
+      "tamanho": "1 KB",
+      "ext": "ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo NN / Cores",
+      "href": "/clientes/newnet/arquivos/newnet-cores.vcswatches",
+      "tamanho": "6 KB",
+      "ext": "vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Aparências NN",
+      "href": "/clientes/newnet/arquivos/newnet-estilos.vcstyles",
+      "tamanho": "2 KB",
+      "ext": "vcstyles"
+    },
+    {
+      "titulo": "Modelo tipográfico",
+      "descricao": "Os nove papéis de texto NN",
+      "href": "/clientes/newnet/arquivos/newnet-tipografia.vectorcraft",
+      "tamanho": "69 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, elementos e modelos de planos",
+      "href": "/clientes/newnet/arquivos/newnet-simbolos.vectorcraft",
+      "tamanho": "305 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "href": "/clientes/newnet/arquivos/newnet-brand-kit.vectorcraft",
+      "tamanho": "9,1 MB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "href": "/clientes/newnet/arquivos/newnet-brand-kit-board.pdf",
+      "tamanho": "773 KB",
+      "ext": "pdf"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Wi-Fi da marca, cards arredondados, CTA, selos circulares, faixa curva e base roxa",
+      "src": "/clientes/newnet/img/elementos.webp"
+    },
+    {
+      "legenda": "Exemplo de composição montado com os elementos da marca",
+      "src": "/clientes/newnet/img/newnet-exemplo-1080.webp"
+    }
+  ],
+  "planos": [
+    {
+      "legenda": "Quatro modelos de card: residencial, com recursos, com apps e apps com recursos",
+      "src": "/clientes/newnet/img/planos.webp"
+    }
+  ],
+  "gosta": "Roxo e laranja, Uni Neue, Wi-Fi em destaque, cards arredondados e CTA laranja com texto roxo.",
+  "naoGosta": "",
+  "licoes": [
+    "O logo tem laranjas próprios no SVG, diferentes das cores de aplicação: preserve o arquivo original.",
+    "A Uni Neue é mais estreita que outras fontes: dimensione o título pela largura.",
+    "Peças antigas têm texto branco em pílulas laranja: nas novas, use texto roxo profundo."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li>Internet fibra e serviços associados para residências e empresas.</li>\n<li>Promessa observada: “Planos de verdade para uma vida conectada!”.</li>\n<li>Conexão para rotina, entretenimento e família <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>.</li>\n<li>Personalidade proposta: próxima, energética, tecnológica. Evitar frieza burocrática, excesso de promessa e poluição visual <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Diferenciais comerciais e níveis de suporte dependem do plano e de brief atualizado <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n</ul>\n",
+    "publico": "<ul>\n<li>Residencial e familiar nas peças; empresarial existe no site.</li>\n<li>Situações: assistir, jogar, estudar, trabalhar e usar serviços digitais.</li>\n<li>Desejos e objeções propostos: conexão que acompanhe a rotina, clareza de benefícios, preço e disponibilidade <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>.</li>\n<li>Não atribuir renda, idade exata ou perfil demográfico sem briefing.</li>\n</ul>\n",
+    "voz": "<ul>\n<li>Direta, próxima e orientada a benefícios cotidianos <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>.</li>\n<li>Exemplos reais: “Quero ser Newnet!”, “Assine e seja feliz com a Newnet!”.</li>\n<li>Texto de referência: “Internet que acompanha o seu dia.”.</li>\n<li>Regras: frases curtas; sem travessão; até 3 emojis por legenda; escrever “até X Mega” conforme oferta; não prometer ausência absoluta de falhas.</li>\n<li>Boa copy proposta: “Mais conexão para acompanhar sua rotina. Consulte a disponibilidade.” <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Evitar: “Internet garantida sem falhas em qualquer lugar.” Promessa sem prova.</li>\n<li>CTAs: “Fale com a Newnet”, “Quero ser Newnet!”, “Consulte disponibilidade”.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Usar exclusivamente os SVGs oficiais, sem redesenhar, deformar ou recolorir.</li>\n<li>Positivo: lettering #4E2773 e símbolo/assinatura em degradê laranja, para fundo claro.</li>\n<li>Negativo colorido: lettering branco e símbolo laranja, para fundo roxo. O arquivo tem “roxo-negativo” no nome, mas o lettering visível é branco.</li>\n<li>Branco: versão totalmente branca para superfícies escuras.</li>\n<li>Ícone: laranja em fundo com contraste ou branco em fundo escuro.</li>\n<li>Preservar proporção e detalhes dos degradês originais #E8511E/#F2911B.</li>\n<li>Proteção proposta: espaço livre de 1/4 da altura total do logo em cada lado <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Largura mínima inicial: 240 px para lockup com assinatura e 48 px para ícone em peças de 1080 px; validar redução na montagem <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Sem contorno adicional, efeitos no lettering, cortes ou mudança de posição entre símbolo e nome.</li>\n</ul>\n",
+    "cores": "<ul>\n<li>Proporção por composição, não regra histórica: 60% fundo, 25% superfície/imagem e 15% acentos <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Gradiente de aplicação documentado: magenta para laranja, esquerda para direita. Gradiente roxo profundo/principal para base é proposta derivada das referências.</li>\n<li>Texto branco sobre roxos; texto roxo profundo sobre laranjas; roxo em branco.</li>\n<li>Branco sobre laranja não atende AA para texto normal. Corrigir as novas pílulas com texto roxo profundo <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>; não modificar as peças históricas.</li>\n<li>Não converter automaticamente os rótulos Pantone do guia em tinta spot. O JSON documenta aproximações; CMYK depende do perfil e do fechamento.</li>\n</ul>\n",
+    "tipografia": "<ul>\n<li>Única família comprovada. Não inferir outras fontes pelo raster. Licença independente não localizada <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n<li>Nove estilos NN: Número oferta (Black, 240), Título 1 (Black, 96), Título 2 (Heavy, 72), Subtítulo (Bold, 44), Selo e pill (Bold, 36), CTA (Bold, 32), Corpo (Regular, 30), Apoio de preço (Regular, 26), Legal (Regular, 22), em px para arte de 1080 px <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Uso de itálico em destaques curtos, sem inclinar artificialmente o logo.</li>\n<li>Texto pequeno precisa de contraste pleno e fundo uniforme; legal de campanha será ampliado se a leitura exigir.</li>\n</ul>\n",
+    "elementos": "<ol>\n<li>Base roxa com variação tonal e luz magenta; áreas de leitura sem ruído.</li>\n<li>Símbolo Wi-Fi laranja ampliado em cantos; usar o SVG oficial em plano. Acabamento 3D só com asset próprio ou produção autorizada.</li>\n<li>Cards brancos/roxos de cantos arredondados, para benefício, comparativo e foto.</li>\n<li>Pílula ou barra de CTA laranja, seta à direita e respiro; contraste corrigido para texto roxo <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Selos circulares e faixas curvas laranja/roxo.</li>\n</ol>\n<ul>\n<li>Raios e dimensões parametrizados são propostas, não medições normativas do guia.</li>\n<li>Personagem 3D masculino recorrente: moletom laranja, detalhes roxos, cabelo e barba escuros. Sem confirmação como mascote: não recortar, redesenhar nem gerar novas poses.</li>\n<li>Não transformar marcas de SVAs em símbolos reutilizáveis sem autorização específica.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Pessoas em contextos de casa, família, estudo, entretenimento e tecnologia.</li>\n<li>Luz coerente com a base, recortes limpos, objetos em planos diferentes e espaço para headline.</li>\n<li>Combinar fotos e ilustração apenas se a composição preservar foco e acabamento.</li>\n<li>Não gerar pessoas reais da empresa.</li>\n<li>Direção sugerida para futuro prompt: cena doméstica crível, expressão natural, iluminação roxa discreta e acentos laranja, área livre para texto.</li>\n</ul>\n",
+    "layouts": "<ul>\n<li>Alternar bases e estruturas; não repetir a mesma composição em sequência <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n</ul>\n",
+    "ofertas": "<ul>\n<li><p>Quatro variantes: residencial simples, residencial com recursos, apps simples e apps com recursos. Modelos editáveis na biblioteca de símbolos.</p>\n</li>\n<li><p>Forma: card branco de cantos arredondados, contorno fino, faixa superior “100% Fibra Óptica”; número roxo em Black, unidade laranja suave em Black; recursos em faixas com gradiente laranja para magenta.</p>\n</li>\n<li><p>Preço em campo único: valor Black, /mês Regular menor; “A partir de” antes do preço. Nos exemplos com apps não inserir preço.</p>\n</li>\n<li><p>Faixa de apps depois dos recursos e antes do CTA, caixas de dimensão igual, logos originais preservados. Foram usados ESPN, Telecine e Premiere da pasta autorizada, como amostra de organização.</p>\n</li>\n<li><p>CTA laranja com texto roxo Bold. Legal separado abaixo.</p>\n</li>\n<li><p>Planos e preços vigentes ficam na Central de Clientes. Consultar o briefing atualizado antes de usar.</p>\n</li>\n<li><p>Texto observado no site: “Consulte Condições e Viabilidade Técnica*”. Condições detalhadas <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</p>\n</li>\n<li><p>Não repetir “sem lags e travamentos”, “melhor” ou garantia absoluta sem evidência e revisão da campanha.</p>\n</li>\n</ul>\n",
+    "svas": "<ul>\n<li>Entretenimento, TV e saúde aparecem nas referências; site local também cita música.</li>\n<li>Inclusão por plano, nomes atuais, logos e autorização de uso <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>. Presença na referência não confirma vigência comercial.</li>\n<li>Exemplos do kit não devem inventar parceria ou oferta.</li>\n</ul>\n"
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "format": "vcswatches",
+  "version": 1,
+  "name": "NETserv / Cores",
+  "swatches": [
+    {
+      "name": "NS / magenta-azul",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.74509805,
+                "g": 0.11764706,
+                "b": 0.57254905
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NS / magenta"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.16078432,
+                "g": 0.17254902,
+                "b": 0.5882353
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NS / azul-netserv"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "NS / fundo-azul",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.25882354,
+                "b": 0.7294118
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NS / azul-royal"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.05490196,
+                "b": 0.3137255
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "NS / azul-noite"
+            }
+          ]
+        },
+        "angle": -90.0
+      },
+      "global": false,
+      "spot": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "NS / Cores",
+      "swatches": [
+        {
+          "name": "NS / magenta",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.74509805,
+              "g": 0.11764706,
+              "b": 0.57254905
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / azul-netserv",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.16078432,
+              "g": 0.17254902,
+              "b": 0.5882353
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / vermelho",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.08627451,
+              "b": 0.12156863
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / laranja",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.5137255,
+              "b": 0.003921569
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / ciano",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.6901961,
+              "b": 0.9490196
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / verde",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.65882355,
+              "b": 0.28235295
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / roxo-conversao",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.7764706,
+              "g": 0.16078432,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / azul-royal",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.25882354,
+              "b": 0.7294118
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / azul-noite",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.05490196,
+              "b": 0.3137255
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / amarelo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.88235295,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "NS / branco",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        }
+      ]
+    }
+  ]
+}

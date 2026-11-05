@@ -295,21 +295,27 @@
       "nome": "Espiritu Script",
       "uso": "só a palavra jeitim! do slogan, sempre em curvas",
       "pesos": "Regular",
-      "onde": "não instalada",
-      "link": null
+      "onde": "não precisa instalar: use o slogan oficial em curvas, na seção Logo.",
+      "link": null,
+      "disponivel": false
     }
   ],
   "familiaPrincipal": "Poppins",
-  "familiaGoogle": true,
-  "pesosFonte": [
-    400,
-    500,
-    700,
-    800
+  "fontesGoogle": [
+    {
+      "nome": "Poppins",
+      "pesos": [
+        400,
+        500,
+        700,
+        800
+      ]
+    }
   ],
   "estilos": [
     {
       "papel": "Número de oferta",
+      "familia": "Poppins",
       "peso": "ExtraBold",
       "wght": 800,
       "italico": false,
@@ -318,6 +324,7 @@
     },
     {
       "papel": "Título 1",
+      "familia": "Poppins",
       "peso": "ExtraBold",
       "wght": 800,
       "italico": false,
@@ -326,6 +333,7 @@
     },
     {
       "papel": "Título 2",
+      "familia": "Poppins",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -334,6 +342,7 @@
     },
     {
       "papel": "Subtítulo",
+      "familia": "Poppins",
       "peso": "Medium",
       "wght": 500,
       "italico": false,
@@ -342,6 +351,7 @@
     },
     {
       "papel": "Selo e pílula",
+      "familia": "Poppins",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -350,6 +360,7 @@
     },
     {
       "papel": "CTA",
+      "familia": "Poppins",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -358,6 +369,7 @@
     },
     {
       "papel": "Corpo",
+      "familia": "Poppins",
       "peso": "Regular",
       "wght": 400,
       "italico": false,
@@ -366,6 +378,7 @@
     },
     {
       "papel": "Apoio de preço",
+      "familia": "Poppins",
       "peso": "Medium",
       "wght": 500,
       "italico": false,
@@ -374,6 +387,7 @@
     },
     {
       "papel": "Legal",
+      "familia": "Poppins",
       "peso": "Regular",
       "wght": 400,
       "italico": false,

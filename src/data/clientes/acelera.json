@@ -262,16 +262,21 @@
     }
   ],
   "familiaPrincipal": "Krub",
-  "familiaGoogle": true,
-  "pesosFonte": [
-    400,
-    500,
-    600,
-    700
+  "fontesGoogle": [
+    {
+      "nome": "Krub",
+      "pesos": [
+        400,
+        500,
+        600,
+        700
+      ]
+    }
   ],
   "estilos": [
     {
       "papel": "Número de oferta",
+      "familia": "Krub",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -280,6 +285,7 @@
     },
     {
       "papel": "Título 1",
+      "familia": "Krub",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -288,6 +294,7 @@
     },
     {
       "papel": "Título 2",
+      "familia": "Krub",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -296,6 +303,7 @@
     },
     {
       "papel": "Subtítulo",
+      "familia": "Krub",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -304,6 +312,7 @@
     },
     {
       "papel": "Selo e pílula",
+      "familia": "Krub",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -312,6 +321,7 @@
     },
     {
       "papel": "CTA",
+      "familia": "Krub",
       "peso": "Bold",
       "wght": 700,
       "italico": false,
@@ -320,6 +330,7 @@
     },
     {
       "papel": "Corpo",
+      "familia": "Krub",
       "peso": "SemiBold",
       "wght": 600,
       "italico": false,
@@ -328,6 +339,7 @@
     },
     {
       "papel": "Apoio de preço",
+      "familia": "Krub",
       "peso": "Medium",
       "wght": 500,
       "italico": false,
@@ -336,6 +348,7 @@
     },
     {
       "papel": "Legal",
+      "familia": "Krub",
       "peso": "Medium Italic",
       "wght": 500,
       "italico": true,

@@ -1,0 +1,431 @@
+{
+  "slug": "netserv",
+  "nome": "NETserv",
+  "sigla": "NS",
+  "status": "provisório",
+  "atualizado": "2026-11-03",
+  "fundo": "linear-gradient(180deg, #0042BA 0%, #000E50 100%)",
+  "capa": {
+    "logo": "/clientes/netserv/logo/netserv-logotipo-padrao-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Logo no topo, centralizado",
+    "Título em 2 linhas, com a 2ª em amarelo",
+    "Fundo azul com ondas magenta e ciano nos cantos",
+    "Card azul de oferta com selo MEGA laranja",
+    "Humor de situação no feed"
+  ],
+  "evite": [
+    "Recolorir as pétalas ou separar o ícone do nome",
+    "Amarelo ou ciano como texto sobre branco",
+    "Vermelho como fundo de texto",
+    "\"A internet mais rápida do Brasil\" e promessa sem prova",
+    "Pôster de filme ou série sem exceção autorizada"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo branco",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/netserv/logo/netserv-logotipo-padrao-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Fundos azuis e magenta, padrão das peças",
+      "fundo": "#0042BA",
+      "src": "/clientes/netserv/logo/netserv-logotipo-padrao-negativo.svg"
+    },
+    {
+      "titulo": "Ícone colorido",
+      "quando": "As 6 pétalas, sem recolorir",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/netserv/logo/netserv-icone.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Magenta",
+      "hex": "#BE1E92",
+      "rgb": "190 30 146",
+      "papel": "ondas, formas, card alternativo",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul NETserv",
+      "hex": "#292C96",
+      "rgb": "41 44 150",
+      "papel": "logo, card de oferta",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Vermelho",
+      "hex": "#FF161F",
+      "rgb": "255 22 31",
+      "papel": "só no ícone e alertas",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja",
+      "hex": "#FF8301",
+      "rgb": "255 131 1",
+      "papel": "pill do CTA, selo MEGA",
+      "proporcao": "4%",
+      "pct": 4,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Ciano",
+      "hex": "#00B0F2",
+      "rgb": "0 176 242",
+      "papel": "ondas, card alternativo",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Verde",
+      "hex": "#00A848",
+      "rgb": "0 168 72",
+      "papel": "faixa do WhatsApp",
+      "proporcao": "3%",
+      "pct": 3,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo conversão",
+      "hex": "#C629FF",
+      "rgb": "198 41 255",
+      "papel": "não aparece nas peças [confirmar uso]",
+      "proporcao": "0%",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul royal",
+      "hex": "#0042BA",
+      "rgb": "0 66 186",
+      "papel": "fundo padrão",
+      "proporcao": "30%",
+      "pct": 30,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul noite",
+      "hex": "#000E50",
+      "rgb": "0 14 80",
+      "papel": "base do fundo",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Amarelo",
+      "hex": "#FFE100",
+      "rgb": "255 225 0",
+      "papel": "2ª linha do título",
+      "proporcao": "3%",
+      "pct": 3,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "títulos, logo, tiles",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "magenta-azul",
+      "css": "linear-gradient(90deg, #BE1E92 0%, #292C96 100%)",
+      "direcao": "esquerda para direita"
+    },
+    {
+      "nome": "fundo-azul",
+      "css": "linear-gradient(180deg, #0042BA 0%, #000E50 100%)",
+      "direcao": "de cima para baixo"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco e amarelo sobre azul royal, azul noite e azul NETserv",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#0042BA"
+      },
+      {
+        "texto": "branco sobre magenta, laranja e verde",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#BE1E92"
+      },
+      {
+        "texto": "azul NETserv sobre branco",
+        "razao": null,
+        "fg": "#292C96",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "amarelo ou ciano como texto sobre branco",
+        "razao": null,
+        "fg": "#FFE100",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "vermelho como fundo de texto"
+      },
+      {
+        "texto": "recolorir as pétalas do ícone"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Montserrat",
+      "uso": "toda a marca: títulos e números em ExtraBold e Black, textos em Medium e Regular",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Montserrat"
+    }
+  ],
+  "familiaPrincipal": "Montserrat",
+  "fontesGoogle": [
+    {
+      "nome": "Montserrat",
+      "pesos": [
+        400,
+        500,
+        600,
+        700,
+        800,
+        900
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Montserrat",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 200,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 84,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 60,
+      "entrelinha": 1.05
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Montserrat",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 34,
+      "entrelinha": 1.2
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Montserrat",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1.35
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Montserrat",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Legal",
+      "familia": "Montserrat",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 16,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "NS1",
+      "estrutura": "logo no topo, título em 2 linhas (2ª amarela), cena, apps, card de oferta, faixa WhatsApp",
+      "quando": "campanha de planos",
+      "src": "/clientes/netserv/img/ads-acelerar.webp"
+    },
+    {
+      "codigo": "NS2",
+      "estrutura": "\"Checklist do final de semana\" com toggles, cena de TV, card de oferta",
+      "quando": "streaming",
+      "src": null
+    },
+    {
+      "codigo": "NS3",
+      "estrutura": "situação engraçada (crime, fantasma, gato), mascote ou foto, CTA laranja",
+      "quando": "engajamento",
+      "src": "/clientes/netserv/img/feed-crime.webp"
+    },
+    {
+      "codigo": "NS4",
+      "estrutura": "\"Quem conhece, não troca.\" com avaliação real e CTA",
+      "quando": "confiança",
+      "src": null
+    },
+    {
+      "codigo": "NS5",
+      "estrutura": "cidade no título (\"Itu às alturas\"), mascote, CTA",
+      "quando": "praças",
+      "src": "/clientes/netserv/img/feed-alturas.webp"
+    },
+    {
+      "codigo": "NS6",
+      "estrutura": "cor da causa, logo no topo, frase curta",
+      "quando": "datas",
+      "src": "/clientes/netserv/img/ref-ns6.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/netserv/arquivos/netserv-logos.zip",
+      "tamanho": "30 KB",
+      "ext": "zip"
+    },
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "href": "/clientes/netserv/arquivos/netserv-cores.ase",
+      "tamanho": "1 KB",
+      "ext": "ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo NS / Cores",
+      "href": "/clientes/netserv/arquivos/netserv-cores.vcswatches",
+      "tamanho": "5 KB",
+      "ext": "vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos NS",
+      "href": "/clientes/netserv/arquivos/netserv-estilos.vcstyles",
+      "tamanho": "3 KB",
+      "ext": "vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, fundos, ondas, cards e faixa",
+      "href": "/clientes/netserv/arquivos/netserv-simbolos.vectorcraft",
+      "tamanho": "403 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "href": "/clientes/netserv/arquivos/netserv-brand-kit.vectorcraft",
+      "tamanho": "9,0 MB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "href": "/clientes/netserv/arquivos/netserv-brand-kit-board.pdf",
+      "tamanho": "960 KB",
+      "ext": "pdf"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Card de oferta, CTA, selo, tiles de apps, depoimento, ondas e faixa do WhatsApp",
+      "src": "/clientes/netserv/img/elementos.webp"
+    },
+    {
+      "legenda": "Exemplo de composição montado com os elementos da marca",
+      "src": "/clientes/netserv/img/netserv-exemplo-1080.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "",
+  "naoGosta": "",
+  "licoes": [
+    "O mascote roteador não tem arquivo próprio nem autorização para novas poses: confirme antes de usar."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet fibra residencial e empresarial, Wi-Fi 6, telefonia fixa (Fixo Fit), planos com câmeras de monitoramento, apps Standard e Premium à escolha, link dedicado, Lan2Lan, MPLS, VPN, hotspot, telefonia IP e PABX.</li>\n<li><strong>História:</strong> há 30 anos conectando pessoas; mais de 120 colaboradores; serviços regulados pela Anatel. Razão social: Aue Provedor de Internet Ltda (marca licenciada com exclusividade).</li>\n<li><strong>Assinaturas:</strong> &quot;Navegue sem limites com a internet mais rápida da região&quot; · &quot;A rede mais robusta da região, com os melhores profissionais.&quot; · &quot;Internet Fibra Óptica&quot; (no logo).</li>\n<li><strong>Personalidade:</strong> robusta, bem-humorada, regional e confiante / nunca: fria, técnica demais, agressiva com concorrentes. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Onde:</strong> Itu, Salto, Itupeva e Cabreúva (SP), com lista de bairros no site.</li>\n<li><strong>Quem compra:</strong> famílias e jovens que trabalham, estudam, jogam e assistem (HBO Max, Disney+), casas com várias telas, empresas da região.</li>\n<li><strong>Concorrentes:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></li>\n</ul>\n",
+    "voz": "<p><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, &quot;você&quot; e &quot;a gente&quot;, até 3 emojis por legenda, &quot;até X mega&quot; em promessa.</p>\n<ul>\n<li><strong>Grafia:</strong> NETserv (logo e site). As peças escrevem &quot;Netserv&quot; no texto: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> qual vale na copy. Este kit usa NETserv.</li>\n</ul>\n<h3>3A. ADS: oferta com gancho</h3>\n<ul>\n<li>Título em 2 linhas, a 2ª em amarelo: &quot;Sua internet atual / tem fantasmas do lag?&quot; · &quot;Chegou a hora / de acelerar sua rotina.&quot; · &quot;Filmes de arrepiar. / Internet de confiar.&quot; · &quot;Rápida no clique. / Estável na rotina.&quot; · &quot;Internet que leva / Itu às alturas!&quot;</li>\n<li>Subtítulo curto com trecho destacado: &quot;A NETserv espanta travamentos e quedas da sua rotina.&quot; · &quot;Com a NETserv, sua internet acompanha seu dia <strong>sem te fazer esperar</strong>.&quot;</li>\n<li>Fixos: apps parceiros em tiles brancos, card de oferta com velocidade e preço, faixa verde &quot;CONTRATE PELO WHATSAPP!&quot;.</li>\n<li>CTAs em pill: &quot;Troque o medo por velocidade.&quot; · &quot;Mude para a NETserv&quot; · &quot;Voe com a NETserv.&quot; · &quot;Dê play sem medo.&quot;</li>\n</ul>\n<h3>3B. FEED: humor, prova e datas</h3>\n<ul>\n<li>Humor de situação: &quot;Se ser rápido e estável fosse crime:&quot; (roteador CULPADO) · &quot;Sua internet atual assusta você?&quot; · &quot;Quando você lembra que é final de semana, mas a internet não é NETserv:&quot; (gato assustado) · &quot;Checklist do final de semana&quot;.</li>\n<li>Prova social: &quot;Quem conhece, não troca.&quot; com avaliação real do Google · &quot;A melhor internet da sua região está aqui!&quot;</li>\n<li>Datas com a cor da causa: Outubro Rosa, Novembro Azul, Dia das Crianças, Proclamação da República, Consciência Negra.</li>\n<li>Evitar: &quot;a internet mais rápida do Brasil&quot;, promessa sem prova, preço fora da tabela do site.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Ícone de 6 pétalas (vermelho, azul, magenta, laranja, ciano, verde) + &quot;NETserv&quot; + &quot;Internet Fibra Óptica&quot;. Símbolos <code>Logo / Positivo</code> (fundo branco), <code>Logo / Negativo</code> (fundos azuis e magenta, padrão das peças) e <code>Ícone / Colorido</code>.</li>\n<li>Nas peças o logo fica <strong>no topo, centralizado</strong>.</li>\n<li>Mínimo 160 px <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>. Proibido: recolorir as pétalas, separar o ícone do nome (fora do uso de ícone), distorcer, aplicar sombra.</li>\n</ul>\n",
+    "cores": "<ul>\n<li><strong>Gradientes:</strong> <code>magenta-azul</code> (guia) e <code>fundo-azul</code> (azul royal para azul noite, das peças).</li>\n<li>O amarelo dos títulos não está no guia <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>; o roxo de conversão do guia não aparece nas peças <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n</ul>\n",
+    "tipografia": "<ul>\n<li>Estilos <code>NS / numero-oferta</code> (Black 200), <code>titulo-1</code> (ExtraBold 84), <code>titulo-2</code> (ExtraBold 60), <code>subtitulo</code> (SemiBold 34), <code>selo-pill</code> (Bold 22), <code>cta</code> (Bold 26), <code>corpo</code> (Medium 26), <code>apoio-preco</code> (SemiBold 22), <code>legal</code> (Regular 16), de parágrafo e de caractere.</li>\n<li>Preço em texto único com trechos de estilo (&quot;R$&quot; pequeno, inteiro grande, &quot;,10&quot; menor, &quot;/mês&quot;).</li>\n<li>A Montserrat não tem o caractere ★: estrelas de avaliação em vetor (como no <code>Card / Depoimento</code>).</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><code>Fundo / Azul</code> (azul royal para azul noite) e <code>Fundo / Magenta azul</code> (gradiente do guia).</li>\n<li><code>Forma / Onda magenta</code> e <code>Forma / Onda ciano</code> nos cantos.</li>\n<li><code>Card / Oferta</code>: card azul com &quot;Planos de internet de até:&quot;, velocidade gigante, selo MEGA laranja e preço.</li>\n<li><code>Botão / CTA laranja</code>, <code>Selo / Destaque</code> (Wi-Fi 6, magenta), <code>Tile / App</code> (branco, logo oficial por cima), <code>Card / Depoimento</code> (avaliação do Google), <code>Faixa / WhatsApp</code> (verde, rodapé).</li>\n<li>Mascote <strong>roteador branco com rosto</strong> aparece nas peças (bruxo, CULPADO), mas não há arquivo na pasta: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> origem e se pode ganhar novas poses.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Fundo azul com luz, partículas e brilhos; pessoas reais e expressivas (jovem comemorando, mulher no celular); cenas de casa e TV; mascote em cenas fantásticas; Halloween e datas com ambientação própria.</li>\n<li>Evitar: banco de imagem frio, cabos como protagonistas, cores fora da paleta, pôster de filme ou série sem exceção autorizada.</li>\n<li>Parceiros (HBO Max, Looke, PK+, SKY+, Disney+, apps Standard e Premium): só logo oficial.</li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><strong>Planos e preços</strong> ficam na Central de Clientes.</li>\n<li><strong>Nos ADS:</strong> card &quot;Planos de internet de até&quot;, com a velocidade e &quot;A partir de&quot;, sempre com o valor vigente da Central.</li>\n<li><strong>Inclusos e extras:</strong> Wi-Fi 6, Fixo Fit, ponto adicional, IP Gamer, Wi-Fi Extra, Fonte Nobreak; 1 app Standard ou Premium conforme o plano.</li>\n<li><strong>Site:</strong> &quot;preço exclusivo no site e instalação zero&quot;.</li>\n<li><strong>Legal:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> texto padrão.</li>\n<li><strong>Contato:</strong> (11) 4850-0000 (WhatsApp) · <a href=\"mailto:atendimento@netserv.com.br\">atendimento@netserv.com.br</a> · Av. Antonio Gazzola, 1001, 10º andar, Jd. Corazza, Itu/SP.</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>HBO Max, Disney+, Looke, PK+ (Playkids+), SKY+, ExitLag, Kaspersky, NBA, Ubook e demais apps Standard e Premium</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logo oficial</td>\n</tr>\n</tbody></table>\n"
+  }
+}

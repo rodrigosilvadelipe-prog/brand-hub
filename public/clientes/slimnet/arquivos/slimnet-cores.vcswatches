@@ -1,0 +1,307 @@
+{
+  "format": "vcswatches",
+  "version": 1,
+  "name": "Slim Net / Cores",
+  "swatches": [
+    {
+      "name": "SN / marca",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.8039216,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "SN / amarelo"
+            },
+            {
+              "offset": 0.58,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.53333336,
+                "b": 0.16078432
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "SN / laranja"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.9490196,
+                "g": 0.41960785,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "SN / laranja-forte"
+            }
+          ]
+        },
+        "angle": -10.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "SN / fogo",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.9490196,
+                "g": 0.41960785,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "SN / laranja-forte"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.2901961,
+                "b": 0.003921569
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "SN / laranja-fogo"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "SN / whatsapp",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.54509807,
+                "b": 0.1764706
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "SN / verde-whatsapp"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.8156863,
+                "b": 0.29803923
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "SN / Cores",
+      "swatches": [
+        {
+          "name": "SN / amarelo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.8039216,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / laranja",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.53333336,
+              "b": 0.16078432
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / laranja-forte",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.9490196,
+              "g": 0.41960785,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / preto-tinta",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.043137256,
+              "g": 0.043137256,
+              "b": 0.050980393
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / tinta-2",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.078431375,
+              "g": 0.07450981,
+              "b": 0.09019608
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / tinta-3",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.11372549,
+              "g": 0.105882354,
+              "b": 0.12941177
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / cinza",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.54509807,
+              "g": 0.53333336,
+              "b": 0.5803922
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / creme",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.9843137,
+              "g": 0.96862745,
+              "b": 0.9490196
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / laranja-fogo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.2901961,
+              "b": 0.003921569
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / verde-whatsapp",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.54509807,
+              "b": 0.1764706
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / tinta-quente",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.101960786,
+              "g": 0.05490196,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "SN / branco",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        }
+      ]
+    }
+  ]
+}
