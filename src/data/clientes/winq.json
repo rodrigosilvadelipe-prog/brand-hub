@@ -1,0 +1,486 @@
+{
+  "slug": "winq",
+  "nome": "WINQ Ultranet",
+  "sigla": "WINQ",
+  "status": "provisório",
+  "atualizado": "2026-11-05",
+  "fundo": "linear-gradient(135deg, #0000A8 0%, #000440 50%, #00001C 100%)",
+  "capa": {
+    "logo": "/clientes/winq/logo/logo-negativo-verde.svg",
+    "slogan": "/clientes/winq/logo/slogan-negativo.svg"
+  },
+  "faca": [
+    "Fundo azul-noite com a onda de luz neon",
+    "Assinatura no topo: logo, fio verde e slogan",
+    "Título em Poppins ExtraBold, caixa alta, com a palavra-chave em verde",
+    "Pouco texto e humor do dia a dia",
+    "Oferta em todo ADS, com \"até X Mega\" na promessa"
+  ],
+  "evite": [
+    "Logo positivo sobre azul",
+    "Texto verde sobre branco ou gelo",
+    "Digitar o slogan: use sempre o arquivo em curvas",
+    "Escrever \"WinQ\": em texto é WINQ",
+    "Copiar preços ou canais de peças antigas"
+  ],
+  "logos": [
+    {
+      "titulo": "Negativo",
+      "quando": "Padrão em fundo azul, cerca de 95% das peças",
+      "fundo": "#000440",
+      "src": "/clientes/winq/logo/logo-negativo-verde.svg"
+    },
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/winq/logo/logo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo branco",
+      "quando": "Uma cor, sobre foto ou data temática forte",
+      "fundo": "#0000A8",
+      "src": "/clientes/winq/logo/logo-negativo-branco.svg"
+    },
+    {
+      "titulo": "Ícone verde",
+      "quando": "Ondas do logo",
+      "fundo": "#000440",
+      "src": "/clientes/winq/logo/icone-verde.svg"
+    },
+    {
+      "titulo": "Ícone branco",
+      "quando": "Ondas do logo em uma cor",
+      "fundo": "#0B2089",
+      "src": "/clientes/winq/logo/icone-branco.svg"
+    },
+    {
+      "titulo": "Slogan negativo",
+      "quando": "Em curvas, sobre fundo escuro",
+      "fundo": "#000440",
+      "src": "/clientes/winq/logo/slogan-negativo.svg"
+    },
+    {
+      "titulo": "Slogan positivo",
+      "quando": "Em curvas, sobre fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/winq/logo/slogan-positivo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "azul-noite",
+      "hex": "#000440",
+      "rgb": "0 4 64",
+      "papel": "Fundo principal",
+      "proporcao": "60%",
+      "pct": 60
+    },
+    {
+      "nome": "azul-abismo",
+      "hex": "#00001C",
+      "rgb": "0 0 28",
+      "papel": "Cantos e vinheta",
+      "proporcao": "no fundo",
+      "pct": 0
+    },
+    {
+      "nome": "azul-royal",
+      "hex": "#0000A8",
+      "rgb": "0 0 168",
+      "papel": "Orbes e brilho",
+      "proporcao": "10%",
+      "pct": 10
+    },
+    {
+      "nome": "azul-winq",
+      "hex": "#0B2089",
+      "rgb": "11 32 137",
+      "papel": "Logo positivo, cards, faixas",
+      "proporcao": "10%",
+      "pct": 10
+    },
+    {
+      "nome": "azul-luz",
+      "hex": "#009CFC",
+      "rgb": "0 156 252",
+      "papel": "Fios de luz e contorno neon",
+      "proporcao": "efeito",
+      "pct": 0
+    },
+    {
+      "nome": "verde-winq",
+      "hex": "#11E738",
+      "rgb": "17 231 56",
+      "papel": "Ondas do logo, marca",
+      "proporcao": "5%",
+      "pct": 5
+    },
+    {
+      "nome": "verde-neon",
+      "hex": "#00F400",
+      "rgb": "0 244 0",
+      "papel": "Destaque de título, início do degradê",
+      "proporcao": "5%",
+      "pct": 5
+    },
+    {
+      "nome": "lima",
+      "hex": "#B4F800",
+      "rgb": "180 248 0",
+      "papel": "Fim do degradê",
+      "proporcao": "2%",
+      "pct": 2
+    },
+    {
+      "nome": "verde-cta",
+      "hex": "#008C1C",
+      "rgb": "0 140 28",
+      "papel": "Pílula CTA",
+      "proporcao": "2%",
+      "pct": 2
+    },
+    {
+      "nome": "branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "Títulos e corpo",
+      "proporcao": "5%",
+      "pct": 5
+    },
+    {
+      "nome": "gelo",
+      "hex": "#E7EDF9",
+      "rgb": "231 237 249",
+      "papel": "Fundo claro",
+      "proporcao": "só peças claras",
+      "pct": 0
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "titulo-oferta",
+      "css": "linear-gradient(90deg, #00F400 0%, #B4F800 100%)",
+      "direcao": "esquerda para direita"
+    },
+    {
+      "nome": "fundo-noite",
+      "css": "linear-gradient(135deg, #0000A8 0%, #000440 50%, #00001C 100%)",
+      "direcao": "canto superior esquerdo para canto inferior direito"
+    },
+    {
+      "nome": "orbe-royal",
+      "css": "linear-gradient(180deg, #0000A8 0%, #0B2089 100%)",
+      "direcao": "topo para base"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco sobre azul-noite",
+        "razao": "19,2",
+        "fg": "#FFFFFF",
+        "bg": "#000440"
+      },
+      {
+        "texto": "branco sobre azul-winq",
+        "razao": "13,3",
+        "fg": "#FFFFFF",
+        "bg": "#0B2089"
+      },
+      {
+        "texto": "branco sobre azul-royal",
+        "razao": "13,4",
+        "fg": "#FFFFFF",
+        "bg": "#0000A8"
+      },
+      {
+        "texto": "verde-neon sobre azul-noite",
+        "razao": "12,8",
+        "fg": "#00F400",
+        "bg": "#000440"
+      },
+      {
+        "texto": "lima sobre azul-noite",
+        "razao": "15,0",
+        "fg": "#B4F800",
+        "bg": "#000440"
+      },
+      {
+        "texto": "verde-winq sobre azul-noite",
+        "razao": "11,5",
+        "fg": "#11E738",
+        "bg": "#000440"
+      },
+      {
+        "texto": "azul-winq sobre verde-winq",
+        "razao": "7,9",
+        "fg": "#0B2089",
+        "bg": "#11E738"
+      },
+      {
+        "texto": "azul-noite sobre verde-winq",
+        "razao": "11,5",
+        "fg": "#000440",
+        "bg": "#11E738"
+      },
+      {
+        "texto": "azul-winq sobre gelo",
+        "razao": "11,4",
+        "fg": "#0B2089",
+        "bg": "#E7EDF9"
+      },
+      {
+        "texto": "branco sobre verde-cta, só bold a partir de 24 px",
+        "razao": "4,4",
+        "fg": "#FFFFFF",
+        "bg": "#008C1C"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "verde-winq ou verde-neon sobre branco ou gelo em texto",
+        "razao": "1,7",
+        "fg": "#11E738",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "azul-luz em texto longo"
+      },
+      {
+        "texto": "azul-winq sobre azul-noite",
+        "razao": null,
+        "fg": "#0B2089",
+        "bg": "#000440"
+      },
+      {
+        "texto": "azul-winq sobre azul-royal",
+        "razao": null,
+        "fg": "#0B2089",
+        "bg": "#0000A8"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Poppins",
+      "uso": "todos os papéis: títulos, número de oferta, corpo, CTA e legal",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Poppins"
+    },
+    {
+      "nome": "Espiritu Script",
+      "uso": "só a palavra jeitim! do slogan, sempre em curvas",
+      "pesos": "Regular",
+      "onde": "não instalada",
+      "link": null
+    }
+  ],
+  "familiaPrincipal": "Poppins",
+  "familiaGoogle": true,
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "px": 200,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "px": 88,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Título 2",
+      "peso": "Bold",
+      "wght": 700,
+      "px": 64,
+      "entrelinha": 1.05
+    },
+    {
+      "papel": "Subtítulo",
+      "peso": "Medium",
+      "wght": 500,
+      "px": 36,
+      "entrelinha": 1.2
+    },
+    {
+      "papel": "Selo e pílula",
+      "peso": "Bold",
+      "wght": 700,
+      "px": 28,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "peso": "Bold",
+      "wght": 700,
+      "px": 30,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "peso": "Regular",
+      "wght": 400,
+      "px": 30,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "peso": "Medium",
+      "wght": 500,
+      "px": 26,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "peso": "Regular",
+      "wght": 400,
+      "px": 20,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "WINQ1",
+      "estrutura": "ADS: título à esquerda, herói à direita, card de oferta no canto",
+      "quando": "Oferta com ideia de benefício",
+      "src": "/clientes/winq/img/ads-wifi.webp"
+    },
+    {
+      "codigo": "WINQ2",
+      "estrutura": "ADS: cena no topo, título central, oferta, orbes e CTA",
+      "quando": "Vários benefícios",
+      "src": "/clientes/winq/img/ads-sua.webp"
+    },
+    {
+      "codigo": "WINQ3",
+      "estrutura": "ADS: selo de campanha com oferta solta",
+      "quando": "Campanha sazonal",
+      "src": "/clientes/winq/img/ads-mes.webp"
+    },
+    {
+      "codigo": "WINQ4",
+      "estrutura": "Feed: assinatura e título centrais, cena embaixo, onda na base",
+      "quando": "Institucional, humor",
+      "src": "/clientes/winq/img/f-desespero.webp"
+    },
+    {
+      "codigo": "WINQ5",
+      "estrutura": "Feed: palavra gigante com cena",
+      "quando": "Datas",
+      "src": "/clientes/winq/img/f-cliente.webp"
+    },
+    {
+      "codigo": "WINQ6",
+      "estrutura": "Feed: pessoa de um lado, texto do outro",
+      "quando": "Atendimento, serviço",
+      "src": "/clientes/winq/img/f-atend.webp"
+    },
+    {
+      "codigo": "WINQ7",
+      "estrutura": "Feed: card central \"planos a partir de\"",
+      "quando": "Preço",
+      "src": "/clientes/winq/img/f-mes.webp"
+    },
+    {
+      "codigo": "WINQ8",
+      "estrutura": "Feed: conteúdo de SVA com orbe e pílula Turbine",
+      "quando": "SVA",
+      "src": "/clientes/winq/img/f-tv.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/winq/arquivos/winq-logos.zip",
+      "tamanho": "30 KB",
+      "ext": "zip"
+    },
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "href": "/clientes/winq/arquivos/winq-cores.ase",
+      "tamanho": "1 KB",
+      "ext": "ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo WINQ / Cores",
+      "href": "/clientes/winq/arquivos/winq-cores.vcswatches",
+      "tamanho": "7 KB",
+      "ext": "vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos de texto WINQ",
+      "href": "/clientes/winq/arquivos/winq-estilos.vcstyles",
+      "tamanho": "3 KB",
+      "ext": "vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, cards, pílulas, planos e grafismos",
+      "href": "/clientes/winq/arquivos/winq-simbolos.vectorcraft",
+      "tamanho": "549 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "href": "/clientes/winq/arquivos/winq-brand-kit.vectorcraft",
+      "tamanho": "1,8 MB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "href": "/clientes/winq/arquivos/winq-brand-kit-board.pdf",
+      "tamanho": "3,3 MB",
+      "ext": "pdf"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Card de oferta, pílulas, orbes, ícones de luz, onda e data com fio",
+      "src": "/clientes/winq/img/elementos.webp"
+    },
+    {
+      "legenda": "Exemplo de composição montado com os elementos da marca",
+      "src": "/clientes/winq/img/winq-exemplo-1080.webp"
+    }
+  ],
+  "planos": [
+    {
+      "legenda": "Blocos e tabelas em negativo",
+      "src": "/clientes/winq/img/planos-negativo.webp"
+    },
+    {
+      "legenda": "Blocos e tabelas em positivo",
+      "src": "/clientes/winq/img/planos-positivo.webp"
+    }
+  ],
+  "gosta": "linha criativa dos últimos 2 meses (aprovada sem ajustes), títulos com jogo de palavras (\"Dragão bom não espera carregar\", \"O trono vai tremer. A fibra, não.\"), pouco texto.",
+  "naoGosta": "IA em exagero (o cliente já reclamou, mas aceita apoio).",
+  "licoes": [
+    "Use o slogan sempre pelo arquivo oficial em curvas: a fonte Espiritu Script não está instalada."
+  ],
+  "html": {
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet 100% fibra óptica e TV em Manhumirim, Alto Jequitibá e região.</li>\n<li><strong>Promessa:</strong> a internet do seu jeitim.</li>\n<li><strong>Diferencial real:</strong> Wi-Fi 6, redundância de fibra e suporte local feito por gente da região.</li>\n<li><strong>Personalidade:</strong> próxima, animada, mineira no jeito / nunca: fria, técnica demais, arrogante. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Quem compra:</strong> famílias, quem trabalha de casa, quem joga e maratona, moradores da zona rural; empresas em menor escala. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n<li><strong>O que quer:</strong> conexão que aguenta a casa inteira e alguém que atenda quando precisa.</li>\n<li><strong>O que teme:</strong> internet caindo na hora errada, robô no atendimento, letra miúda.</li>\n<li><strong>Como fala:</strong> informal, &quot;pra&quot;, &quot;a gente&quot;, &quot;jeitim&quot;, humor do dia a dia.</li>\n<li><strong>Objeções comuns:</strong> &quot;será que chega na minha rua&quot;, preço do combo.</li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> conversa de vizinho que entende de internet. Humor leve, sem deboche.</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> do seu jeitim, gente de verdade, sem pegadinha, conexão, bora, suporte que resolve, sua casa inteira.</li>\n<li><strong>Palavras que evitamos:</strong> melhor do Brasil, garantido, nunca cai, 100% estável, ilimitado sem fonte, &quot;WinQ&quot; (em texto é WINQ).</li>\n<li><strong>Exemplo de copy boa (aprovada):</strong><blockquote>\n<p>O desespero no olhar quando a internet cai. Não passe por isso. Vem pra WINQ e fique conectado do seu jeitim.</p>\n</blockquote>\n</li>\n<li><strong>Exemplo de copy ruim (o que não queremos):</strong><blockquote>\n<p>A melhor internet do Brasil, 100% sem quedas, garantido.</p>\n</blockquote>\n</li>\n</ul>\n<p>&quot;A internet que não trava&quot; é título do site; em ADS trocar por benefício concreto (redundância de fibra, Wi-Fi 6) para evitar promessa absoluta.</p>\n",
+    "logo": "<ul>\n<li>Símbolos no VectorCraft: <code>Logo / Positivo</code>, <code>Logo / Negativo</code>, <code>Logo / Negativo branco</code>, <code>Ícone / Verde</code>, <code>Ícone / Branco</code>.</li>\n<li><strong>Negativo (branco + verde):</strong> padrão em fundo azul, cerca de 95% das peças. <strong>Positivo:</strong> fundo claro. <strong>Branco:</strong> uma cor, sobre foto ou data temática forte.</li>\n<li><strong>Assinatura:</strong> logo + fio verde + slogan &quot;A internet do seu jeitim!&quot; no topo da peça. Slogan oficial em <code>logo/slogan-positivo.svg</code> e <code>logo/slogan-negativo.svg</code> (glifos do PDF oficial convertidos em curvas). Símbolos <code>Slogan / *</code> e <code>Assinatura / *</code>.</li>\n<li>Área de proteção: altura do &quot;n&quot; do logo em volta. Mínimo 120 px de largura (nas peças 1080). <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n<li>Proibido: redesenhar, trocar cores, usar a vetorização de IA ou o PNG &quot;Verde Neon&quot; da pasta, aplicar o logo positivo sobre azul.</li>\n</ul>\n",
+    "cores": "<p>Datas temáticas (Outubro Rosa, Setembro Amarelo, Dia das Crianças) podem trocar a paleta do fundo; logo e assinatura seguem.</p>\n",
+    "tipografia": "<ul>\n<li>Disponível no Figma pelo Google Fonts, sem substituta.</li>\n<li><strong>Migração:</strong> peças antigas usam outras sans. Peças novas saem em Poppins.</li>\n<li><strong>Particularidades:</strong> título em caixa alta ExtraBold, com a palavra-chave em verde ou degradê. Número de oferta ExtraBold com &quot;MEGA&quot; branco colado embaixo. Preço em bloco de texto único: &quot;R$&quot; pequeno, número grande, &quot;,90&quot; sobrescrito, &quot;/mês&quot; pequeno.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo:</strong> azul-noite com vinheta azul-abismo, brilho royal em um canto e pontilhado digital discreto.</li>\n<li><strong>Onda de luz:</strong> fios neon verdes e azuis passando pela base ou envolvendo o herói. É o que mais identifica a marca.</li>\n<li><strong>Card de oferta:</strong> cantos de 36 px, fundo azul-noite translúcido, contorno neon verde ou azul.</li>\n<li><strong>Selos, pills, barras:</strong> pílula CTA verde-cta com ícone do WhatsApp e caixa alta · pílula &quot;Turbine seu plano&quot; verde-neon com texto azul · data com fio e ponto · selo de campanha só em campanha.</li>\n<li><strong>Orbes de SVA:</strong> círculos azul-royal sobrepostos, com o logo do parceiro em branco.</li>\n<li><strong>Ícones:</strong> linha neon, Wi-Fi em luz, balões e corações em outline.</li>\n<li><strong>Extras (3D, IA):</strong> roteador, celular e objetos com luz azul integrada.</li>\n<li><strong>Mascote:</strong> não tem. Não usar personagens de terceiros.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li><strong>Estilo:</strong> noite azul com ponto de luz quente (janela, abajur, tela), fios neon interagindo com a cena, céu e cidades reais da região.</li>\n<li><strong>Pessoas:</strong> famílias e jovens brasileiros, diversos, felizes, em casa. Equipe real de uniforme azul-marinho com detalhe verde só com foto real.</li>\n<li><strong>Evitar:</strong> personagem de desenho reconhecível, pôster oficial sem exceção autorizada, técnico ou atendente gerado por IA como se fosse funcionário real.</li>\n<li><strong>Base de prompt:</strong> &quot;cinematic night scene, deep navy blue ambience (#000440), warm practical light, neon green and electric blue light trails wrapping the subject, Brazilian people, photorealistic, clean empty area for text&quot;. Cada oferta com imagem do próprio benefício.</li>\n</ul>\n",
+    "layouts": "<p>Regras do lote: não repetir estrutura em peças seguidas; alternar com e sem foto.</p>\n",
+    "ofertas": "<ul>\n<li><strong>Botão Meta:</strong> Enviar mensagem (WhatsApp). <strong>CTA na arte:</strong> &quot;Contrate pelo WhatsApp&quot;, &quot;Chame no WhatsApp&quot;, &quot;Conheça os planos WINQ&quot;.</li>\n<li><strong>Rodapé legal padrão:</strong> &quot;Consulte a cobertura na sua região. Valores e canais sujeitos a alteração.&quot;</li>\n<li><strong>Regras de preço:</strong> só os valores da Central de Clientes. Peças antigas (400 Mega, 800 Mega, R$ 149,90, + de 60 canais) estão desatualizadas. Em promessa, &quot;até X Mega&quot;.</li>\n<li><strong>Oferta em todo ADS</strong>, com bloco Mega + preço.</li>\n<li><strong>Restrições do cliente:</strong> nenhuma informada. Fidelidade não entra em peça.</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>WINQ TV</td>\n<td>marca própria</td>\n<td>+50 canais, sem aparelho</td>\n</tr>\n<tr>\n<td>Paramount+, WINQ Play, Up Cinema</td>\n<td>não informado</td>\n<td>Inclusos na WINQ TV</td>\n</tr>\n<tr>\n<td>HBO Max, Premiere, Telecine</td>\n<td>não informado</td>\n<td>Turbine, valores adicionais. Sempre &quot;HBO Max&quot;, nunca só &quot;Max&quot;, com a pílula Turbine seu plano</td>\n</tr>\n<tr>\n<td>Digilivro</td>\n<td>não informado</td>\n<td>Nos planos 300 e 700</td>\n</tr>\n<tr>\n<td>Watch</td>\n<td>não usar</td>\n<td>Fora da Central</td>\n</tr>\n<tr>\n<td>Câmera de segurança</td>\n<td>serviço próprio</td>\n<td>Ainda vendida. Preço e condição vêm do brief, os de peças antigas não valem</td>\n</tr>\n</tbody></table>\n"
+  }
+}

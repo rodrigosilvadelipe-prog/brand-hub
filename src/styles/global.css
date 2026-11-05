@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Sora Variable", ui-sans-serif, system-ui, sans-serif;
+  --color-noite: #190223;
+  --color-ameixa: #321b42;
+  --color-laranja: #ed4c23;
+  --color-roxo: #8232b9;
+  --color-areia: #e1dedd;
+  --color-papel: #f7f6f5;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}

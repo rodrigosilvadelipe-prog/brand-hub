@@ -1,0 +1,23 @@
+---
+import '@fontsource-variable/sora';
+import '../styles/global.css';
+
+const { titulo, fonteCliente } = Astro.props;
+const urlFonte = fonteCliente
+  ? `https://fonts.googleapis.com/css2?family=${encodeURIComponent(fonteCliente)}:wght@100;200;300;400;500;600;700;800;900&display=swap`
+  : null;
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{titulo}</title>
+    {urlFonte && <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />}
+    {urlFonte && <link rel="stylesheet" href={urlFonte} />}
+  </head>
+  <body class="bg-papel font-sans text-noite antialiased">
+    <slot />
+  </body>
+</html>

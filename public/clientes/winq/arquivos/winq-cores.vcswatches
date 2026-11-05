@@ -1,0 +1,294 @@
+{
+  "format": "vcswatches",
+  "version": 1,
+  "name": "WINQ / Cores",
+  "swatches": [
+    {
+      "name": "WINQ / titulo-oferta",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.95686275,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / verde-neon"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.7058824,
+                "g": 0.972549,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / lima"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "WINQ / fundo-noite",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.65882355
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / azul-royal"
+            },
+            {
+              "offset": 0.5,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.015686275,
+                "b": 0.2509804
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / azul-noite"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.10980392
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / azul-abismo"
+            }
+          ]
+        },
+        "angle": -45.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "WINQ / orbe-royal",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.65882355
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / azul-royal"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.043137256,
+                "g": 0.1254902,
+                "b": 0.5372549
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "WINQ / azul-winq"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "WINQ / Cores",
+      "swatches": [
+        {
+          "name": "WINQ / verde-winq",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.06666667,
+              "g": 0.90588236,
+              "b": 0.21960784
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / azul-winq",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.043137256,
+              "g": 0.1254902,
+              "b": 0.5372549
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / verde-neon",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.95686275,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / lima",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.7058824,
+              "g": 0.972549,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / verde-cta",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.54901963,
+              "b": 0.10980392
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / azul-noite",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.015686275,
+              "b": 0.2509804
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / azul-abismo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.10980392
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / azul-royal",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.65882355
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / azul-luz",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.6117647,
+              "b": 0.9882353
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / branco",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "WINQ / gelo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.90588236,
+              "g": 0.92941177,
+              "b": 0.9764706
+            }
+          },
+          "global": true,
+          "spot": false
+        }
+      ]
+    }
+  ]
+}

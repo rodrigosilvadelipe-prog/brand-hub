@@ -1,0 +1,137 @@
+{
+  "format": "vcstyles",
+  "version": 1,
+  "name": "WINQ / Aparência",
+  "styles": [
+    {
+      "name": "WINQ / Fundo noite",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.015686275,
+                "b": 0.2509804
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "WINQ / Degradê oferta",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.0,
+                      "g": 0.95686275,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.7058824,
+                      "g": 0.972549,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 0.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "WINQ / Pílula CTA",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.54901963,
+                "b": 0.10980392
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "WINQ / Pílula Turbine",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "solid",
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.95686275,
+                "b": 0.0
+              }
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    }
+  ]
+}

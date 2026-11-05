@@ -1,0 +1,133 @@
+{
+  "substituir": {
+    "Lucas": "o cliente"
+  },
+  "faca": [
+    "Fundo azul-noite com a onda de luz neon",
+    "Assinatura no topo: logo, fio verde e slogan",
+    "Título em Poppins ExtraBold, caixa alta, com a palavra-chave em verde",
+    "Pouco texto e humor do dia a dia",
+    "Oferta em todo ADS, com \"até X Mega\" na promessa"
+  ],
+  "evite": [
+    "Logo positivo sobre azul",
+    "Texto verde sobre branco ou gelo",
+    "Digitar o slogan: use sempre o arquivo em curvas",
+    "Escrever \"WinQ\": em texto é WINQ",
+    "Copiar preços ou canais de peças antigas"
+  ],
+  "logos": [
+    {
+      "titulo": "Negativo",
+      "quando": "Padrão em fundo azul, cerca de 95% das peças",
+      "fundo": "#000440",
+      "arquivo": "logo/logo-negativo-verde.svg"
+    },
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/logo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo branco",
+      "quando": "Uma cor, sobre foto ou data temática forte",
+      "fundo": "#0000A8",
+      "arquivo": "logo/logo-negativo-branco.svg"
+    },
+    {
+      "titulo": "Ícone verde",
+      "quando": "Ondas do logo",
+      "fundo": "#000440",
+      "arquivo": "logo/icone-verde.svg"
+    },
+    {
+      "titulo": "Ícone branco",
+      "quando": "Ondas do logo em uma cor",
+      "fundo": "#0B2089",
+      "arquivo": "logo/icone-branco.svg"
+    },
+    {
+      "titulo": "Slogan negativo",
+      "quando": "Em curvas, sobre fundo escuro",
+      "fundo": "#000440",
+      "arquivo": "logo/slogan-negativo.svg"
+    },
+    {
+      "titulo": "Slogan positivo",
+      "quando": "Em curvas, sobre fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/slogan-positivo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-noite",
+    "logo": "logo/logo-negativo-verde.svg",
+    "slogan": "logo/slogan-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/winq/elementos.png",
+      "legenda": "Card de oferta, pílulas, orbes, ícones de luz, onda e data com fio"
+    },
+    {
+      "origem": "vectorcraft/winq-exemplo-1080.png",
+      "legenda": "Exemplo de composição montado com os elementos da marca"
+    }
+  ],
+  "planos": [
+    {
+      "origem": "curadoria/winq/planos-negativo.png",
+      "legenda": "Blocos e tabelas em negativo"
+    },
+    {
+      "origem": "curadoria/winq/planos-positivo.png",
+      "legenda": "Blocos e tabelas em positivo"
+    }
+  ],
+  "layouts": {
+    "WINQ1": "jobs/2026-11-brand-kit/assets/referencias/ads-wifi.jpg",
+    "WINQ2": "jobs/2026-11-brand-kit/assets/referencias/ads-sua.jpg",
+    "WINQ3": "jobs/2026-11-brand-kit/assets/referencias/ads-mes.jpg",
+    "WINQ4": "jobs/2026-11-brand-kit/assets/referencias/f-desespero.jpg",
+    "WINQ5": "jobs/2026-11-brand-kit/assets/referencias/f-cliente.jpg",
+    "WINQ6": "jobs/2026-11-brand-kit/assets/referencias/f-atend.jpg",
+    "WINQ7": "jobs/2026-11-brand-kit/assets/referencias/f-mes.jpg",
+    "WINQ8": "jobs/2026-11-brand-kit/assets/referencias/f-tv.jpg"
+  },
+  "arquivos": [
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "origem": "vectorcraft/bibliotecas/winq-cores.ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo WINQ / Cores",
+      "origem": "vectorcraft/bibliotecas/winq-cores.vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos de texto WINQ",
+      "origem": "vectorcraft/bibliotecas/winq-estilos.vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, cards, pílulas, planos e grafismos",
+      "origem": "vectorcraft/bibliotecas/winq-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "origem": "vectorcraft/winq-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "origem": "vectorcraft/winq-brand-kit-board.pdf"
+    }
+  ],
+  "licoes": [
+    "Use o slogan sempre pelo arquivo oficial em curvas: a fonte Espiritu Script não está instalada."
+  ]
+}
