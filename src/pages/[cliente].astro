@@ -9,6 +9,7 @@ export function getStaticPaths() {
 
 const { c } = Astro.props;
 const fonte = c.familiaPrincipal;
+const temCliente = Boolean(c.gosta || c.naoGosta || c.licoes.length);
 const prosa = 'prose prose-sm max-w-3xl prose-headings:font-semibold prose-strong:text-noite prose-a:text-laranja prose-code:rounded prose-code:bg-areia/50 prose-code:px-1 prose-code:font-normal prose-code:before:content-none prose-code:after:content-none text-ameixa';
 const menu = [
   ['comece', 'Comece aqui'],
@@ -20,7 +21,7 @@ const menu = [
   ['layouts', 'Layouts'],
   ['voz', 'Voz e copy'],
   ['ofertas', 'Ofertas e ADS'],
-  ['cliente', 'O que o cliente gosta'],
+  ...(temCliente ? [['cliente', 'O que o cliente gosta']] : []),
   ['arquivos', 'Arquivos'],
 ];
 const dataBR = (d) => d.split('-').reverse().join('/');
@@ -252,9 +253,8 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
           <div class:list={[prosa, 'mt-3']} set:html={c.html.svas} />
         </Secao>
 
-        <Secao id="cliente" titulo="O que o cliente gosta">
+        {temCliente && <Secao id="cliente" titulo="O que o cliente gosta">
           <div class="grid gap-4 sm:grid-cols-2">
-            {c.ajustes && <div class="rounded-2xl border border-areia bg-white p-5 sm:col-span-2"><h3 class="text-sm font-bold">Pedidos de ajuste recorrentes</h3><p class="mt-2 text-sm text-ameixa">{c.ajustes}</p></div>}
             {c.gosta && <div class="rounded-2xl border border-areia bg-white p-5"><h3 class="text-sm font-bold">Gosta de</h3><p class="mt-2 text-sm text-ameixa">{c.gosta}</p></div>}
             {c.naoGosta && <div class="rounded-2xl border border-areia bg-white p-5"><h3 class="text-sm font-bold">Não gosta de</h3><p class="mt-2 text-sm text-ameixa">{c.naoGosta}</p></div>}
           </div>
@@ -264,7 +264,7 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
               <ul class="mt-3 list-disc space-y-1.5 pl-5 text-sm text-ameixa">{c.licoes.map((l) => <li set:html={l} />)}</ul>
             </>
           )}
-        </Secao>
+        </Secao>}
 
         <Secao id="arquivos" titulo="Arquivos" intro="Tudo o que você precisa para abrir e começar.">
           <ul class="grid gap-3 sm:grid-cols-2">

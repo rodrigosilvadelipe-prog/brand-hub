@@ -18,22 +18,72 @@
     "Parecer com Eteec, Desktop ou Vivo"
   ],
   "logos": [
-    { "titulo": "Internet negativo", "quando": "Fundo azul ou foto escura", "fundo": "#002456", "arquivo": "logo/acelera-internet-negativo.svg" },
-    { "titulo": "Internet positivo", "quando": "Fundo claro", "fundo": "#FFFFFF", "arquivo": "logo/acelera-internet-positivo.svg" },
-    { "titulo": "Segurança horizontal negativo", "quando": "Só câmeras e segurança, na aba de base", "fundo": "#002456", "arquivo": "logo/acelera-seguranca-horizontal-negativo.svg" },
-    { "titulo": "Segurança horizontal positivo", "quando": "Só câmeras e segurança, na aba de base", "fundo": "#FFFFFF", "arquivo": "logo/acelera-seguranca-horizontal-positivo.svg" },
-    { "titulo": "Segurança vertical negativo", "quando": "Só câmeras e segurança, em peças centrais", "fundo": "#002456", "arquivo": "logo/acelera-seguranca-vertical-negativo.svg" },
-    { "titulo": "Segurança vertical positivo", "quando": "Só câmeras e segurança, em peças centrais", "fundo": "#FFFFFF", "arquivo": "logo/acelera-seguranca-vertical-positivo.svg" },
-    { "titulo": "Ícone Segurança", "quando": "Os raios funcionam sozinhos", "fundo": "#002456", "arquivo": "logo/acelera-seguranca-icone.svg" }
+    {
+      "titulo": "Internet negativo",
+      "quando": "Fundo azul ou foto escura",
+      "fundo": "#002456",
+      "arquivo": "logo/acelera-internet-negativo.svg"
+    },
+    {
+      "titulo": "Internet positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/acelera-internet-positivo.svg"
+    },
+    {
+      "titulo": "Segurança horizontal negativo",
+      "quando": "Só câmeras e segurança, na aba de base",
+      "fundo": "#002456",
+      "arquivo": "logo/acelera-seguranca-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Segurança horizontal positivo",
+      "quando": "Só câmeras e segurança, na aba de base",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/acelera-seguranca-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Segurança vertical negativo",
+      "quando": "Só câmeras e segurança, em peças centrais",
+      "fundo": "#002456",
+      "arquivo": "logo/acelera-seguranca-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Segurança vertical positivo",
+      "quando": "Só câmeras e segurança, em peças centrais",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/acelera-seguranca-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Ícone Segurança",
+      "quando": "Os raios funcionam sozinhos",
+      "fundo": "#002456",
+      "arquivo": "logo/acelera-seguranca-icone.svg"
+    }
   ],
-  "capa": { "gradiente": "fundo-azul", "logo": "logo/acelera-internet-negativo.svg" },
+  "capa": {
+    "gradiente": "fundo-azul",
+    "logo": "logo/acelera-internet-negativo.svg"
+  },
   "elementos": [
-    { "origem": "curadoria/acelera/elementos.png", "legenda": "Formato mega, setas, selo +, grafismos, pill, footers de ADS e faixa de WhatsApp" },
-    { "origem": "vectorcraft/acelera-exemplo-1080.png", "legenda": "Exemplo de composição montado com os elementos da marca" }
+    {
+      "origem": "curadoria/acelera/elementos.png",
+      "legenda": "Formato mega, setas, selo +, grafismos, pill, footers de ADS e faixa de WhatsApp"
+    },
+    {
+      "origem": "vectorcraft/acelera-exemplo-1080.png",
+      "legenda": "Exemplo de composição montado com os elementos da marca"
+    }
   ],
   "planos": [
-    { "origem": "curadoria/acelera/planos-negativo.png", "legenda": "Blocos e tabelas em negativo" },
-    { "origem": "curadoria/acelera/planos-positivo.png", "legenda": "Blocos e tabelas em positivo" }
+    {
+      "origem": "curadoria/acelera/planos-negativo.png",
+      "legenda": "Blocos e tabelas em negativo"
+    },
+    {
+      "origem": "curadoria/acelera/planos-positivo.png",
+      "legenda": "Blocos e tabelas em positivo"
+    }
   ],
   "layouts": {
     "ACL1": "jobs/2026-11-brand-kit/assets/referencias/ads-1.png",
@@ -44,20 +94,41 @@
     "ACL6": "curadoria/acelera/esquema-acl6.png"
   },
   "arquivos": [
-    { "titulo": "Paleta para Adobe e VectorCraft", "descricao": "ASE com as cores da marca", "origem": "vectorcraft/bibliotecas/acelera-cores.ase" },
-    { "titulo": "Amostras do VectorCraft", "descricao": "Grupo ACL / Cores", "origem": "vectorcraft/bibliotecas/acelera-cores.vcswatches" },
-    { "titulo": "Estilos do VectorCraft", "descricao": "Estilos de texto ACL", "origem": "vectorcraft/bibliotecas/acelera-estilos.vcstyles" },
-    { "titulo": "Símbolos do VectorCraft", "descricao": "Logos, mega, footers, planos e tabelas", "origem": "vectorcraft/bibliotecas/acelera-simbolos.vectorcraft" },
-    { "titulo": "Brand kit editável", "descricao": "Arquivo completo no VectorCraft", "origem": "vectorcraft/acelera-brand-kit.vectorcraft" },
-    { "titulo": "Board em PDF", "descricao": "Todas as pranchetas do kit", "origem": "vectorcraft/acelera-brand-kit-board.pdf" }
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "origem": "vectorcraft/bibliotecas/acelera-cores.ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo ACL / Cores",
+      "origem": "vectorcraft/bibliotecas/acelera-cores.vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos de texto ACL",
+      "origem": "vectorcraft/bibliotecas/acelera-estilos.vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, mega, footers, planos e tabelas",
+      "origem": "vectorcraft/bibliotecas/acelera-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "origem": "vectorcraft/acelera-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "origem": "vectorcraft/acelera-brand-kit-board.pdf"
+    }
   ],
   "licoes": [
     "Peças antigas com a onça servem só de estrutura. Mascote e foguete nunca entram.",
     "Premium aqui pede luz e profundidade fotográfica, não vetor chapado.",
-    "ADS 100% por IA ficaram básicos e repetidos: use cena diferente por peça, e todo ADS precisa de oferta.",
-    "Em sorteio, o prêmio é o protagonista: valores, ganhadores, a palavra sorteio e a data. O plano vem em segundo.",
-    "Em sorteio, dinheiro visível e 3D dourado vencem o minimalismo.",
-    "Peça de marca sem oferta aceita imagem inteira da IA quando o conceito é forte.",
-    "Pergunte quando a campanha vai ao ar: mês do tema não é mês de veiculação. Não crie mensagem de data sem pedido."
-  ]
+    "Use cena diferente por peça e oferta em todo ADS."
+  ],
+  "gosta": "Azul e amarelo fortes, bloco de mega com setas, base com WhatsApp e logo, foto real recolorida de azul."
 }

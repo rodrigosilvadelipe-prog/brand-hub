@@ -502,9 +502,8 @@
       "src": "/clientes/winq/img/planos-positivo.webp"
     }
   ],
-  "gosta": "linha criativa dos últimos 2 meses (aprovada sem ajustes), títulos com jogo de palavras (\"Dragão bom não espera carregar\", \"O trono vai tremer. A fibra, não.\"), pouco texto.",
-  "naoGosta": "IA em exagero (o cliente já reclamou, mas aceita apoio).",
-  "ajustes": "- Ângulos de ADS que funcionaram (cliques, mensagens):",
+  "gosta": "Títulos com jogo de palavras e pouco texto.",
+  "naoGosta": "IA em exagero.",
   "licoes": [
     "Use o slogan sempre pelo arquivo oficial em curvas: a fonte Espiritu Script não está instalada."
   ],

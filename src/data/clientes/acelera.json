@@ -452,17 +452,12 @@
       "src": "/clientes/acelera/img/planos-positivo.webp"
     }
   ],
-  "gosta": "azul e amarelo fortes, bloco de 1000 mega com setas, base com WhatsApp e logo, selo 3D em ouro, foto real recolorida de azul, voz solta (\"chance de faturar uma grana!\")",
-  "naoGosta": "mensagem de data fora de hora; prêmio resumido só no total",
-  "ajustes": "deixar o prêmio mais claro",
+  "gosta": "Azul e amarelo fortes, bloco de mega com setas, base com WhatsApp e logo, foto real recolorida de azul.",
+  "naoGosta": "",
   "licoes": [
     "Peças antigas com a onça servem só de estrutura. Mascote e foguete nunca entram.",
     "Premium aqui pede luz e profundidade fotográfica, não vetor chapado.",
-    "ADS 100% por IA ficaram básicos e repetidos: use cena diferente por peça, e todo ADS precisa de oferta.",
-    "Em sorteio, o prêmio é o protagonista: valores, ganhadores, a palavra sorteio e a data. O plano vem em segundo.",
-    "Em sorteio, dinheiro visível e 3D dourado vencem o minimalismo.",
-    "Peça de marca sem oferta aceita imagem inteira da IA quando o conceito é forte.",
-    "Pergunte quando a campanha vai ao ar: mês do tema não é mês de veiculação. Não crie mensagem de data sem pedido."
+    "Use cena diferente por peça e oferta em todo ADS."
   ],
   "html": {
     "regras": "<ul>\n<li><strong>Central de Clientes prevalece</strong> sobre briefing, site e documentos antigos em praças, preços e regras.</li>\n<li><strong>Planos e preços:</strong> sempre em positivo e negativo, com agrupamento vertical e horizontal (símbolos <code>Plano</code> e <code>Tabela</code>).</li>\n<li><strong>Nunca usar mascote nem foguete, em nenhuma peça.</strong> Pedido do cliente. Vale para peças antigas usadas como referência: aproveite a estrutura, nunca a onça nem o foguete.</li>\n<li><strong>Linha fina padrão dos ADS:</strong> &quot;Consulte condições e viabilidade técnica&quot;.</li>\n<li><strong>CTA sempre para o WhatsApp.</strong></li>\n<li><strong>Logo do HBO Max só com o arquivo oficial.</strong></li>\n<li><strong>1 Giga sem preço por enquanto.</strong></li>\n</ul>\n",

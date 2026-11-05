@@ -18,7 +18,6 @@ const url = `/clientes/${slug}`;
 const ler = (f) => fs.readFileSync(path.join(dirCliente, f), 'utf8').replace(/^﻿/, '').replace(/\r\n/g, '\n');
 const tokens = JSON.parse(ler('tokens.json'));
 const kit = ler('brand-kit.md');
-const aprendizados = ler('aprendizados.md');
 const cur = JSON.parse(fs.readFileSync(path.join(raiz, 'curadoria', `${slug}.json`), 'utf8'));
 
 fs.rmSync(pub, { recursive: true, force: true });
@@ -135,9 +134,10 @@ const arquivos = [
   ...(cur.arquivos || []).map(copiarArquivo),
 ];
 
-// O que o cliente gosta
-const padrao = (rotulo) => new RegExp(`^- ${rotulo}:\\s*(.*)$`, 'm').exec(trocar(aprendizados))?.[1]?.trim() || '';
-const licoes = cur.licoes || tabela(aprendizados.split('## Padrões')[0]).map((c) => limpar(c[4]).trim()).filter(Boolean);
+// O que o cliente gosta vem só da curadoria: o guia mostra padrão da marca, não pedido pontual de um job.
+const gosta = cur.gosta || '';
+const naoGosta = cur.naoGosta || '';
+const licoes = cur.licoes || [];
 
 const saida = {
   slug,
@@ -162,9 +162,8 @@ const saida = {
   arquivos,
   elementos: await lista(cur.elementos, 1100),
   planos: await lista(cur.planos, 1100),
-  gosta: padrao('Gosta de'),
-  naoGosta: padrao('Não gosta de'),
-  ajustes: padrao('Pedidos de ajuste recorrentes'),
+  gosta,
+  naoGosta,
   licoes,
   html: {
     regras: regrasGerais ? html(regrasGerais) : '',

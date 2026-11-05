@@ -25,6 +25,7 @@ npm run build
 ## Regras
 
 - Interface sempre Delipe, em Sora. Fontes, cores e grafismos do cliente só nas vitrines.
+- "O que o cliente gosta" só com padrão recorrente da marca, escrito na curadoria. Pedido pontual de campanha ou job fica no `aprendizados.md` da central, fora do guia.
 - Preço e plano vigente ficam na Central de Clientes. O Hub mostra só modelos de bloco.
 - Fonte paga não entra no site. Mostrar como imagem e baixar pelo Drive.
 - Arquivo acima de 25 MiB fica no Drive, não em `public/`.
