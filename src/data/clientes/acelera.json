@@ -1,0 +1,481 @@
+{
+  "slug": "acelera",
+  "nome": "Acelera Internet",
+  "sigla": "ACL",
+  "status": "provisório",
+  "atualizado": "2026-11-05",
+  "fundo": "radial-gradient(circle at center, #004FBD 0%, #002456 55%, #001732 100%)",
+  "capa": {
+    "logo": "/clientes/acelera/logo/acelera-internet-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Azul dominante com o amarelo de destaque",
+    "Setas > e < abrindo e fechando o bloco de oferta",
+    "Footer de ADS com barra amarela, WhatsApp e aba com o logo",
+    "Krub Bold, com entreletra fechada nos títulos",
+    "Luz dourada e profundidade fotográfica"
+  ],
+  "evite": [
+    "Mascote e foguete, em qualquer peça",
+    "Branco sobre amarelo ou verde",
+    "Recriar o logo do HBO Max",
+    "Superlativo sem prova, como \"a melhor\"",
+    "Parecer com Eteec, Desktop ou Vivo"
+  ],
+  "logos": [
+    {
+      "titulo": "Internet negativo",
+      "quando": "Fundo azul ou foto escura",
+      "fundo": "#002456",
+      "src": "/clientes/acelera/logo/acelera-internet-negativo.svg"
+    },
+    {
+      "titulo": "Internet positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/acelera/logo/acelera-internet-positivo.svg"
+    },
+    {
+      "titulo": "Segurança horizontal negativo",
+      "quando": "Só câmeras e segurança, na aba de base",
+      "fundo": "#002456",
+      "src": "/clientes/acelera/logo/acelera-seguranca-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Segurança horizontal positivo",
+      "quando": "Só câmeras e segurança, na aba de base",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/acelera/logo/acelera-seguranca-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Segurança vertical negativo",
+      "quando": "Só câmeras e segurança, em peças centrais",
+      "fundo": "#002456",
+      "src": "/clientes/acelera/logo/acelera-seguranca-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Segurança vertical positivo",
+      "quando": "Só câmeras e segurança, em peças centrais",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/acelera/logo/acelera-seguranca-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Ícone Segurança",
+      "quando": "Os raios funcionam sozinhos",
+      "fundo": "#002456",
+      "src": "/clientes/acelera/logo/acelera-seguranca-icone.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "azul-acelera",
+      "hex": "#002456",
+      "rgb": "0 36 86",
+      "papel": "Dominante",
+      "proporcao": "65% com os azuis",
+      "pct": 65,
+      "cmyk": "100 58 0 66",
+      "pantone": "2768 C"
+    },
+    {
+      "nome": "amarelo-acelera",
+      "hex": "#FDC61E",
+      "rgb": "253 198 30",
+      "papel": "Destaque e CTA",
+      "proporcao": "20%",
+      "pct": 20,
+      "cmyk": "0 22 88 1",
+      "pantone": "123 C"
+    },
+    {
+      "nome": "branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "Títulos e números",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "azul-profundo",
+      "hex": "#001732",
+      "rgb": "0 23 50",
+      "papel": "Cantos do fundo",
+      "proporcao": "apoio",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "azul-royal",
+      "hex": "#004FBD",
+      "rgb": "0 79 189",
+      "papel": "Centro luminoso",
+      "proporcao": "apoio",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "azul-eletrico",
+      "hex": "#247FFF",
+      "rgb": "36 127 255",
+      "papel": "Brilhos e ícones",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "ambar",
+      "hex": "#B18502",
+      "rgb": "177 133 2",
+      "papel": "Sombra do amarelo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "areia",
+      "hex": "#FEDE81",
+      "rgb": "254 222 129",
+      "papel": "Brilho do amarelo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "creme",
+      "hex": "#FFF8E6",
+      "rgb": "255 248 230",
+      "papel": "Fundo claro institucional",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "verde-whatsapp",
+      "hex": "#00CD00",
+      "rgb": "0 205 0",
+      "papel": "Só a faixa de WhatsApp do feed",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "fundo-azul",
+      "css": "radial-gradient(circle at center, #004FBD 0%, #002456 55%, #001732 100%)",
+      "direcao": "centro luminoso para cantos escuros, como nas peças aprovadas"
+    },
+    {
+      "nome": "fundo-diagonal",
+      "css": "linear-gradient(135deg, #001732 0%, #002456 100%)",
+      "direcao": "canto superior esquerdo profundo para azul-acelera"
+    },
+    {
+      "nome": "luz-dourada",
+      "css": "linear-gradient(90deg, #B18502 0%, #FDC61E 55%, #FEDE81 100%)",
+      "direcao": "âmbar, amarelo, areia, para números e trilhas de luz"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco sobre azul-acelera",
+        "razao": "15,1",
+        "fg": "#FFFFFF",
+        "bg": "#002456"
+      },
+      {
+        "texto": "amarelo-acelera sobre azul-acelera",
+        "razao": "9,6",
+        "fg": "#FDC61E",
+        "bg": "#002456"
+      },
+      {
+        "texto": "azul-acelera sobre amarelo-acelera",
+        "razao": "9,6",
+        "fg": "#002456",
+        "bg": "#FDC61E"
+      },
+      {
+        "texto": "azul-acelera sobre creme",
+        "razao": "14,3",
+        "fg": "#002456",
+        "bg": "#FFF8E6"
+      },
+      {
+        "texto": "branco sobre azul-royal",
+        "razao": "7,4",
+        "fg": "#FFFFFF",
+        "bg": "#004FBD"
+      },
+      {
+        "texto": "azul-acelera sobre verde-whatsapp",
+        "razao": "6,7",
+        "fg": "#002456",
+        "bg": "#00CD00"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "branco sobre amarelo-acelera",
+        "razao": "1,6",
+        "fg": "#FFFFFF",
+        "bg": "#FDC61E"
+      },
+      {
+        "texto": "amarelo-acelera sobre branco ou creme",
+        "razao": "1,6",
+        "fg": "#FDC61E",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "branco sobre verde-whatsapp",
+        "razao": "2,3",
+        "fg": "#FFFFFF",
+        "bg": "#00CD00"
+      },
+      {
+        "texto": "azul-eletrico em texto pequeno sobre azul-acelera",
+        "razao": "4,0",
+        "fg": "#247FFF",
+        "bg": "#002456"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Krub",
+      "uso": "todos os textos das peças",
+      "pesos": "ExtraLight, Light, Regular, Medium, SemiBold e Bold, cada um com itálico; não existe Black",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Krub"
+    }
+  ],
+  "familiaPrincipal": "Krub",
+  "familiaGoogle": true,
+  "pesosFonte": [
+    400,
+    500,
+    600,
+    700
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 240,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 88,
+      "entrelinha": 0.98
+    },
+    {
+      "papel": "Título 2",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 64,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Subtítulo",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Selo e pílula",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 36,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.25
+    },
+    {
+      "papel": "Apoio de preço",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "peso": "Medium Italic",
+      "wght": 500,
+      "italico": true,
+      "px": 18,
+      "entrelinha": 1.25
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "ACL1",
+      "estrutura": "Título no topo, bloco de velocidade à esquerda, cena da praça abaixo, footer",
+      "quando": "ADS de oferta regional",
+      "src": "/clientes/acelera/img/ads-1.webp"
+    },
+    {
+      "codigo": "ACL2",
+      "estrutura": "Título no topo, cena de casa, bloco de velocidade à direita, footer",
+      "quando": "ADS de estabilidade",
+      "src": "/clientes/acelera/img/ads-2.webp"
+    },
+    {
+      "codigo": "ACL3",
+      "estrutura": "Preço gigante à esquerda, produto recortado à direita, base com logo Segurança",
+      "quando": "Câmeras e SVAs com preço",
+      "src": "/clientes/acelera/img/ads-3.webp"
+    },
+    {
+      "codigo": "ACL4",
+      "estrutura": "Título à esquerda, pessoa com raios à direita, faixa de WhatsApp",
+      "quando": "Dor do cliente",
+      "src": "/clientes/acelera/img/ads-outubro.webp"
+    },
+    {
+      "codigo": "ACL5",
+      "estrutura": "Logo no topo, conteúdo centrado, bloco de velocidade, faixa de WhatsApp",
+      "quando": "Feed de conteúdo e SVA",
+      "src": "/clientes/acelera/img/esquema-acl5.webp"
+    },
+    {
+      "codigo": "ACL6",
+      "estrutura": "Fundo claro ou foto, tipografia central, logo no rodapé",
+      "quando": "Datas e institucional, sem oferta",
+      "src": "/clientes/acelera/img/esquema-acl6.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/acelera/arquivos/acelera-logos.zip",
+      "tamanho": "21 KB",
+      "ext": "zip"
+    },
+    {
+      "titulo": "Paleta para Adobe e VectorCraft",
+      "descricao": "ASE com as cores da marca",
+      "href": "/clientes/acelera/arquivos/acelera-cores.ase",
+      "tamanho": "1 KB",
+      "ext": "ase"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Grupo ACL / Cores",
+      "href": "/clientes/acelera/arquivos/acelera-cores.vcswatches",
+      "tamanho": "7 KB",
+      "ext": "vcswatches"
+    },
+    {
+      "titulo": "Estilos do VectorCraft",
+      "descricao": "Estilos de texto ACL",
+      "href": "/clientes/acelera/arquivos/acelera-estilos.vcstyles",
+      "tamanho": "4 KB",
+      "ext": "vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, mega, footers, planos e tabelas",
+      "href": "/clientes/acelera/arquivos/acelera-simbolos.vectorcraft",
+      "tamanho": "525 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "href": "/clientes/acelera/arquivos/acelera-brand-kit.vectorcraft",
+      "tamanho": "5,5 MB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Board em PDF",
+      "descricao": "Todas as pranchetas do kit",
+      "href": "/clientes/acelera/arquivos/acelera-brand-kit-board.pdf",
+      "tamanho": "988 KB",
+      "ext": "pdf"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Formato mega, setas, selo +, grafismos, pill, footers de ADS e faixa de WhatsApp",
+      "src": "/clientes/acelera/img/elementos.webp"
+    },
+    {
+      "legenda": "Exemplo de composição montado com os elementos da marca",
+      "src": "/clientes/acelera/img/acelera-exemplo-1080.webp"
+    }
+  ],
+  "planos": [
+    {
+      "legenda": "Blocos e tabelas em negativo",
+      "src": "/clientes/acelera/img/planos-negativo.webp"
+    },
+    {
+      "legenda": "Blocos e tabelas em positivo",
+      "src": "/clientes/acelera/img/planos-positivo.webp"
+    }
+  ],
+  "gosta": "azul e amarelo fortes, bloco de 1000 mega com setas, base com WhatsApp e logo, selo 3D em ouro, foto real recolorida de azul, voz solta (\"chance de faturar uma grana!\")",
+  "naoGosta": "mensagem de data fora de hora; prêmio resumido só no total",
+  "ajustes": "deixar o prêmio mais claro",
+  "licoes": [
+    "Peças antigas com a onça servem só de estrutura. Mascote e foguete nunca entram.",
+    "Premium aqui pede luz e profundidade fotográfica, não vetor chapado.",
+    "ADS 100% por IA ficaram básicos e repetidos: use cena diferente por peça, e todo ADS precisa de oferta.",
+    "Em sorteio, o prêmio é o protagonista: valores, ganhadores, a palavra sorteio e a data. O plano vem em segundo.",
+    "Em sorteio, dinheiro visível e 3D dourado vencem o minimalismo.",
+    "Peça de marca sem oferta aceita imagem inteira da IA quando o conceito é forte.",
+    "Pergunte quando a campanha vai ao ar: mês do tema não é mês de veiculação. Não crie mensagem de data sem pedido."
+  ],
+  "html": {
+    "regras": "<ul>\n<li><strong>Central de Clientes prevalece</strong> sobre briefing, site e documentos antigos em praças, preços e regras.</li>\n<li><strong>Planos e preços:</strong> sempre em positivo e negativo, com agrupamento vertical e horizontal (símbolos <code>Plano</code> e <code>Tabela</code>).</li>\n<li><strong>Nunca usar mascote nem foguete, em nenhuma peça.</strong> Pedido do cliente. Vale para peças antigas usadas como referência: aproveite a estrutura, nunca a onça nem o foguete.</li>\n<li><strong>Linha fina padrão dos ADS:</strong> &quot;Consulte condições e viabilidade técnica&quot;.</li>\n<li><strong>CTA sempre para o WhatsApp.</strong></li>\n<li><strong>Logo do HBO Max só com o arquivo oficial.</strong></li>\n<li><strong>1 Giga sem preço por enquanto.</strong></li>\n</ul>\n",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet 100% fibra óptica com TV, streaming e câmeras de segurança para casas.</li>\n<li><strong>Promessa:</strong> &quot;Internet rápida de verdade&quot;.</li>\n<li><strong>Diferencial real:</strong> suporte humano e rápido, &quot;Chamou, chegou&quot;. Instalação gratuita e app de TV com mais de 200 canais.</li>\n<li><strong>Personalidade:</strong> rápida, próxima, direta. Nunca: arrogante, técnica demais, enrolada. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Quem compra:</strong> famílias de Aquidauana/MS e Praia Grande. Sem foco em empresas.</li>\n<li><strong>Aquidauana/MS:</strong> público do interior, gosta de conversar, mais fiel. Valoriza velocidade, estabilidade e alcance na casa toda.</li>\n<li><strong>Praia Grande:</strong> rotina corrida, concorrência forte, mercado mais difícil. Valoriza estabilidade, praticidade e suporte.</li>\n<li><strong>Quer:</strong> internet que não trava, TV e filmes no mesmo pacote, casa segura.</li>\n<li><strong>Teme:</strong> queda, espera por suporte, preço que sobe sem aviso.</li>\n<li><strong>Objeções:</strong> &quot;será que chega na minha rua?&quot;, &quot;já tenho operadora grande&quot;. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> direto, simpático, com leve bom humor. Conversa de vizinho que resolve.</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> de verdade, sem enrolação, chamou chegou, estabilidade, sua rotina, cabe no bolso.</li>\n<li><strong>Palavras que evitamos:</strong> a melhor, o mais rápido da região (superlativo sem prova), mascote, onça, foguete.</li>\n<li><strong>Copy boa (peça aprovada):</strong><blockquote>\n<p>Praia Grande, planos grandes. Preços que cabem no bolso.</p>\n</blockquote>\n</li>\n<li><strong>Copy ruim (o que não queremos):</strong><blockquote>\n<p>A melhor internet do Brasil com velocidade incomparável!</p>\n</blockquote>\n</li>\n</ul>\n",
+    "logo": "<ul>\n<li><strong>Acelera Internet:</strong> logo principal. Positivo em fundo claro, negativo em fundo azul ou foto escura.</li>\n<li><strong>Acelera Segurança:</strong> só em peças de câmeras e segurança. Horizontal na aba de base, vertical em peças centrais. O ícone de raios funciona sozinho.</li>\n<li><strong>Área de proteção:</strong> altura da letra &quot;A&quot; do logo em volta. <strong>Largura mínima:</strong> 180 px em arte de 1080. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n<li><strong>Proibido:</strong> recolorir, distorcer, aplicar contorno ou sombra pesada, colocar sobre amarelo sem ser a versão azul, redesenhar.</li>\n</ul>\n",
+    "cores": "<ul>\n<li><strong>Gradiente:</strong> o degradê azul para amarelo do guia ColorBrand fica barrento e não aparece nas peças. Use <code>fundo-azul</code>.</li>\n<li><strong>Rosa #FF4D8E:</strong> fora do kit. Veio da ferramenta, sem uso real.</li>\n</ul>\n",
+    "tipografia": "<ul>\n<li><p>Família completa instalada no Windows: ExtraLight, Light, Regular, Medium, SemiBold e Bold, cada um com itálico. Não existe Black.</p>\n</li>\n<li><p><strong>Pesos por papel:</strong> número, títulos, subtítulo, pill, selo e CTA em Bold. Corpo em SemiBold. Apoio de preço em Medium. Legal em Medium Italic.</p>\n</li>\n<li><p><strong>Títulos:</strong> entreletra fechada, -3% a -4%. Caixa alta em oferta, caixa normal em apoio.</p>\n</li>\n<li><p><strong>Números de velocidade:</strong> Bold bem fechado, com avanço de 0,57 em por dígito, para os dígitos se tocarem.</p>\n</li>\n<li><p><strong>Linha fina:</strong> vertical na lateral esquerda.</p>\n</li>\n<li><p><strong>Preço:</strong> um objeto de texto só, com trechos de estilo (R$, número, centavos sobrescritos, /mês embaixo dos centavos).</p>\n</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Blocos de plano:</strong> velocidade, pacote e preço em versão vertical e horizontal, positivo e negativo. O preço é um objeto de texto só.</li>\n<li><strong>Formato mega:</strong> número Krub Bold fechado, com pill amarela e &quot;mega&quot; em azul sobre os últimos dígitos. Símbolos <code>Mega / *</code>.</li>\n<li><strong>Bloco de velocidade:</strong> &quot;Velocidades até&quot; em amarelo, formato mega grande e setas.</li>\n<li><strong>Setas &gt; e &lt;:</strong> amarelas, abrindo e fechando o bloco de oferta. É o gesto mais reconhecível da marca, ligado às formas do logo.</li>\n<li><strong>Footer de ADS:</strong> barra amarela com o WhatsApp e aba com canto curvo com o logo. Três variantes, para Internet e Segurança: aba branca com logo positivo (fundo azul ou foto), aba azul com contorno amarelo (fundo azul) e aba azul (fundo claro).</li>\n<li><strong>Selo +:</strong> círculo amarelo com &quot;+&quot; unindo velocidade e SVA, sobre o tile do HBO Max.</li>\n<li><strong>Linha fina vertical:</strong> &quot;*Consulte condições e viabilidade técnica&quot; na lateral esquerda.</li>\n<li><strong>Grafismos:</strong> raios do ícone Segurança e paralelogramos, cheios e vazados, nos cantos.</li>\n<li><strong>Fundo:</strong> azul radial, com centro luminoso e cantos escuros.</li>\n<li><strong>Trilhas de luz douradas:</strong> velocidade em imagem, com ícones de linha acesos.</li>\n<li><strong>Pill amarela:</strong> datas e rótulos, texto azul.</li>\n<li><strong>Mascote:</strong> não usar. Foguete: não usar. Regra do cliente.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li><strong>Estilo:</strong> cena real ou fotomontagem com luz dourada sobre azul escuro, alto contraste.</li>\n<li><strong>Pessoas:</strong> brasileiras comuns, em casa ou na rotina. Expressão real. Nunca fotos falsas de pessoas da empresa.</li>\n<li><strong>Praça:</strong> usar o lugar quando a peça for regional (orla em Praia Grande).</li>\n<li><strong>Produtos:</strong> roteador e câmera em destaque, com recorte limpo.</li>\n<li><strong>Evitar:</strong> banco de imagem genérico, mascote, foguete, neon de outras cores.</li>\n<li><strong>Base de prompt:</strong> &quot;deep navy blue #002456 scene, golden light trails, cinematic contrast, clean area for text on the left, no text, no logo, no mascot, no rocket&quot;.</li>\n</ul>\n",
+    "layouts": "<p>Não repetir estrutura em peças seguidas. Alternar foto e tipografia.</p>\n",
+    "ofertas": "<ul>\n<li><strong>Botão Meta:</strong> Enviar mensagem. <strong>CTA na arte:</strong> &quot;Assine agora pelo WhatsApp&quot;.</li>\n<li><strong>Rodapé legal:</strong> &quot;*Consulte condições e viabilidade técnica&quot;.</li>\n<li><strong>Preço:</strong> sempre com &quot;/mês&quot;. 1 Giga sem preço por enquanto; na arte, o plano usa o formato 1000 mega.</li>\n<li><strong>Redes:</strong> no orgânico o cliente não divulga preço; preço fica nos ADS.\n Até o logo chegar, HBO Max e Acelera TV entram como texto.</li>\n<li><strong>Sem taxa de instalação:</strong> só no 500 Mega + Acelera TV.</li>\n<li><strong>Black Friday:</strong> em negociação, não usar em peça sem confirmação.</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Acelera TV</td>\n<td>Logo nos Apps de SVAs, solicitar quando precisar</td>\n<td>Mais de 200 canais. Smart TV, PC, celular e tablet</td>\n</tr>\n<tr>\n<td>HBO Max</td>\n<td>Só arquivo oficial, nos Apps de SVAs; solicitar quando precisar</td>\n<td>Nunca recriar o logo</td>\n</tr>\n<tr>\n<td>Câmeras (Acelera Segurança)</td>\n<td>Sim, 7 SVGs</td>\n<td>Preço na Central de Clientes</td>\n</tr>\n</tbody></table>\n"
+  }
+}

@@ -30,8 +30,8 @@ const pill = (t) => `<span class="ml-1 rounded-full bg-amber-100 px-2 py-0.5 tex
 // Tira do texto o que só interessa à central: marcas de origem e caminhos internos.
 function limpar(md) {
   return trocar(md)
-    .replace(/[^.\n]*`[^`\n]*(clientes\/|tokens\.json|jobs\/)[^`\n]*`[^.\n]*\.?/g, '')
-    .replace(/,? por definição do usuário/g, '')
+    .replace(/[^.\n]*`[^`\n]*(clientes\/|tokens\.json|jobs\/|cliente\.md|MARCA\\)[^`\n]*`[^.\n]*\.?/g, '')
+    .replace(/,? (por definição|decisão) do usuário/g, '')
     .replace(/\s*\(usuário, [\d/]+\)/g, '')
     .replace(/\s*\*{0,2}\[(cliente|referência)[^\]]*\]\*{0,2}/g, '')
     .replace(/\[sugerido[^\]]*\]/g, () => pill('sugerido'))
@@ -42,11 +42,12 @@ function limpar(md) {
 const html = (md) => marked.parse(limpar(md).replace(/^\s*-\s*$/gm, '').trim());
 
 const secoes = {};
+const regrasGerais = /^## Regras que valem para tudo\n([\s\S]*?)(?=^## )/m.exec(kit)?.[1] || '';
 for (const m of kit.matchAll(/^## (\d+)\. .*\n([\s\S]*?)(?=^## \d+\. |(?![\s\S]))/gm)) secoes[+m[1]] = m[2];
 
 const tabela = (md) => md.split('\n').filter((l) => l.startsWith('|') && !/^\|[\s:|-]+\|$/.test(l))
   .slice(1).map((l) => l.split('|').slice(1, -1).map((c) => c.trim()));
-const semTabela = (md) => md.split('\n').filter((l) => !l.startsWith('|') && !/^\*\*(Fontes e famílias|Combinações de texto|Proibidas)/.test(l)).join('\n');
+const semTabela = (md) => md.split('\n').filter((l) => !l.startsWith('|') && !/^(- )?\*\*(Fontes e famílias|Combinações de texto|Aprovadas|Proibidas)/.test(l)).join('\n');
 
 // Cores, na ordem e com a proporção da tabela do kit
 const rgb = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)).join(' ');
@@ -55,19 +56,22 @@ const nomesCor = [...Object.keys(linhasCor), ...Object.keys(tokens.cores).filter
 const cores = nomesCor.filter((n) => tokens.cores[n]).map((nome) => {
   const t = tokens.cores[nome];
   const prop = linhasCor[nome]?.[4] || '';
-  const pct = /^(\d+)%$/.exec(prop);
-  return { nome, hex: t.hex.toUpperCase(), rgb: rgb(t.hex), papel: linhasCor[nome]?.[3] || t.papel, proporcao: prop, pct: pct ? +pct[1] : 0 };
+  const pct = /^(\d+)%/.exec(prop);
+  return { nome, hex: t.hex.toUpperCase(), rgb: rgb(t.hex), papel: linhasCor[nome]?.[3] || t.papel, proporcao: prop, pct: pct ? +pct[1] : 0, cmyk: t.cmyk?.join(' ') || null, pantone: t.pantone || null };
 });
 const hexDe = (n) => tokens.cores[n]?.hex;
 
-const DIRECAO = { 'esquerda para direita': '90deg', 'topo para base': '180deg', 'canto superior esquerdo para canto inferior direito': '135deg' };
-const cssGrad = (g) => `linear-gradient(${DIRECAO[g.direcao] || '90deg'}, ${g.paradas.map(([c, p]) => `${c} ${p * 100}%`).join(', ')})`;
+const direcaoCss = (d = '') => (d.startsWith('canto superior esquerdo') ? '135deg' : d.startsWith('topo') ? '180deg' : '90deg');
+const cssGrad = (g) => {
+  const paradas = g.paradas.map(([c, p]) => `${c} ${Math.round(p * 100)}%`).join(', ');
+  return g.tipo === 'radial' ? `radial-gradient(circle at center, ${paradas})` : `linear-gradient(${direcaoCss(g.direcao)}, ${paradas})`;
+};
 const gradientes = Object.entries(tokens.gradientes || {}).map(([nome, g]) => ({ nome, css: cssGrad(g), direcao: g.direcao }));
 
 function combinacao(t) {
   const m = /^(.+?) sobre (.+?)(?: em texto|, só .*?)?(?: \(([\d,]+)\))?$/.exec(t);
   if (!m) return { texto: t };
-  const fg = m[1].split(' ou ')[0];
+  const fg = m[1].split(' ')[0];
   const bg = m[2].split(' ou ')[0];
   return { texto: t.replace(/ \([\d,]+\)$/, ''), razao: m[3] || null, fg: hexDe(fg), bg: hexDe(bg) };
 }
@@ -76,13 +80,19 @@ function combinacao(t) {
 const PESO = { thin: 100, extralight: 200, light: 300, regular: 400, medium: 500, semibold: 600, bold: 700, extrabold: 800, black: 900 };
 const NOME_ESTILO = { 'numero-oferta': 'Número de oferta', 'titulo-1': 'Título 1', 'titulo-2': 'Título 2', subtitulo: 'Subtítulo', 'selo-pill': 'Selo e pílula', cta: 'CTA', corpo: 'Corpo', 'apoio-preco': 'Apoio de preço', legal: 'Legal' };
 const familias = tokens.tipografia.familias.map((f) => {
-  const g = /https:\/\/fonts\.google\.com\/\S+/.exec(f.onde)?.[0] || null;
+  const g = /https:\/\/fonts\.google\.com\/[^\s),]+/.exec(f.onde)?.[0] || null;
   return { nome: f.nome, uso: f.uso, pesos: f.pesos, onde: g ? 'Google Fonts' : limpar(f.onde).replace(/;.*$/, ''), link: g };
 });
 const principal = familias.find((f) => f.nome === tokens.tipografia.familia) || familias[0];
 const estilos = Object.entries(tokens.tipografia.estilos).map(([k, e]) => ({
-  papel: NOME_ESTILO[k] || k, peso: e.peso, wght: PESO[e.peso.toLowerCase()] || 400, px: e.px, entrelinha: e.entrelinha,
+  papel: NOME_ESTILO[k] || k,
+  peso: e.peso,
+  wght: PESO[e.peso.toLowerCase().replace(/\s*italic$/, '')] || 400,
+  italico: /italic$/i.test(e.peso),
+  px: e.px,
+  entrelinha: e.entrelinha,
 }));
+const pesosFonte = [...new Set([400, ...estilos.map((e) => e.wght)])].sort((a, b) => a - b);
 
 // Imagens leves para o site
 async function imagem(origem, largura) {
@@ -108,7 +118,8 @@ fs.writeFileSync(path.join(pub, 'arquivos', `${slug}-logos.zip`), zipSync(zip));
 // Layouts
 const layouts = [];
 for (const [codigo, estrutura, quando] of tabela(secoes[9])) {
-  if (cur.layouts?.[codigo]) layouts.push({ codigo, estrutura, quando, src: await imagem(cur.layouts[codigo], 520) });
+  if (!/^[A-Z]+\d+$/.test(codigo)) continue;
+  layouts.push({ codigo, estrutura, quando, src: cur.layouts?.[codigo] ? await imagem(cur.layouts[codigo], 520) : null });
 }
 
 // Arquivos para baixar
@@ -145,6 +156,7 @@ const saida = {
   familias,
   familiaPrincipal: principal.nome,
   familiaGoogle: Boolean(principal.link),
+  pesosFonte,
   estilos,
   layouts,
   arquivos,
@@ -152,8 +164,10 @@ const saida = {
   planos: await lista(cur.planos, 1100),
   gosta: padrao('Gosta de'),
   naoGosta: padrao('Não gosta de'),
+  ajustes: padrao('Pedidos de ajuste recorrentes'),
   licoes,
   html: {
+    regras: regrasGerais ? html(regrasGerais) : '',
     essencia: html(secoes[1]),
     publico: html(secoes[2]),
     voz: html(secoes[3]),

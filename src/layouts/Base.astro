@@ -2,9 +2,9 @@
 import '@fontsource-variable/sora';
 import '../styles/global.css';
 
-const { titulo, fonteCliente } = Astro.props;
+const { titulo, fonteCliente, pesos = [400, 700] } = Astro.props;
 const urlFonte = fonteCliente
-  ? `https://fonts.googleapis.com/css2?family=${encodeURIComponent(fonteCliente)}:wght@100;200;300;400;500;600;700;800;900&display=swap`
+  ? `https://fonts.googleapis.com/css2?family=${encodeURIComponent(fonteCliente)}:wght@${pesos.join(';')}&display=swap`
   : null;
 ---
 <!doctype html>
