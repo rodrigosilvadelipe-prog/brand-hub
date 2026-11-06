@@ -127,6 +127,53 @@
       },
       "global": false,
       "spot": false
+    },
+    {
+      "name": "SN / pecas",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.9764706,
+                "g": 0.6313726,
+                "b": 0.0627451
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.5,
+              "color": {
+                "model": "rgb",
+                "r": 0.96862745,
+                "g": 0.44705883,
+                "b": 0.06666667
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.9647059,
+                "g": 0.4117647,
+                "b": 0.0627451
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
     }
   ],
   "groups": [

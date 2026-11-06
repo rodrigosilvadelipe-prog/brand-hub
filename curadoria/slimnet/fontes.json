@@ -1,0 +1,71 @@
+{
+  "Flexo": {
+    "disponivel": true,
+    "nome": "curadoria/slimnet/fonte-flexo-nome.png",
+    "especime": "curadoria/slimnet/fonte-flexo-especime.png",
+    "pesos": [
+      "Regular",
+      "Medium",
+      "Bold",
+      "Heavy",
+      "Black"
+    ],
+    "estilos": {
+      "numero-oferta": {
+        "src": "curadoria/slimnet/fonte-flexo-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/slimnet/fonte-flexo-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/slimnet/fonte-flexo-titulo-2.png",
+        "altura": 35
+      },
+      "selo-pill": {
+        "src": "curadoria/slimnet/fonte-flexo-selo-pill.png",
+        "altura": 17
+      },
+      "cta": {
+        "src": "curadoria/slimnet/fonte-flexo-cta.png",
+        "altura": 17
+      },
+      "corpo": {
+        "src": "curadoria/slimnet/fonte-flexo-corpo.png",
+        "altura": 20
+      },
+      "apoio-preco": {
+        "src": "curadoria/slimnet/fonte-flexo-apoio-preco.png",
+        "altura": 24
+      }
+    },
+    "faltam": [
+      "subtitulo"
+    ]
+  },
+  "AmpleSoft Pro": {
+    "disponivel": true,
+    "nome": "curadoria/slimnet/fonte-amplesoft-pro-nome.png",
+    "especime": "curadoria/slimnet/fonte-amplesoft-pro-especime.png",
+    "pesos": [
+      "Bold",
+      "Extralight",
+      "Light",
+      "Medium",
+      "Regular",
+      "Thin"
+    ],
+    "estilos": {
+      "titulo-impacto": {
+        "src": "curadoria/slimnet/fonte-amplesoft-pro-titulo-impacto.png",
+        "altura": 52
+      },
+      "legal": {
+        "src": "curadoria/slimnet/fonte-amplesoft-pro-legal.png",
+        "altura": 17
+      }
+    },
+    "faltam": []
+  }
+}
