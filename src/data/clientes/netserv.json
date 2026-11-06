@@ -320,7 +320,8 @@
       "codigo": "NS2",
       "estrutura": "\"Checklist do final de semana\" com toggles, cena de TV, card de oferta",
       "quando": "streaming",
-      "src": null
+      "src": "/clientes/netserv/img/ads-checklist.webp",
+      "alerta": "Só estrutura: a TV mostra pôsteres, proibidos sem exceção autorizada."
     },
     {
       "codigo": "NS3",
@@ -332,7 +333,8 @@
       "codigo": "NS4",
       "estrutura": "\"Quem conhece, não troca.\" com avaliação real e CTA",
       "quando": "confiança",
-      "src": null
+      "src": "/clientes/netserv/img/feed-depoimento.webp",
+      "alerta": "Só estrutura: troque o nome e o texto por avaliação real autorizada."
     },
     {
       "codigo": "NS5",

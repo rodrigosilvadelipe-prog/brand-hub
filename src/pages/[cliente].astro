@@ -236,6 +236,7 @@ const proporcao = c.cores.filter((x) => x.pct > 0);
               <figure class="overflow-hidden rounded-2xl border border-areia bg-white">
                 {l.src && <img src={l.src} alt={`Exemplo do layout ${l.codigo}`} loading="lazy" class="w-full" />}
                 <figcaption class="p-3">
+                  {l.alerta && <p class="mb-2 rounded-lg bg-amber-100 px-2 py-1.5 text-[11px] font-medium text-amber-900">{l.alerta}</p>}
                   <p class="text-sm font-bold">{l.codigo}</p>
                   <p class="mt-1 text-xs text-ameixa">{l.estrutura}</p>
                   <p class="mt-1 text-xs text-ameixa/70">{l.quando}</p>

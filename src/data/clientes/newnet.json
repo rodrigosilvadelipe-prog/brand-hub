@@ -356,7 +356,8 @@
       "codigo": "NN5",
       "estrutura": "Grade 2x2 com personagem e headline superior",
       "quando": "Engajamento, lista curta",
-      "src": null
+      "src": "/clientes/newnet/img/lista.webp",
+      "alerta": "Só estrutura: não repita \"sem lags e travamentos\"."
     },
     {
       "codigo": "NN6",

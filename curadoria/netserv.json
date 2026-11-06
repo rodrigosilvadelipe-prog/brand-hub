@@ -55,7 +55,15 @@
   ],
   "layouts": {
     "NS1": "jobs/2026-11-brand-kit/assets/referencias/ads-acelerar.png",
+    "NS2": {
+      "origem": "jobs/2026-11-brand-kit/assets/referencias/ads-checklist.png",
+      "alerta": "Só estrutura: a TV mostra pôsteres, proibidos sem exceção autorizada."
+    },
     "NS3": "jobs/2026-11-brand-kit/assets/referencias/feed-crime.png",
+    "NS4": {
+      "origem": "jobs/2026-11-brand-kit/assets/referencias/feed-depoimento.png",
+      "alerta": "Só estrutura: troque o nome e o texto por avaliação real autorizada."
+    },
     "NS5": "jobs/2026-11-brand-kit/assets/referencias/feed-alturas.png",
     "NS6": "curadoria/netserv/ref-ns6.png"
   },

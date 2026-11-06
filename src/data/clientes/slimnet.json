@@ -363,13 +363,15 @@
       "codigo": "SL1",
       "estrutura": "logo no topo, título em caixa alta, card de oferta, apps, botão",
       "quando": "ADS oferta",
-      "src": null
+      "src": "/clientes/slimnet/img/ref-sl1.webp",
+      "alerta": "Só estrutura: esta peça cita Watch, que não entra mais."
     },
     {
       "codigo": "SL2",
       "estrutura": "cidade no título, foto local, velocidade",
       "quando": "ADS regional",
-      "src": null
+      "src": "/clientes/slimnet/img/ads-santarem.webp",
+      "alerta": "Só estrutura: esta peça cita Watch, que não entra mais."
     },
     {
       "codigo": "SL3",
@@ -381,7 +383,8 @@
       "codigo": "SL4",
       "estrutura": "cinema em casa, duelo de apps",
       "quando": "FEED conteúdo",
-      "src": null
+      "src": "/clientes/slimnet/img/feed-duelo.webp",
+      "alerta": "Só estrutura: esta peça cita Watch, que não entra mais."
     },
     {
       "codigo": "SL5",

@@ -85,6 +85,10 @@
     "NN2": "jobs/2026-10-brand-kit/assets/referencias/personagem.png",
     "NN3": "jobs/2026-10-brand-kit/assets/referencias/comparativo.png",
     "NN4": "jobs/2026-10-brand-kit/assets/referencias/saude.png",
+    "NN5": {
+      "origem": "jobs/2026-10-brand-kit/assets/referencias/lista.png",
+      "alerta": "Só estrutura: não repita \"sem lags e travamentos\"."
+    },
     "NN6": "curadoria/newnet/ref-nn6.png"
   },
   "fontes": {

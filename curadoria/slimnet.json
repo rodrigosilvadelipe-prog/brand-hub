@@ -82,7 +82,19 @@
     }
   ],
   "layouts": {
+    "SL1": {
+      "origem": "curadoria/slimnet/ref-sl1.png",
+      "alerta": "Só estrutura: esta peça cita Watch, que não entra mais."
+    },
+    "SL2": {
+      "origem": "jobs/2026-11-brand-kit/assets/referencias/ads-santarem.png",
+      "alerta": "Só estrutura: esta peça cita Watch, que não entra mais."
+    },
     "SL3": "jobs/2026-11-brand-kit/assets/referencias/black-oferta.png",
+    "SL4": {
+      "origem": "jobs/2026-11-brand-kit/assets/referencias/feed-duelo.png",
+      "alerta": "Só estrutura: esta peça cita Watch, que não entra mais."
+    },
     "SL5": "curadoria/slimnet/ref-sl5.png",
     "SL6": "jobs/2026-11-brand-kit/assets/referencias/carrossel-apps.png"
   },

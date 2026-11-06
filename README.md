@@ -30,5 +30,5 @@ npm run build
 - Preço e plano vigente ficam na Central de Clientes. O Hub mostra só modelos de bloco.
 - Fonte fora do Google nunca tem arquivo publicado: só imagem, com "onde encontrar" em `fontes` na curadoria.
 - `regras` na curadoria entram em "Regras que valem para tudo", junto da seção do kit. Só o que vale para qualquer peça da marca.
-- `python scripts/extrair-board.py <slug> 6=elementos 12=planos` extrai páginas do board. Antes de publicar, olhe a imagem: peça ou prancheta com elemento proibido fica fora.
+- `python scripts/extrair-board.py <slug> 6=elementos 12=planos` extrai páginas do board. Antes de publicar, olhe a imagem: peça ou prancheta com elemento proibido fica fora. Exceção em layout: se o designer precisa ver a estrutura, use `{ "origem": "...", "alerta": "Só estrutura: ..." }` em `layouts`.
 - Arquivo acima de 25 MiB fica no Drive, não em `public/`.

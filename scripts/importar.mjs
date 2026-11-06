@@ -186,7 +186,10 @@ for (const [coluna1, estrutura, uso] of tabela(secoes[9])) {
   const m = /^([A-Z]+\d+)(?:\s*·\s*(.+))?$/.exec(coluna1);
   if (!m) continue;
   const codigo = m[1];
-  layouts.push({ codigo, estrutura, quando: uso || m[2] || '', src: cur.layouts?.[codigo] ? await imagem(cur.layouts[codigo], 520) : null });
+  // Na curadoria, o layout é um caminho ou { origem, alerta } para peça que serve só de estrutura.
+  const ref = cur.layouts?.[codigo];
+  const origem = ref?.origem || ref;
+  layouts.push({ codigo, estrutura, quando: uso || m[2] || '', src: origem ? await imagem(origem, 520) : null, ...(ref?.alerta ? { alerta: ref.alerta } : {}) });
 }
 
 // Arquivos para baixar
