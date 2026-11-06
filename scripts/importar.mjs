@@ -35,7 +35,7 @@ function limpar(md) {
   return trocar(md)
     .replace(/[^.\n]*`[^`\n]*(clientes\/|tokens\.json|jobs\/|cliente\.md|MARCA\\)[^`\n]*`[^.\n]*\.?/g, '')
     .replace(/,? (por definição|decisão) do usuário/g, '')
-    .replace(/\s*\(usuário, [\d/]+\)/g, '')
+    .replace(/\s*\((regra do )?usuário, [\d/]+\)/g, '')
     .replace(/\s*\(definid[oa] pelo usuário[^)]*\)/g, '')
     .replace(/\s*\*{0,2}\[(cliente|referência)[^\]]*\]\*{0,2}/g, '')
     .replace(/\[sugerido[^\]]*\]/g, () => pill('sugerido'))
@@ -100,13 +100,15 @@ function corNaFrase(t) {
 const direcaoCss = (d = '') => {
   const css = /CSS (\d+)deg/.exec(d)?.[1];
   if (css) return `${css}deg`;
+  if (/^base esquerda/.test(d)) return '45deg';
+  if (/embaixo .*em cima/.test(d)) return '0deg';
   return /^(canto superior esquerdo|diagonal)/.test(d) ? '135deg' : /^(topo|de cima)/.test(d) ? '180deg' : '90deg';
 };
 const cssGrad = (g) => {
   const paradas = g.paradas.map(([c, p]) => `${c} ${Math.round(p * 100)}%`).join(', ');
   return g.tipo === 'radial' ? `radial-gradient(circle at center, ${paradas})` : `linear-gradient(${direcaoCss(g.direcao)}, ${paradas})`;
 };
-const gradientes = Object.entries(tokens.gradientes || {}).map(([nome, g]) => ({ nome, css: cssGrad(g), direcao: g.direcao }));
+const gradientes = Object.entries(tokens.gradientes || {}).filter(([, g]) => g.paradas).map(([nome, g]) => ({ nome, css: cssGrad(g), direcao: g.direcao }));
 
 function combinacao(t) {
   if (typeof t === 'object') {
@@ -135,11 +137,13 @@ async function imagem(origem, largura) {
 const lista = (itens, l) => Promise.all((itens || []).map(async ({ origem, ...resto }) => ({ ...resto, src: await imagem(origem, l) })));
 
 // Tipografia: fonte do Google carrega no site; as outras só aparecem como imagem gerada por scripts/especime-fontes.py.
+// "Barlow (pesos grossos)" é rótulo do kit: no CSS e no Google Fonts a família é "Barlow".
+const nomeCss = (n) => n.replace(/\s*\(.*\)$/, '');
 const familiaBase = tokens.tipografia.familia;
 const familias = await Promise.all(tokens.tipografia.familias.map(async (f) => {
   const g = /(?:https:\/\/)?fonts\.google\.com\/[^\s),;]+/.exec(f.onde)?.[0] || null;
-  const link = g && (g.startsWith('http') ? g : `https://${g}`);
-  const base = { nome: f.nome, uso: limpar(f.uso), pesos: f.pesos, onde: link ? 'Google Fonts' : limpar(cur.fontes?.[f.nome]?.onde || f.onde).replace(/;.*$/, ''), link };
+  const link = g ? (g.startsWith('http') ? g : `https://${g}`) : /^Google Fonts/.test(f.onde) ? `https://fonts.google.com/specimen/${nomeCss(f.nome).replace(/ /g, '+')}` : null;
+  const base = { nome: f.nome, css: nomeCss(f.nome), uso: limpar(f.uso), pesos: f.pesos, onde: link ? 'Google Fonts' : limpar(cur.fontes?.[f.nome]?.onde || f.onde).replace(/;.*$/, ''), link };
   if (link) return base;
   const a = amostras[f.nome];
   if (!a?.disponivel) {
@@ -148,9 +152,9 @@ const familias = await Promise.all(tokens.tipografia.familias.map(async (f) => {
   }
   return { ...base, disponivel: true, nomeImg: await imagem(a.nome, 620), especime: await imagem(a.especime, 1100) };
 }));
-const principal = familias.find((f) => f.nome === familiaBase) || familias[0];
+const principal = familias.find((f) => f.css === nomeCss(familiaBase)) || familias[0];
 const estilos = await Promise.all(Object.entries(tokens.tipografia.estilos).map(async ([k, e]) => {
-  const familia = e.familia || familiaBase;
+  const familia = nomeCss(e.familia || familiaBase);
   const a = amostras[familia]?.estilos?.[k];
   return {
     papel: NOME_ESTILO[k] || k,
@@ -163,9 +167,9 @@ const estilos = await Promise.all(Object.entries(tokens.tipografia.estilos).map(
     ...(a ? { img: await imagem(a.src, 400), imgAltura: a.altura } : {}),
   };
 }));
-const fontesGoogle = familias.filter((f) => f.link).map((f) => ({
-  nome: f.nome,
-  pesos: [...new Set([400, ...estilos.filter((e) => e.familia === f.nome).map((e) => e.wght)])].sort((a, b) => a - b),
+const fontesGoogle = [...new Set(familias.filter((f) => f.link).map((f) => f.css))].map((nome) => ({
+  nome,
+  pesos: [...new Set([400, ...estilos.filter((e) => e.familia === nome).map((e) => e.wght)])].sort((a, b) => a - b),
 }));
 
 // Logos
@@ -201,7 +205,7 @@ const copiarArquivo = (a) => {
   return { titulo: a.titulo, descricao: a.descricao, href: `${url}/arquivos/${nome}`, tamanho: kb(fs.statSync(destino).size), ext: path.extname(nome).slice(1) };
 };
 const arquivos = [
-  { titulo: 'Todos os logos', descricao: 'SVGs oficiais em um ZIP', href: `${url}/arquivos/${slug}-logos.zip`, tamanho: kb(fs.statSync(path.join(pub, 'arquivos', `${slug}-logos.zip`)).size), ext: 'zip' },
+  { titulo: 'Todos os logos', descricao: `${logos.every((l) => l.src.endsWith('.svg')) ? 'SVGs' : 'Arquivos'} oficiais em um ZIP`, href: `${url}/arquivos/${slug}-logos.zip`, tamanho: kb(fs.statSync(path.join(pub, 'arquivos', `${slug}-logos.zip`)).size), ext: 'zip' },
   ...(cur.arquivos || []).map(copiarArquivo),
 ];
 

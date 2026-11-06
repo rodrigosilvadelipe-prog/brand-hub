@@ -286,6 +286,7 @@
   "familias": [
     {
       "nome": "Poppins",
+      "css": "Poppins",
       "uso": "todos os papéis: títulos, número de oferta, corpo, CTA e legal",
       "pesos": "Thin a Black, com itálicos",
       "onde": "Google Fonts",
@@ -293,6 +294,7 @@
     },
     {
       "nome": "Espiritu Script",
+      "css": "Espiritu Script",
       "uso": "só a palavra jeitim! do slogan, sempre em curvas",
       "pesos": "Regular",
       "onde": "não precisa instalar: use o slogan oficial em curvas, na seção Logo.",

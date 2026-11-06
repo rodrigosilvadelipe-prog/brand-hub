@@ -1,0 +1,80 @@
+{
+  "substituir": {
+    "- **Legal das peças de 2026:** \"*Valor com desconto de R$ 10,00 para pagamento em dia\". [referência]": "- **Legal das peças de 2026:** \"*Valor com desconto para pagamento em dia\". [referência]",
+    "- **Wi-Fi 3D de vidro** (arcos azuis brilhantes, às vezes dentro de bolha) entrando pelos cantos. É imagem 3D: pedir o arquivo-fonte ou gerar com `gerar-imagem-codex.ps1 -Transparente` mediante aprovação. Nunca vetor chapado.": "- **Wi-Fi 3D de vidro** (arcos azuis brilhantes, às vezes dentro de bolha) entrando pelos cantos: é imagem 3D, peça o arquivo-fonte.",
+    "- Arquivos em `Fontes\\Bahnschrift-Font-Family\\`; a fonte já vem instalada no Windows e **está disponível no Figma** (conferido pelo MCP em 21/10/2026, com todos os pesos e larguras). Funciona também no FigCraft.": "- A fonte já vem instalada no Windows e está na pasta da marca, em Fontes."
+  },
+  "faca": [
+    "Fundo azul profundo com cena temática escurecida",
+    "Wi-Fi 3D de vidro entrando pelos cantos",
+    "Botão amarelo em pílula, com texto marinho",
+    "Card de oferta marinho com \"mega\" laranja",
+    "Palavra-chave do título em amarelo"
+  ],
+  "evite": [
+    "Amarelo, laranja, ciano ou turquesa como texto sobre branco",
+    "Branco sobre amarelo",
+    "Superlativo sem prova, como \"a melhor internet da região\"",
+    "Endireitar o itálico do logo ou trocar o azul",
+    "Roteador antigo: use sempre o mais atual"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Azul, com a tarja, em fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/flip-franquias/logo/flip-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Branco",
+      "quando": "Com a tarja, sobre azul escuro",
+      "fundo": "#022462",
+      "arquivo": "curadoria/flip-franquias/logo/flip-logotipo-branco.svg"
+    },
+    {
+      "titulo": "Preto",
+      "quando": "Uma cor, em fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/flip-franquias/logo/flip-logotipo-preto.svg"
+    },
+    {
+      "titulo": "Marca azul",
+      "quando": "Sem tarja, para usos pequenos",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/flip-franquias/logo/flip-marca-azul.svg"
+    },
+    {
+      "titulo": "Marca branca",
+      "quando": "Sem tarja, para usos pequenos",
+      "fundo": "#022462",
+      "arquivo": "curadoria/flip-franquias/logo/flip-marca-branco.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-flip",
+    "logo": "curadoria/flip-franquias/logo/flip-logotipo-branco.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/flip-franquias/ref-elementos.png",
+      "legenda": "Peça de referência: Wi-Fi 3D, card de oferta, combo, selos e faixa de rodapé. Fonte antiga: use Bahnschrift"
+    }
+  ],
+  "layouts": {
+    "FL1": "curadoria/flip-franquias/ref-fl1.png",
+    "FL2": "curadoria/flip-franquias/ref-fl2.png",
+    "FL3": "curadoria/flip-franquias/ref-fl3.png",
+    "FL4": "curadoria/flip-franquias/ref-fl4.png"
+  },
+  "fontes": {
+    "Bahnschrift": {
+      "onde": "já vem instalada no Windows e está na pasta da marca, em Fontes."
+    }
+  },
+  "arquivos": [],
+  "licoes": [
+    "Peças de 2026 usam fonte geométrica e assinatura \"internet veloz\": nas novas, Bahnschrift e os logos oficiais.",
+    "Wi-Fi 5G significa faixa de 5 GHz: escreva Wi-Fi 5 GHz."
+  ],
+  "gosta": "Humor de cultura pop e datas sazonais, cenas escuras com luz azul, Wi-Fi 3D de vidro, botão amarelo e card de oferta marinho com \"mega\" laranja."
+}

@@ -1,0 +1,29 @@
+{
+  "Bahnschrift": {
+    "disponivel": true,
+    "nome": "curadoria/flip-franquias/fonte-bahnschrift-nome.png",
+    "especime": "curadoria/flip-franquias/fonte-bahnschrift-especime.png",
+    "pesos": [
+      "Regular"
+    ],
+    "estilos": {
+      "corpo": {
+        "src": "curadoria/flip-franquias/fonte-bahnschrift-corpo.png",
+        "altura": 18
+      },
+      "legal": {
+        "src": "curadoria/flip-franquias/fonte-bahnschrift-legal.png",
+        "altura": 17
+      }
+    },
+    "faltam": [
+      "numero-oferta",
+      "titulo-1",
+      "titulo-2",
+      "subtitulo",
+      "selo-pill",
+      "cta",
+      "apoio-preco"
+    ]
+  }
+}

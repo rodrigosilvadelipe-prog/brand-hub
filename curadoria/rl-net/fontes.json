@@ -1,0 +1,37 @@
+{
+  "FinalSix": {
+    "disponivel": true,
+    "nome": "curadoria/rl-net/fonte-finalsix-nome.png",
+    "especime": "curadoria/rl-net/fonte-finalsix-especime.png",
+    "pesos": [
+      "Thin",
+      "Hairline",
+      "Light",
+      "Book",
+      "Medium",
+      "Bold",
+      "ExtraBold",
+      "Heavy",
+      "Black"
+    ],
+    "estilos": {
+      "display-data": {
+        "src": "curadoria/rl-net/fonte-finalsix-display-data.png",
+        "altura": 56
+      },
+      "numero-oferta": {
+        "src": "curadoria/rl-net/fonte-finalsix-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/rl-net/fonte-finalsix-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/rl-net/fonte-finalsix-titulo-2.png",
+        "altura": 37
+      }
+    },
+    "faltam": []
+  }
+}

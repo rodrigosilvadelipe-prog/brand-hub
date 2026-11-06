@@ -1,0 +1,362 @@
+{
+  "slug": "hyper-net",
+  "nome": "Hyper Net Telecom",
+  "status": "provisório",
+  "atualizado": "2026-10-21",
+  "fundo": "linear-gradient(180deg, #0080CD 0%, #002251 50%, #000E40 100%)",
+  "capa": {
+    "logo": "/clientes/hyper-net/logo/hypernet-logotipo-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Fundo escuro em gradiente, com linhas de luz ciano",
+    "Título curto em caixa alta, com uma palavra em ciano ou azul Hyper",
+    "Card branco de preço com borda ciano",
+    "Botão em pílula azul",
+    "Trocadilho de esporte, série ou rotina"
+  ],
+  "evite": [
+    "Ciano ou verde-água como texto sobre branco",
+    "Texto fino sobre foto sem véu",
+    "Roxo como cor da marca: é da Watch",
+    "Superlativo sem prova, como \"a melhor fibra óptica da região\"",
+    "Pôster, série ou lutador real sem exceção autorizada"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/hyper-net/logo/hypernet-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Fundo escuro, no topo ou na base das peças",
+      "fundo": "#002251",
+      "src": "/clientes/hyper-net/logo/hypernet-logotipo-negativo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Navy HN",
+      "hex": "#344C72",
+      "rgb": "52 76 114",
+      "papel": "logo, títulos sobre claro",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Navy profundo",
+      "hex": "#263854",
+      "rgb": "38 56 84",
+      "papel": "sombra do logo, textos escuros",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Verde-água",
+      "hex": "#6FB5A9",
+      "rgb": "111 181 169",
+      "papel": "detalhe do logo, faixas do site",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Gelo verde",
+      "hex": "#D0E2DF",
+      "rgb": "208 226 223",
+      "papel": "degradê do detalhe, fundos claros",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Marinho",
+      "hex": "#002251",
+      "rgb": "0 34 81",
+      "papel": "fundos escuros, títulos sobre claro",
+      "proporcao": "30%",
+      "pct": 30,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Noite",
+      "hex": "#000E40",
+      "rgb": "0 14 64",
+      "papel": "base dos fundos",
+      "proporcao": "20%",
+      "pct": 20,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul Hyper",
+      "hex": "#0080CD",
+      "rgb": "0 128 205",
+      "papel": "palavra-chave, botões, preço",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Ciano",
+      "hex": "#00B7EB",
+      "rgb": "0 183 235",
+      "papel": "destaque sobre escuro, linhas de luz",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "títulos sobre escuro, cards",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "fundo-hn",
+      "css": "linear-gradient(180deg, #0080CD 0%, #002251 50%, #000E40 100%)",
+      "direcao": "topo azul hyper para base noite"
+    },
+    {
+      "nome": "logo",
+      "css": "linear-gradient(90deg, #344C72 0%, #263854 100%)",
+      "direcao": "nas letras HN e no detalhe do topo"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco e ciano sobre noite, marinho e o gradiente",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#000E40"
+      },
+      {
+        "texto": "marinho e navy-hn sobre branco",
+        "razao": null,
+        "fg": "#002251",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "azul-hyper sobre branco em negrito (preço do card)",
+        "razao": null,
+        "fg": "#0080CD",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "ciano ou verde-água como texto sobre branco",
+        "razao": null,
+        "fg": "#00B7EB",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "texto fino sobre foto sem véu escuro",
+        "razao": null
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Univia Pro",
+      "css": "Univia Pro",
+      "uso": "títulos, números de oferta, destaques, CTA e selos",
+      "pesos": "Thin, UltraLight, Light, Book, Regular, Medium, Bold, Black, Ultra (com itálicos)",
+      "onde": "fonte comercial, não está na pasta do cliente. Confirme a licença antes de instalar.",
+      "link": null,
+      "disponivel": true,
+      "nomeImg": "/clientes/hyper-net/img/fonte-univia-pro-nome.webp",
+      "especime": "/clientes/hyper-net/img/fonte-univia-pro-especime.webp"
+    },
+    {
+      "nome": "Inter",
+      "css": "Inter",
+      "uso": "subtítulos, corpo, apoio de preço e textos legais",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Inter"
+    }
+  ],
+  "familiaPrincipal": "Univia Pro",
+  "fontesGoogle": [
+    {
+      "nome": "Inter",
+      "pesos": [
+        400,
+        600
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Univia Pro",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 240,
+      "entrelinha": 0.85,
+      "img": "/clientes/hyper-net/img/fonte-univia-pro-numero-oferta.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Univia Pro",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 0.95,
+      "img": "/clientes/hyper-net/img/fonte-univia-pro-titulo-1.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Univia Pro",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 72,
+      "entrelinha": 1,
+      "img": "/clientes/hyper-net/img/fonte-univia-pro-titulo-2.webp",
+      "imgAltura": 42
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Univia Pro",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1,
+      "img": "/clientes/hyper-net/img/fonte-univia-pro-selo-pill.webp",
+      "imgAltura": 19
+    },
+    {
+      "papel": "CTA",
+      "familia": "Univia Pro",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1,
+      "img": "/clientes/hyper-net/img/fonte-univia-pro-cta.webp",
+      "imgAltura": 19
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "HN1",
+      "estrutura": "Oferta de TV ou SVA: título grande em caixa alta com palavra em ciano, subtítulo, card branco de preço, objeto 3D, logo no topo ou na base",
+      "quando": "ADS e feed de produto",
+      "src": "/clientes/hyper-net/img/ref-hn1.webp"
+    },
+    {
+      "codigo": "HN2",
+      "estrutura": "Pessoa + mensagem: foto com luz azul, título em caixa alta, tag de produto, logo no canto",
+      "quando": "engajamento, datas",
+      "src": "/clientes/hyper-net/img/ref-hn2.webp"
+    },
+    {
+      "codigo": "HN3",
+      "estrutura": "Lista de planos: título, linhas de plano móvel com preço, objeto 3D (chip, celular)",
+      "quando": "móvel, combos",
+      "src": "/clientes/hyper-net/img/ref-hn3.webp"
+    },
+    {
+      "codigo": "HN4",
+      "estrutura": "Data comemorativa: fundo claro ou temático, título grande, logo no topo",
+      "quando": "Setembro Amarelo, datas nacionais",
+      "src": "/clientes/hyper-net/img/ref-hn4.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/hyper-net/arquivos/hyper-net-logos.zip",
+      "tamanho": "5 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Peça de referência: linhas de luz, card branco de preço, título em caixa alta e logo",
+      "src": "/clientes/hyper-net/img/ref-elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "",
+  "naoGosta": "",
+  "licoes": [
+    "As peças usam azuis mais saturados que o logo: o navy e o verde-água ficam no logo."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet fibra óptica residencial e empresarial (dedicada, simétrica, IP fixo), TV por assinatura (Power + WBD, com HBO Max e Combate) e telefonia móvel, em Chapecó, Guatambú, Entre Rios e Ipuaçu (SC).</li>\n<li><strong>Assinatura:</strong> &quot;Sua maior conexão.&quot;</li>\n<li><strong>Histórico:</strong> fundada em 2010, referência em tecnologia e internet para Chapecó e região.</li>\n<li><strong>Diferencial real:</strong> suporte exclusivo, estabilidade, internet + TV + móvel no mesmo provedor.</li>\n<li><strong>Personalidade:</strong> moderna, próxima, confiante / nunca: fria, técnica demais, exagerada. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Quem compra:</strong> famílias do oeste catarinense, gamers (&quot;Dê um headshot no lag!&quot;), home office (&quot;Home office sem estresse!&quot;), fãs de esportes e lutas, empresas (link dedicado).</li>\n<li><strong>O que quer:</strong> internet estável para a casa toda, TV e esportes ao vivo, celular junto.</li>\n<li><strong>O que teme:</strong> lag, queda, ficar sem suporte.</li>\n<li><strong>Objeções:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span> (sem briefing).</li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> direto e com energia, títulos curtos em caixa alta com uma palavra de destaque; trocadilhos de esporte, séries e rotina (&quot;Do plot twist ao nocaute.&quot;, &quot;Sua vida não tem modo avião.&quot;).</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> conexão, Hyper, sem travar, controle, maratona, upgrade, no bolso.</li>\n<li><strong>Evitar:</strong> &quot;a melhor fibra óptica da região&quot; (texto do site) e outros superlativos sem prova em ADS.</li>\n<li><strong>Exemplo bom:</strong><blockquote>\n<p>Onde você vê conexão, alguém fez acontecer.</p>\n</blockquote>\n</li>\n<li><strong>Exemplo ruim:</strong><blockquote>\n<p>A internet mais rápida e perfeita de Santa Catarina!</p>\n</blockquote>\n</li>\n<li><strong>CTAs:</strong> &quot;Assine já&quot;, &quot;Solicite já!&quot;, &quot;Consulte a cobertura&quot;, &quot;Fale com a Hyper Net&quot;.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Componentes <code>Logo / Positivo</code> (HN navy com degradê e detalhe verde-água, HYPERNET e TELECOM com ícone de circuito) e <code>Logo / Negativo</code> (branco com detalhe verde claro). SVGs em <code>Logotipo\\SVG\\</code>.</li>\n<li>Versões horizontais (<code>Logo-Hypernet-Azul-S-Slogan*.png</code>, <code>LOGO 1 HN</code>) só em PNG/AI: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> se há SVG.</li>\n<li>Nas peças: logo negativo no topo ou na base, centralizado ou no canto.</li>\n<li>Mínimo 120 px de largura <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>. Proibido: distorcer, recolorir o detalhe verde-água, separar o HN do HYPERNET/TELECOM.</li>\n</ul>\n",
+    "cores": "<p>O logo usa navy e verde-água; as peças de feed usam azuis mais saturados (marinho, azul Hyper, ciano). O roxo dos cards de TV é da marca parceira Watch, não da Hyper Net.</p>\n",
+    "tipografia": "<ul>\n<li>Títulos em caixa alta com uma palavra em ciano ou azul Hyper; preço com &quot;R$&quot; pequeno, número grande e centavos sobrescritos.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo escuro com gradiente</strong> (azul Hyper no topo, marinho, noite na base) e <strong>linhas de luz ciano</strong> curvas. <code>Fundo / Gradiente Fundo hn</code>, <code>Fundo / Brilho</code>.</li>\n<li><strong>Card branco de preço</strong> com borda ciano: nome do pacote, &quot;por apenas&quot;, preço em azul Hyper (<code>Card / Preço</code>).</li>\n<li><strong>Tag em pílula</strong> azul (TV, Telefonia móvel, data) (<code>Tag / Pill</code>).</li>\n<li><strong>Linhas de plano móvel</strong> em cards brancos (Essencial 5GB, Conecta 15GB, Premium 20GB) (<code>Linha / Plano</code>).</li>\n<li><strong>Botão</strong> em pílula azul (<code>Botão / CTA</code>); <strong>selos de SVA</strong> (<code>Selo / App</code>, só logos oficiais); <strong>setas &gt;&gt;&gt; ciano</strong> nos cantos (<code>Detalhe / Setas</code>).</li>\n<li><strong>Objetos 3D</strong> (chip com logo HN, celular, TV, controle, bola-estádio, octógono) e pessoas recortadas sobre céu ou estádio: imagem 3D, pedir arquivo-fonte ou gerar mediante aprovação.</li>\n<li><strong>Mascote:</strong> não tem.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Pessoas reais sorrindo com luz azul (família, maratona de série, estudante, técnico de uniforme); cenários de céu limpo, estádio, octógono.</li>\n<li>Evitar: escritório frio, pôster de filme, série ou luta sem exceção autorizada, rosto real da marca gerado por IA.</li>\n<li>Base de prompt: <em>cinematic photo of a smiling Brazilian person at home at night watching TV, deep blue and cyan lighting (#0080CD, #00B7EB), realistic faces and hands, clean area for text in the upper half, no text, no logos.</em></li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><strong>TV e móvel:</strong> pacotes e preços vigentes ficam na Central de Clientes.</li>\n<li><strong>Planos de internet residenciais:</strong> não aparecem no site salvo nem nas peças: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n<li><strong>Legal:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span>; o exemplo usa &quot;Valores e canais sujeitos a confirmação&quot; como provisório.</li>\n<li><strong>CTA:</strong> WhatsApp (49) 3321-8900 · 0800 642 6300. Botão Meta <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span> (sugerido: WhatsApp).</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Watch (Power Seleção Esportes, Power Elite, WBD)</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>roxo é da Watch, não usar como cor da Hyper</td>\n</tr>\n<tr>\n<td>HBO Max, Combate, ESPN, TNT Sports</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logos oficiais; pôster ou foto de lutador real só com exceção autorizada</td>\n</tr>\n</tbody></table>\n"
+  }
+}

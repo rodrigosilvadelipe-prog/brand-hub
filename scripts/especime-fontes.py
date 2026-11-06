@@ -58,7 +58,10 @@ def achar(familia):
                     continue
                 if not nome.startswith(alvo):
                     continue
-            achados.setdefault(nome[len(alvo):] or 'regular', arq)
+            estilo = nome[len(alvo):]
+            if estilo.isdigit():  # arquivos numerados: o estilo vem do nome interno da fonte
+                estilo = chave(pymupdf.Font(fontfile=str(arq)).name)[len(alvo):]
+            achados.setdefault(estilo or 'regular', arq)
     return achados
 
 
@@ -111,7 +114,7 @@ tokens = json.loads((dir_cliente / 'tokens.json').read_text(encoding='utf-8-sig'
 tipo = tokens['tipografia']
 manifesto = {}
 for f in tipo['familias']:
-    if 'fonts.google.com' in f['onde']:
+    if 'fonts.google.com' in f['onde'] or f['onde'].startswith('Google Fonts'):
         continue
     nome = f['nome']
     base = 'fonte-' + re.sub(r'[^a-z0-9]+', '-', unicodedata.normalize('NFD', nome).encode('ascii', 'ignore').decode().lower()).strip('-')

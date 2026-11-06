@@ -15,3 +15,9 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
 }
+
+/* Tabela longa do kit rola dentro do bloco, sem abrir rolagem lateral na página. */
+.prose table {
+  display: block;
+  overflow-x: auto;
+}

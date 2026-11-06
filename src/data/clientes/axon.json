@@ -1,0 +1,383 @@
+{
+  "slug": "axon",
+  "nome": "Axon Telecom",
+  "status": "provisório",
+  "atualizado": "2026-10-21",
+  "fundo": "linear-gradient(180deg, #171422 0%, #171422 55%, #B41420 100%)",
+  "capa": {
+    "logo": "/clientes/axon/logo/logo-axon-para-fundo-escuro.png",
+    "slogan": null
+  },
+  "faca": [
+    "Fundo grafite com base vermelha e brilho laranja",
+    "Título com destaque dourado",
+    "Card de plano branco, com checks vermelhos",
+    "Botão vermelho ou dourado",
+    "Faixa vermelha de contato"
+  ],
+  "evite": [
+    "Amarelo, dourado ou laranja como texto sobre branco",
+    "Branco sobre amarelo",
+    "Superlativos do site em ADS, como \"a melhor internet\"",
+    "Recolorir os arcos do logo",
+    "Netflix sem autorização de marca"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro. Só PNG, até cerca de 400 px",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/axon/logo/logo-axon-para-fundo-claro.png"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Fundo escuro. Só PNG, até cerca de 400 px",
+      "fundo": "#171422",
+      "src": "/clientes/axon/logo/logo-axon-para-fundo-escuro.png"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Vermelho Axon",
+      "hex": "#D6111E",
+      "rgb": "214 17 30",
+      "papel": "botões, faixa de contato, destaques",
+      "proporcao": "25%",
+      "pct": 25,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Vermelho escuro",
+      "hex": "#B41420",
+      "rgb": "180 20 32",
+      "papel": "hover, base do gradiente",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Vermelho sinal",
+      "hex": "#C73336",
+      "rgb": "199 51 54",
+      "papel": "arco vermelho",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja sinal",
+      "hex": "#F58634",
+      "rgb": "245 134 52",
+      "papel": "arco laranja, brilho",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Amarelo sinal",
+      "hex": "#FFF212",
+      "rgb": "255 242 18",
+      "papel": "arco amarelo, destaques",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Dourado",
+      "hex": "#DDC76D",
+      "rgb": "221 199 109",
+      "papel": "títulos de destaque, botão secundário",
+      "proporcao": "8%",
+      "pct": 8,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Grafite noite",
+      "hex": "#171422",
+      "rgb": "23 20 34",
+      "papel": "fundos escuros",
+      "proporcao": "35%",
+      "pct": 35,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Cinza Axon",
+      "hex": "#A8AAAD",
+      "rgb": "168 170 173",
+      "papel": "letras do logo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Cinza escuro",
+      "hex": "#848688",
+      "rgb": "132 134 136",
+      "papel": "contorno e TELECOM",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Preto",
+      "hex": "#000000",
+      "rgb": "0 0 0",
+      "papel": "textos",
+      "proporcao": "7%",
+      "pct": 7,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "textos sobre escuro, cards",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "fundo-axon",
+      "css": "linear-gradient(180deg, #171422 0%, #171422 55%, #B41420 100%)",
+      "direcao": "topo grafite para base vermelho escuro"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco sobre vermelho-axon, vermelho-escuro e grafite-noite",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#D6111E"
+      },
+      {
+        "texto": "dourado e amarelo-sinal sobre grafite-noite",
+        "razao": null,
+        "fg": "#DDC76D",
+        "bg": "#171422"
+      },
+      {
+        "texto": "preto e grafite-noite sobre branco",
+        "razao": null,
+        "fg": "#000000",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "vermelho-axon sobre branco em negrito",
+        "razao": null,
+        "fg": "#D6111E",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "amarelo-sinal, dourado ou laranja-sinal como texto sobre branco",
+        "razao": null,
+        "fg": "#FFF212",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "branco sobre amarelo-sinal",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#FFF212"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Poppins",
+      "css": "Poppins",
+      "uso": "títulos, números de oferta, destaques, CTA e selos",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Poppins"
+    },
+    {
+      "nome": "Inter",
+      "css": "Inter",
+      "uso": "subtítulos, corpo, apoio de preço e textos legais",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Inter"
+    }
+  ],
+  "familiaPrincipal": "Poppins",
+  "fontesGoogle": [
+    {
+      "nome": "Poppins",
+      "pesos": [
+        400,
+        700,
+        800
+      ]
+    },
+    {
+      "nome": "Inter",
+      "pesos": [
+        400,
+        600
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Poppins",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 240,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Poppins",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Poppins",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 72,
+      "entrelinha": 1.05
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Poppins",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Poppins",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "AX1",
+      "estrutura": "Oferta: fundo grafite com brilho, logo no topo, título com destaque dourado, card de plano, legal, faixa de contato",
+      "quando": "ADS e feed de oferta",
+      "src": "/clientes/axon/img/ref-ax1.webp",
+      "alerta": "Só estrutura: o fundo azul está fora da paleta oficial, a confirmar."
+    },
+    {
+      "codigo": "AX2",
+      "estrutura": "Vitrine: 3 cards de plano lado a lado, o do meio com selo POPULAR",
+      "quando": "planos, carrossel",
+      "src": "/clientes/axon/img/ref-ax2.webp",
+      "alerta": "Só estrutura: sem exemplo de vitrine com 3 cards, e o fundo azul está fora da paleta."
+    },
+    {
+      "codigo": "AX3",
+      "estrutura": "Pessoa + mensagem: foto com véu escuro, título grande, botão vermelho",
+      "quando": "engajamento",
+      "src": "/clientes/axon/img/ref-ax3.webp",
+      "alerta": "Só estrutura: o fundo azul está fora da paleta oficial, a confirmar."
+    },
+    {
+      "codigo": "AX4",
+      "estrutura": "Data comemorativa: fundo claro ou temático, título grande, logo no topo",
+      "quando": "datas",
+      "src": "/clientes/axon/img/ref-ax4.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "Arquivos oficiais em um ZIP",
+      "href": "/clientes/axon/arquivos/axon-logos.zip",
+      "tamanho": "50 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Peça de referência: Wi-Fi 3D, card de mensagem, oferta e ícones de benefício. Fundo azul a confirmar",
+      "src": "/clientes/axon/img/ref-elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "",
+  "naoGosta": "",
+  "licoes": [
+    "O logo só existe em PNG: peça o vetor ao cliente e use até cerca de 400 px."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet fibra óptica residencial com Wi-Fi 6 e Wi-Fi Mesh para toda a casa, em Saquarema (Bacaxá) e Região dos Lagos (RJ).</li>\n<li><strong>Promessa:</strong> &quot;Ultra velocidade. Internet de qualidade.&quot; / &quot;Wi-Fi Mesh para toda a casa.&quot;</li>\n<li><strong>Diferencial real:</strong> instalação grátis (plano fidelidade), internet ilimitada, Wi-Fi 6 em comodato, suporte todos os dias, técnicos caprichosos (depoimento no site).</li>\n<li><strong>Personalidade:</strong> próxima, caprichosa, animada / nunca: fria, técnica demais, exagerada. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Quem compra:</strong> famílias de Saquarema e região, fãs de séries e filmes, gamers (&quot;Games online? Temos a conexão ideal&quot;).</li>\n<li><strong>O que quer:</strong> Wi-Fi que pega na casa toda, preço justo, técnico cuidadoso.</li>\n<li><strong>Objeções:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span> (sem briefing).</li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> direto e animado, com humor nas peças (&quot;Pare de sofrer com internet ruim&quot;, &quot;Chega de ver a tela do dinossauro toda vez!&quot;).</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> ultra velocidade, conexão, casa toda, instalação grátis, Wi-Fi 6, sem lags.</li>\n<li><strong>Evitar:</strong> os superlativos do site (&quot;as melhores opções&quot;, &quot;a melhor internet&quot;, &quot;o melhor cabeamento da região&quot;) em ADS; Netflix só com autorização de marca.</li>\n<li><strong>Exemplo bom:</strong><blockquote>\n<p>Wi-Fi Mesh para toda a casa. Agora você tem conexão em toda a sua casa.</p>\n</blockquote>\n</li>\n<li><strong>Exemplo ruim:</strong><blockquote>\n<p>A melhor internet do Rio de Janeiro, sem dúvida nenhuma!</p>\n</blockquote>\n</li>\n<li><strong>CTAs:</strong> &quot;Assinar agora&quot;, &quot;Contratar agora&quot;, &quot;Saiba mais&quot;, &quot;Consulte a viabilidade na sua área&quot;, &quot;Contrate Axon e seja mais feliz!&quot;.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Componentes <code>Logo / Positivo</code> (fundo claro) e <code>Logo / Negativo</code> (fundo escuro): letras AXON em cinza metálico, sinal com três arcos (amarelo, laranja, vermelho) no lugar do O, TELECOM embaixo.</li>\n<li><strong>Só existe em PNG 449 x 116</strong> (pasta e site). No Figma são componentes de imagem: usar até ~400 px de largura. <strong>Pedir o vetor (SVG, AI ou PDF) ao cliente.</strong></li>\n<li>Mínimo 140 px de largura <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>. Proibido: distorcer, recolorir os arcos, aplicar sobre foto sem contraste.</li>\n</ul>\n",
+    "cores": "<p>Extraídas do site e do logo.</p>\n<p><strong>Atenção:</strong> as peças de setembro e outubro usam fundos azuis e um amarelo que não estão no site nem no logo. Ficaram fora da paleta oficial <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</p>\n",
+    "tipografia": "<ul>\n<li>O site usa Roboto: peças novas seguem Poppins e Inter.\n Preço: &quot;R$&quot; pequeno, número grande, centavos sobrescritos e &quot;/ Mês&quot;.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Card de plano</strong> branco (site): velocidade em vermelho, preço, lista com checks vermelhos, botão vermelho (<code>Card / Plano</code>, <code>Item / Benefício</code>).</li>\n<li><strong>Selo POPULAR</strong> no plano mais vendido (<code>Selo / Popular</code>).</li>\n<li><strong>Botões</strong> vermelho (<code>Botão / CTA</code>) e dourado (<code>Botão / Secundário</code>), como no site.</li>\n<li><strong>Faixa vermelha de contato</strong>: viabilidade, central e WhatsApp (<code>Faixa / Contato</code>).</li>\n<li><strong>Faixa com as 3 cores do sinal</strong> do logo (<code>Faixa / Sinal</code>) <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>: detalhe gráfico, não substitui o logo.</li>\n<li><strong>Fundo grafite</strong> com base vermelha e brilho laranja (<code>Fundo / Gradiente Fundo axon</code>, <code>Fundo / Brilho</code>) <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>.</li>\n<li>Nas peças aprovadas: Wi-Fi 3D amarelo nos cantos, cards brancos de interface (checklist), ícones de benefício. <strong>Mascote:</strong> não tem.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Famílias reais em casa com notebook e TV, pessoas sorrindo, técnico de uniforme; cenas de Saquarema e da Região dos Lagos em posts locais.</li>\n<li>Evitar: escritório frio, cabos como protagonistas, pôster de filme ou série sem exceção autorizada, rosto real da marca gerado por IA.</li>\n<li>Base de prompt: <em>warm photo of a smiling Brazilian family at home in Saquarema using a laptop and TV, soft red and gold accents (#D6111E, #DDC76D), realistic faces and hands, clean area for text in the upper third, no text, no logos.</em></li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><strong>Planos e preços vigentes</strong> ficam na Central de Clientes.</li>\n<li><strong>Legal do site:</strong> &quot;*Instalação no plano fidelidade · *Roteador GRÁTIS em comodato · *Para pagamento até a data de vencimento&quot;.</li>\n<li><strong>CTA:</strong> WhatsApp (22) 99212-4614; central (22) 3199-9928. Botão Meta <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span> (sugerido: WhatsApp).</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Netflix (citado no site)</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só com autorização; não usar pôster</td>\n</tr>\n</tbody></table>\n"
+  }
+}

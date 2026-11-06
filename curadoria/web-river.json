@@ -1,0 +1,57 @@
+{
+  "substituir": {
+    "- **Planos (site, 27/10/2026):** WR Fibra Pop 500 mega R$ 99,90/mês (Wi-Fi 6 Huawei, Clube do Livro, Web River TV) · WR Cinema 700 mega R$ 129,90/mês (+ Web River Stream) · WR Black 900 mega R$ 169,90/mês (Wi-Fi Mesh 2 pontos, suporte rápido, todos os apps). [cliente]": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- **Gamer:** WR Gamer Start 600 mega R$ 119,90 com pontualidade (preço padrão R$ 129,90), rota gaming e upload 50%. [referência, confirmar vigência]": "- **Gamer:** rota gaming e upload 50%, com preço na Central de Clientes.",
+    "- Três peças da pasta têm nome \"ChatGPT Image\" (geradas por IA): ficaram fora das referências aprovadas até confirmar. Imagem por IA só com prompt registrado e nunca com pessoas reais da marca.": "- Imagem por IA só com prompt registrado e nunca com pessoas reais da marca.",
+    "Definidas pelo usuário em 27/10/2026. ": ""
+  },
+  "faca": [
+    "Fundo azul profundo com luz ciano atrás do produto",
+    "Wi-Fi em neon ciano",
+    "Título em 2 linhas, com a 2ª em ciano",
+    "Card de vidro com velocidade gigante e MEGA em ciano",
+    "Humor de metáfora visual, com a cena ocupando a peça"
+  ],
+  "evite": [
+    "Ciano como texto sobre branco",
+    "Verde fora do CTA",
+    "Azul river em texto pequeno sobre azul-noite",
+    "Superlativo sem comprovação, como \"a internet mais veloz da região\"",
+    "Logo com sombra ou contorno, ou \"telecom\" separado"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/web-river/logo/web-river-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Fundo azul",
+      "fundo": "#001A47",
+      "arquivo": "curadoria/web-river/logo/web-river-logotipo-horizontal-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-noite",
+    "logo": "curadoria/web-river/logo/web-river-logotipo-horizontal-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/web-river/ref-elementos.png",
+      "legenda": "Peça de referência: Wi-Fi neon, card de vidro, pills de SVA, logo e CTA verde"
+    }
+  ],
+  "layouts": {
+    "WR1": "curadoria/web-river/ref-wr1.png",
+    "WR2": "curadoria/web-river/ref-wr2.png",
+    "WR3": "curadoria/web-river/ref-wr3.png",
+    "WR4": "curadoria/web-river/ref-wr4.png",
+    "WR5": "curadoria/web-river/ref-wr5.png"
+  },
+  "arquivos": [],
+  "licoes": [
+    "Em Stories, mão, punho e efeitos também ficam dentro da área segura."
+  ]
+}

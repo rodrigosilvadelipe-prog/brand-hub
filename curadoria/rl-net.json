@@ -1,0 +1,82 @@
+{
+  "substituir": {
+    "- **Oferta:** \"Planos com até 4GB · A partir de R$ 99,90/mês\" (card azul) + \"Os melhores streamings!\" com os SVAs.": "- **Oferta:** \"Planos com até\" + \"A partir de\", com o valor vigente (card azul), + \"Os melhores streamings!\" com os SVAs.",
+    "- **Planos (site, 28/10/2026), Internet + RL Play:** 600 mega R$ 99,90 (R$ 109,90 após o vencimento) · 700 mega R$ 119,90 (R$ 129,90) · 800 mega R$ 129,90 (R$ 139,90) · 900 mega R$ 149,90 (R$ 159,90) · 2G XGSPON R$ 349,90 · 3G R$ 499,90 · 4G R$ 599,90. Combo com telefone: 600 mega R$ 130,80 a 900 mega R$ 180,80. [cliente]": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- **Nos ADS:** \"Planos com até 4GB · A partir de R$ 99,90/mês\".": "- **Nos ADS:** \"Planos com até\" + \"A partir de\", com o valor vigente.",
+    "\"A partir de: R$ 99,90/mês\"": "\"A partir de\"",
+    "Definidas pelo usuário em 28/10/2026. ": "",
+    "- Uma peça do FEED tem nome \"ChatGPT Image\": imagem por IA só com prompt registrado e nunca inventando a equipe real da RL.": "- Imagem por IA só com prompt registrado e nunca inventando a equipe real da RL.",
+    " Nova praça: Campinas/SP, Jardim Cristina (seção 14).": ""
+  },
+  "faca": [
+    "Gradiente azul com onda amarela e retícula de pontos",
+    "Título que termina em ponto, com 1 ou 2 palavras em amarelo",
+    "Selo de melhor provedor e faixa de estrelas nos ADS",
+    "Card azul de oferta e CTA amarelo em pílula",
+    "Logo branco com \"Você sempre conectado!\""
+  ],
+  "evite": [
+    "Amarelo como texto sobre branco",
+    "Logo em amarelo ou sem o slogan",
+    "Cores do logo positivo fora dele",
+    "Pressão de venda no feed",
+    "\"A melhor internet do Brasil\" e promessa sem prova"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Só sobre fundo branco",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/rl-net/logo/rl-net-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Branco, padrão das peças",
+      "fundo": "#003492",
+      "arquivo": "curadoria/rl-net/logo/rl-net-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Só sobre fundo branco",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/rl-net/logo/rl-net-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Branco, sobre os azuis",
+      "fundo": "#003492",
+      "arquivo": "curadoria/rl-net/logo/rl-net-logotipo-vertical-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-rl",
+    "logo": "curadoria/rl-net/logo/rl-net-logotipo-horizontal-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/rl-net/ref-elementos.png",
+      "legenda": "Peça de referência: selo, estrelas, card azul, SVAs, onda amarela e CTA"
+    }
+  ],
+  "layouts": {
+    "RA1": "curadoria/rl-net/ref-ra1.png",
+    "RA2": "curadoria/rl-net/ref-ra2.png",
+    "RA3": "curadoria/rl-net/ref-ra3.png",
+    "RA4": "curadoria/rl-net/ref-ra4.png",
+    "RA5": "curadoria/rl-net/ref-ra5.png",
+    "RF1": "curadoria/rl-net/ref-rf1.png",
+    "RF2": "curadoria/rl-net/ref-rf2.png",
+    "RF3": "curadoria/rl-net/ref-rf3.png",
+    "RF4": "curadoria/rl-net/ref-rf4.png",
+    "RF5": "curadoria/rl-net/ref-rf5.png"
+  },
+  "fontes": {
+    "FinalSix": {
+      "onde": "pasta da marca do cliente, em Fontes/Final.Six."
+    }
+  },
+  "arquivos": [],
+  "licoes": [
+    "Peça para divulgação interna vai sem mídia de contato."
+  ]
+}

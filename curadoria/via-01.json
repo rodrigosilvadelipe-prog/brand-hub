@@ -1,0 +1,90 @@
+{
+  "substituir": {
+    ", cerca de 2.300 assinantes": "",
+    "- **Concorrentes:** Eletrosat, iConecta (migrando, oportunidade) e China. [Central]": "",
+    "- **Planos (site e Central):** Básico 400 Mega R$ 79,90 · Família 600 Mega + ponto Mesh R$ 99,90 · **Gamer 800 Mega + IP fixo/rota prioritária + suporte prioritário R$ 119,90 (recomendado)** · Full 1 Giga + atendimento VIP R$ 159,90. Todos: 100% fibra, Wi-Fi 6, instalação grátis, sem fidelidade, pós-pago.": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- **Black Friday:** 600 Mega por R$ 49,90 nos 3 primeiros meses (brinde a definir). Histórico: 50% nos 3 primeiros meses foi a campanha que mais deu certo.": "",
+    "- **Por cidade:** Ouro Fino: 600 Mega + Disney+ R$ 49,90 nos 3 primeiros meses, depois R$ 99,90 (Disney+ por 3 meses) · Inconfidentes: 600 Mega + Disney+ R$ 99,90 (Disney+ por 12 meses) · Borda da Mata: tabela normal.": "",
+    "- **Mês das Crianças:** sorteio de 1 bicicleta ou vale-compras de R$ 500; contratou = 1 cupom, indicou um amigo que contratou = +1 cupom; festa no sábado 31/10 na loja de Ouro Fino a partir das 9h30, **sorteio às 11h30**; \"Consulte o regulamento\"; spots na Rádio Difusora e vídeos com a Bárbara.": "",
+    " (decisão de 28/10/2026)": ""
+  },
+  "faca": [
+    "Fundo roxo vibrante com luzes lilás",
+    "Assinatura logo + selo em toda peça",
+    "CTA no pincel laranja",
+    "Card branco de oferta",
+    "Manrope nos títulos e Poppins nos textos"
+  ],
+  "evite": [
+    "Laranja fora do CTA e do selo",
+    "Amarelo e vermelho como cor de peça",
+    "Redesenhar o selo oficial",
+    "Recolorir o logo ou separar o \"1\"",
+    "Escrever VIA01 sem espaço"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro, em roxo #5B1AA8",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/via-01/logo/via-01-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Branco, padrão das peças",
+      "fundo": "#9D27EB",
+      "arquivo": "curadoria/via-01/logo/via-01-logotipo-negativo.svg"
+    },
+    {
+      "titulo": "Selo A Conexão + Estável",
+      "quando": "Junto do logo, em toda peça. Texto em curvas",
+      "fundo": "#9D27EB",
+      "arquivo": "curadoria/via-01/logo/via-01-selo-conexao-estavel.svg"
+    },
+    {
+      "titulo": "Pincel do CTA",
+      "quando": "Fundo do botão, em laranja",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/via-01/logo/via-01-fundo-cta.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "roxo",
+    "logo": "curadoria/via-01/logo/via-01-logotipo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/via-01/ref-elementos.png",
+      "legenda": "Peça de referência: fundo roxo com luz, card de oferta, apps, assinatura e CTA no pincel"
+    }
+  ],
+  "layouts": {
+    "VA1": "curadoria/via-01/ref-va1.png",
+    "VA2": {
+      "origem": "curadoria/via-01/ref-va2.png",
+      "alerta": "Só estrutura: nas novas peças, laranja só no CTA e no selo."
+    },
+    "VA3": "curadoria/via-01/ref-va3.png",
+    "VA4": "curadoria/via-01/ref-va4.png",
+    "VF1": "curadoria/via-01/ref-vf1.png",
+    "VF2": {
+      "origem": "curadoria/via-01/ref-vf2.png",
+      "alerta": "Só estrutura: nas novas peças, laranja só no CTA e no selo."
+    },
+    "VF3": "curadoria/via-01/ref-vf3.png",
+    "VF4": "curadoria/via-01/ref-vf4.png",
+    "VF5": "curadoria/via-01/ref-vf5.png",
+    "VC1": {
+      "origem": "curadoria/via-01/ref-vc1.png",
+      "alerta": "Só estrutura: nas novas peças, laranja só no CTA e no selo."
+    },
+    "VC2": "curadoria/via-01/ref-vc2.png"
+  },
+  "fontes": {},
+  "arquivos": [],
+  "licoes": [
+    "Peças antigas têm laranja em palavras e pills: a partir do kit, só no CTA.",
+    "Use o selo pronto, sempre em curvas: não redesenhe."
+  ],
+  "gosta": "Números do card com kerning fechado e mais peso, e composição com respiro."
+}

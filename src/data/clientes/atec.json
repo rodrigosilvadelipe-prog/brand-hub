@@ -1,0 +1,353 @@
+{
+  "slug": "atec",
+  "nome": "ATEC",
+  "status": "provisório",
+  "atualizado": "2026-10-21",
+  "fundo": "linear-gradient(180deg, #1755A1 0%, #0B3C77 60%, #033075 100%)",
+  "capa": {
+    "logo": "/clientes/atec/logo/atec-logo-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Fundo azul com textura de ondas em zigue-zague",
+    "Ondas de sinal saindo do logo ou de ícones",
+    "Mascote robô em cena com pessoas e cenários da região",
+    "Número 3D do plano de destaque",
+    "Faixa de contato com QR code"
+  ],
+  "evite": [
+    "Ciano em texto corrido sobre branco",
+    "Ciano sobre azul-royal",
+    "Texto fino sobre a textura",
+    "Superlativo sem prova, como \"a melhor internet\"",
+    "Tirar o \"INTERNET.COM.BR\" do logo"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Grafite e ciano, fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/atec/logo/atec-logo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Branco e ciano, fundo escuro",
+      "fundo": "#033075",
+      "src": "/clientes/atec/logo/atec-logo-negativo.svg"
+    },
+    {
+      "titulo": "Sinal positivo",
+      "quando": "Arcos de sinal, fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/atec/logo/atec-sinal-positivo.svg"
+    },
+    {
+      "titulo": "Sinal negativo",
+      "quando": "Arcos de sinal, fundo escuro",
+      "fundo": "#033075",
+      "src": "/clientes/atec/logo/atec-sinal-negativo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Azul-noite",
+      "hex": "#033075",
+      "rgb": "3 48 117",
+      "papel": "painéis e faixa de contato, base do gradiente",
+      "proporcao": "30%",
+      "pct": 30,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Ciano ATEC",
+      "hex": "#00AEEF",
+      "rgb": "0 174 239",
+      "papel": "logo, palavra-chave, sinal, ícones",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Grafite ATEC",
+      "hex": "#231F20",
+      "rgb": "35 31 32",
+      "papel": "logo positivo, títulos sobre claro",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul-royal",
+      "hex": "#1755A1",
+      "rgb": "23 85 161",
+      "papel": "textura de ondas, topo do gradiente, cards de preço",
+      "proporcao": "25%",
+      "pct": 25,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul-profundo",
+      "hex": "#0B3C77",
+      "rgb": "11 60 119",
+      "papel": "meio do gradiente",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Gelo",
+      "hex": "#EAF2FC",
+      "rgb": "234 242 252",
+      "papel": "cards de apps e serviços",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "fundo de impressos, texto sobre azul",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "painel-atec",
+      "css": "linear-gradient(180deg, #1755A1 0%, #0B3C77 60%, #033075 100%)",
+      "direcao": "topo para base"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco sobre azul-noite, azul-profundo, azul-royal e o gradiente",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#033075"
+      },
+      {
+        "texto": "grafite-atec sobre branco e gelo",
+        "razao": null,
+        "fg": "#231F20",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "ciano-atec sobre azul-noite (4,8:1) em qualquer texto negrito",
+        "razao": null,
+        "fg": "#00AEEF",
+        "bg": "#033075"
+      },
+      {
+        "texto": "ciano-atec sobre branco só em palavra de destaque ExtraBold >= 60 px (2,4:1, abaixo de AA)",
+        "razao": null,
+        "fg": "#00AEEF",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "ciano-atec em texto corrido ou fino sobre branco (contraste baixo)",
+        "razao": null,
+        "fg": "#00AEEF",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "ciano-atec sobre azul-royal",
+        "razao": null,
+        "fg": "#00AEEF",
+        "bg": "#1755A1"
+      },
+      {
+        "texto": "texto fino sobre a textura de ondas",
+        "razao": null
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Montserrat",
+      "css": "Montserrat",
+      "uso": "todos os estilos ATEC / * (preços, textos, rótulos, contatos)",
+      "pesos": "Medium, SemiBold, Bold, ExtraBold",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Montserrat"
+    },
+    {
+      "nome": "CorsairPE",
+      "css": "CorsairPE",
+      "uso": "títulos condensados em caixa alta das peças aprovadas",
+      "pesos": "Regular",
+      "onde": "não está na pasta do cliente: aparece só embutida nas peças aprovadas <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.",
+      "link": null,
+      "disponivel": false
+    }
+  ],
+  "familiaPrincipal": "Montserrat",
+  "fontesGoogle": [
+    {
+      "nome": "Montserrat",
+      "pesos": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 240,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 0.95
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 72,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 36,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Montserrat",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Montserrat",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "familia": "Montserrat",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "ATEC1",
+      "estrutura": "Oferta herói: título condensado no topo, foto com pessoa + mascote em card arredondado, número 3D do plano, preço, grade de apps sobre o azul, faixa com QR e logo",
+      "quando": "oferta principal, ADS e flyer",
+      "src": "/clientes/atec/img/ref-flyer.webp",
+      "alerta": "Só estrutura: preço antigo e erro \"Adcione\" na peça. Use \"Adicione\"."
+    },
+    {
+      "codigo": "ATEC2",
+      "estrutura": "Vitrine de planos: logo + tagline no topo, 2 cards de preço lado a lado, 4 cards de linhas com mascote, faixa de contato",
+      "quando": "portfólio, impressos, carrossel",
+      "src": "/clientes/atec/img/ref-flyer.webp",
+      "alerta": "Só estrutura: preço antigo e erro \"Adcione\" na peça. Use \"Adicione\"."
+    },
+    {
+      "codigo": "ATEC3",
+      "estrutura": "Veicular/marca: fundo branco, ondas ciano na base, mascote em ação, slogan curto, QR + \"assine agora\"",
+      "quando": "baú, adesivos, PDV",
+      "src": "/clientes/atec/img/ref-bau.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/atec/arquivos/atec-logos.zip",
+      "tamanho": "11 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Mascote em pose aprovada: moto",
+      "src": "/clientes/atec/img/mascote-moto-v1.webp"
+    },
+    {
+      "legenda": "Mascote em pose aprovada: scooter",
+      "src": "/clientes/atec/img/mascote-moto-v2.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "Mascote robô em cena com pessoas e cenários regionais, número 3D do plano, grade de apps e QR code grande.",
+  "naoGosta": "",
+  "licoes": [
+    "No impresso, ciano é C100 puro e grafite é K100.",
+    "Número 3D nunca é recriado à mão em texto plano."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet e segurança para casa e empresa. Linhas: ATEC Rural, ATEC Empresarial, ATEC 5G e ATEC Protege (câmeras).</li>\n<li><strong>Promessa (1 frase):</strong> &quot;Conexões que aproximam pessoas.&quot;. Variação no baú: &quot;Nossa melhor conexão é você.&quot;</li>\n<li><strong>Diferencial real:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span> (sem briefing; o flyer destaca 1 Giga e os apps inclusos no plano).</li>\n<li><strong>Personalidade:</strong> próxima, alegre, regional / nunca: fria, técnica, distante. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Quem compra:</strong> famílias e pequenas empresas da região do DDD 53 (sul do RS); também área rural. Cidades atendidas: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span>. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n<li><strong>O que quer:</strong> internet rápida para a casa toda e streaming incluso no plano.</li>\n<li><strong>O que teme:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span></li>\n<li><strong>Como fala:</strong> informal e caloroso; identidade gaúcha aparece no mascote (boina, lenço, chimarrão).</li>\n<li><strong>Objeções comuns:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span></li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> caloroso e simples, com foco em pessoas antes da tecnologia.</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, velocidade como &quot;até X Mega/Giga&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> conexão, aproximar, pessoas, você, contrate hoje, escaneie.</li>\n<li><strong>Palavras que evitamos:</strong> superlativos sem prova (&quot;a melhor internet&quot;), jargão técnico. &quot;Melhores apps&quot; aparece no flyer: manter só como opinião sobre apps, nunca sobre a internet. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n<li><strong>Exemplo de copy boa:</strong><blockquote>\n<p>Conexões que aproximam pessoas! Adicione os melhores apps ao seu plano. Escaneie e contrate hoje mesmo!</p>\n</blockquote>\n</li>\n<li><strong>Exemplo de copy ruim (o que não queremos):</strong><blockquote>\n<p>A internet mais rápida do RS, sem igual na região!\n(superlativo sem prova: risco de reprovação no Meta)</p>\n</blockquote>\n</li>\n<li><strong>Atenção:</strong> o flyer aprovado tem &quot;Adcione&quot; (erro de digitação). Usar &quot;Adicione&quot;.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Componentes: <code>Logo / Positivo</code> (grafite + ciano, fundo claro) e <code>Logo / Negativo</code> (branco + ciano, fundo escuro).</li>\n<li>O &quot;A&quot; ciano com arcos de sinal e as órbitas é o símbolo; &quot;INTERNET.COM.BR&quot; em itálico fino faz parte do logo (&quot;.COM.BR&quot; em ciano).</li>\n<li><strong>Ícone isolado:</strong> não existe arquivo. <code>Ícone / …</code> fica pendente <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n<li>Área de proteção: altura do &quot;E&quot; ao redor <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>. Mínimo 140 px de largura no digital (o &quot;INTERNET.COM.BR&quot; fica ilegível abaixo disso). <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n<li>Proibido: distorcer, trocar o ciano, tirar o &quot;INTERNET.COM.BR&quot;, aplicar sobre foto sem área limpa, contornar. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n<li>No impresso: ciano = C100 puro, grafite = K100.</li>\n</ul>\n",
+    "cores": "<p>Nas peças aparece também um azul-claro nos cards de preço (600/800 Mega) e um amarelo-creme no preço 3D do 1 Giga: não amostrados no vetor, <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> antes de virar variável.</p>\n<p><strong>Combinações aprovadas:</strong> branco sobre azul-noite, azul-profundo, azul-royal e gradiente · grafite sobre branco e gelo · ciano sobre azul-noite em negrito.</p>\n",
+    "tipografia": "<ul>\n<li><p><strong>Montserrat</strong> (Medium, SemiBold, Bold, ExtraBold) para preços, textos, rótulos e contatos. Está no Google Fonts: disponível no Figma e embutida no FigCraft.</p>\n</li>\n<li><p><strong>CorsairPE</strong> para títulos condensados em caixa alta (&quot;CONEXÕES QUE APROXIMAM PESSOAS!&quot;, &quot;NOSSA MELHOR CONEXÃO É VOCÊ&quot;). Não há arquivo na pasta: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> arquivo e licença. Enquanto isso, os estilos de título usam Montserrat ExtraBold; quando a CorsairPE for enviada ao Figma, troque só <code>ATEC / Título 1</code> e <code>Título 2</code>.</p>\n</li>\n<li><p>Preço: &quot;R$&quot; menor, número grande ExtraBold, centavos sobrescritos menores, &quot;/mês&quot; leve. Velocidade em número + &quot;mega&quot; minúsculo ao lado.</p>\n</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo azul com textura de ondas em zigue-zague</strong> (azul-royal → azul-noite). Componente <code>Fundo / Gradiente Painel atec</code> (gradiente) + imagem <code>atec-bg-texture-v1.png</code> como textura.</li>\n<li><strong>Ondas de sinal</strong> (3 arcos) em ciano e grafite, saindo do logo ou de ícones (celular, WhatsApp).</li>\n<li><strong>Card de preço em duas camadas:</strong> topo azul-noite com a velocidade, base azul-claro com o preço; cantos arredondados.</li>\n<li><strong>Cards de foto arredondados</strong> com rótulo em aba &quot;ATEC&quot; + nome da linha (Rural, Empresarial, 5G, Protege).</li>\n<li><strong>Grade de apps</strong> em cards gelo/brancos com sombra suave sobre o azul.</li>\n<li><strong>Faixa de contato</strong> azul-noite com QR code, ícones de WhatsApp, site e Instagram.</li>\n<li><strong>Número 3D</strong> do plano de destaque (1 GIGA) com contorno azul e brilho: gerado por IA ou 3D, nunca recriado à mão em texto plano.</li>\n<li><strong>Mascote: tem.</strong> Robô branco e azul com tela preta e rosto sorridente em LED, antenas com pontas azuis, &quot;ATEC&quot; no peito. Poses aprovadas: moto com roteador (<code>Mascote\\atec-mascote-moto-v1/v2.png</code>) e as do flyer (selfie, cowboy a cavalo, terno, 5G, protege, gaúcho com chimarrão). Nome do mascote: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>. <strong>Nunca gerar pose nova por IA sem aprovação</strong>; as imagens &quot;ChatGPT Image&quot; da pasta são explorações, não poses aprovadas.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Pessoas reais sorrindo, luz de dia, céu azul, cenários da região (praça com igreja histórica, campo, cidade). O mascote interage com as pessoas (selfie, chimarrão).</li>\n<li>Evitar: escritório frio, cabos e equipamentos como protagonistas, pôster oficial de apps sem autorização.</li>\n<li>Base de prompt: <em>sunny lifestyle photo of a smiling Brazilian person in a historic town square in southern Brazil, clear blue sky, warm natural light, realistic faces and hands, space for a white-and-blue robot mascot on the right, soft blue (#1755A1) tones at the edges, no text, no logos.</em></li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><strong>CTA:</strong> &quot;Escaneie e contrate hoje mesmo!&quot; (impresso) · WhatsApp (53) 9 9709-1020. Botão Meta: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span> (sugerido: enviar mensagem no WhatsApp).</li>\n<li><strong>Rodapé legal padrão:</strong> &quot;Consulte disponibilidade, condições e serviços adicionais.&quot;</li>\n<li>Preço sempre com &quot;/mês&quot;.</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Globoplay, Disney+, HBO Max, Deezer, Prime Video, Paramount+, PlayKids+, NBA</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> (usados no flyer aprovado)</td>\n<td>usar só os logos oficiais enviados, nunca recriar; conferir regras de marca no Meta</td>\n</tr>\n</tbody></table>\n"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "substituir": {
+    "Extraídas do site (cores globais do tema) e do logo, como pedido [usuário]. Detalhes em `tokens.json` e nas variáveis `AXON / Cores`.": "Extraídas do site e do logo.",
+    "**Atenção:** as peças de setembro e outubro usam **fundos azuis** (#00219C, #0070F3, #000520) e amarelo #FDB701, que não estão no site nem no logo. Ficaram fora da paleta oficial por seguir o pedido; estão registrados em `tokens.json > cores_peças_não_oficiais` como [confirmar].": "**Atenção:** as peças de setembro e outubro usam fundos azuis e um amarelo que não estão no site nem no logo. Ficaram fora da paleta oficial [confirmar].",
+    "Definidas pelo usuário em 21/10/2026 [usuário]; ambas disponíveis no Figma. ": "",
+    "- **Planos do site (21/10/2026):** 550 Mega R$ 89,90 · 650 Mega R$ 99,90 (popular) · 750 Mega R$ 109,90, todos com internet ilimitada, instalação grátis e Wi-Fi 6 em comodato. Os flyers citam também 950 Mega R$ 139,90 e preços \"de/por\": [confirmar].": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- **Legal do site:** \"*Instalação no plano fidelidade · *Roteador GRÁTIS em comodato · *Para pagamento até a data de vencimento, após o vencimento, acréscimo de R$10,00\".": "- **Legal do site:** \"*Instalação no plano fidelidade · *Roteador GRÁTIS em comodato · *Para pagamento até a data de vencimento\"."
+  },
+  "faca": [
+    "Fundo grafite com base vermelha e brilho laranja",
+    "Título com destaque dourado",
+    "Card de plano branco, com checks vermelhos",
+    "Botão vermelho ou dourado",
+    "Faixa vermelha de contato"
+  ],
+  "evite": [
+    "Amarelo, dourado ou laranja como texto sobre branco",
+    "Branco sobre amarelo",
+    "Superlativos do site em ADS, como \"a melhor internet\"",
+    "Recolorir os arcos do logo",
+    "Netflix sem autorização de marca"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro. Só PNG, até cerca de 400 px",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/axon/logo/logo-axon-para-fundo-claro.png"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Fundo escuro. Só PNG, até cerca de 400 px",
+      "fundo": "#171422",
+      "arquivo": "curadoria/axon/logo/logo-axon-para-fundo-escuro.png"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-axon",
+    "logo": "curadoria/axon/logo/logo-axon-para-fundo-escuro.png"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/axon/ref-elementos.png",
+      "legenda": "Peça de referência: Wi-Fi 3D, card de mensagem, oferta e ícones de benefício. Fundo azul a confirmar"
+    }
+  ],
+  "layouts": {
+    "AX1": {
+      "origem": "curadoria/axon/ref-ax1.png",
+      "alerta": "Só estrutura: o fundo azul está fora da paleta oficial, a confirmar."
+    },
+    "AX2": {
+      "origem": "curadoria/axon/ref-ax2.png",
+      "alerta": "Só estrutura: sem exemplo de vitrine com 3 cards, e o fundo azul está fora da paleta."
+    },
+    "AX3": {
+      "origem": "curadoria/axon/ref-ax3.png",
+      "alerta": "Só estrutura: o fundo azul está fora da paleta oficial, a confirmar."
+    },
+    "AX4": "curadoria/axon/ref-ax4.png"
+  },
+  "arquivos": [],
+  "licoes": [
+    "O logo só existe em PNG: peça o vetor ao cliente e use até cerca de 400 px."
+  ]
+}

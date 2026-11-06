@@ -1,0 +1,81 @@
+{
+  "substituir": {
+    " (skill `prompt-imagem`)": ""
+  },
+  "faca": [
+    "Fundo azul com textura de ondas em zigue-zague",
+    "Ondas de sinal saindo do logo ou de ícones",
+    "Mascote robô em cena com pessoas e cenários da região",
+    "Número 3D do plano de destaque",
+    "Faixa de contato com QR code"
+  ],
+  "evite": [
+    "Ciano em texto corrido sobre branco",
+    "Ciano sobre azul-royal",
+    "Texto fino sobre a textura",
+    "Superlativo sem prova, como \"a melhor internet\"",
+    "Tirar o \"INTERNET.COM.BR\" do logo"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Grafite e ciano, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/atec-logo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Branco e ciano, fundo escuro",
+      "fundo": "#033075",
+      "arquivo": "logo/atec-logo-negativo.svg"
+    },
+    {
+      "titulo": "Sinal positivo",
+      "quando": "Arcos de sinal, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/atec-sinal-positivo.svg"
+    },
+    {
+      "titulo": "Sinal negativo",
+      "quando": "Arcos de sinal, fundo escuro",
+      "fundo": "#033075",
+      "arquivo": "logo/atec-sinal-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "painel-atec",
+    "logo": "logo/atec-logo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/atec/mascote-moto-v1.png",
+      "legenda": "Mascote em pose aprovada: moto"
+    },
+    {
+      "origem": "curadoria/atec/mascote-moto-v2.png",
+      "legenda": "Mascote em pose aprovada: scooter"
+    }
+  ],
+  "layouts": {
+    "ATEC1": {
+      "origem": "curadoria/atec/ref-flyer.jpeg",
+      "alerta": "Só estrutura: preço antigo e erro \"Adcione\" na peça. Use \"Adicione\"."
+    },
+    "ATEC2": {
+      "origem": "curadoria/atec/ref-flyer.jpeg",
+      "alerta": "Só estrutura: preço antigo e erro \"Adcione\" na peça. Use \"Adicione\"."
+    },
+    "ATEC3": "curadoria/atec/ref-bau.jpeg"
+  },
+  "fontes": {
+    "CorsairPE": {
+      "onde": "não está na pasta do cliente: aparece só embutida nas peças aprovadas [confirmar]."
+    }
+  },
+  "arquivos": [],
+  "licoes": [
+    "No impresso, ciano é C100 puro e grafite é K100.",
+    "Número 3D nunca é recriado à mão em texto plano."
+  ],
+  "gosta": "Mascote robô em cena com pessoas e cenários regionais, número 3D do plano, grade de apps e QR code grande."
+}

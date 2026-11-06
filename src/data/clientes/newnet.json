@@ -215,6 +215,7 @@
   "familias": [
     {
       "nome": "Uni Neue",
+      "css": "Uni Neue",
       "uso": "Títulos, números, corpo e apoio",
       "pesos": "Thin, Light, Book, Regular, Bold, Heavy, Black; todos com itálico",
       "onde": "pasta da marca do cliente, em Tipografia. Licença a confirmar antes de distribuir.",

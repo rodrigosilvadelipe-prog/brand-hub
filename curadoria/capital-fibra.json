@@ -1,0 +1,88 @@
+{
+  "substituir": {
+    "- **Números:** 12 anos, ~15 mil assinantes, 500 a 550 vendas/mês, meta 600. Foco atual: **B2B**. [cliente]": "- **Foco atual:** B2B.",
+    "- **Oferta (site novo, 26/10/2026):** contrate 600 e leve 900 mega (se os equipamentos forem compatíveis); R$ 49,90 nos 3 primeiros meses; depois R$ 99,90 pagando até o vencimento (R$ 119,90 após). Não trabalha mais com combos. Download 100% e upload 50%. [cliente]": "- **Ofertas e preços vigentes** ficam na Central de Clientes. Download 100% e upload 50%.",
+    "- **Adicionais:** Roteador Mesh R$ 29,90 · Telefonia R$ 29,90 · Globoplay R$ 19,90 · HBO Max R$ 35,90 · Telecine R$ 29,90 · Premiere R$ 59,90. [cliente, site]": "- **Adicionais:** Roteador Mesh, telefonia e streamings, com valores na Central de Clientes.",
+    "- **Campanha que funcionou:** R$ 49,90 por 6 meses (julho), 900 vendas. [cliente]": "",
+    "- **Concorrentes:** Direct, Ampernet, Loves. [cliente]": ""
+  },
+  "faca": [
+    "Fundo roxo com brilho neon e ondas de Wi-Fi",
+    "Número gigante em Bebas Neue, com selo laranja MEGA",
+    "Card verde-limão de oferta",
+    "Faixas diagonais laranja nos cantos",
+    "Carinhas: rosto no círculo roxo, coerente com o tema"
+  ],
+  "evite": [
+    "Criativo feito com IA: regra do cliente, use foto real",
+    "Rosa e ícones de coração",
+    "Dar corpo, braços ou mãos ao mascote",
+    "Superlativo sem prova, como \"a melhor internet da sua região\"",
+    "Trocar o roxo do logo ou remover os ícones de serviço"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/capital-fibra/logo/capital-fibra-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Fundo roxo, no canto superior direito das peças",
+      "fundo": "#3A0F6F",
+      "arquivo": "curadoria/capital-fibra/logo/capital-fibra-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/capital-fibra/logo/capital-fibra-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Fundo roxo",
+      "fundo": "#3A0F6F",
+      "arquivo": "curadoria/capital-fibra/logo/capital-fibra-logotipo-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Vem pra Capital positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/capital-fibra/logo/capital-fibra-vem-pra-positivo.svg"
+    },
+    {
+      "titulo": "Vem pra Capital negativo",
+      "quando": "Fundo roxo",
+      "fundo": "#3A0F6F",
+      "arquivo": "curadoria/capital-fibra/logo/capital-fibra-vem-pra-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-capital",
+    "logo": "curadoria/capital-fibra/logo/capital-fibra-logotipo-horizontal-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/capital-fibra/ref-elementos.png",
+      "legenda": "Peça de referência: card verde de oferta, apps, benefícios, faixa e mascote"
+    }
+  ],
+  "layouts": {
+    "CF1": "curadoria/capital-fibra/ref-cf1.png",
+    "CF2": "curadoria/capital-fibra/ref-cf2.png",
+    "CF3": {
+      "origem": "curadoria/capital-fibra/ref-cf3.png",
+      "alerta": "Só estrutura: troque nomes e textos por avaliações reais autorizadas."
+    },
+    "CF4": "curadoria/capital-fibra/ref-cf4.png",
+    "CF5": "curadoria/capital-fibra/ref-cf5.png"
+  },
+  "arquivos": [],
+  "licoes": [
+    "Mascote é só a cabeça no círculo roxo: muda expressão, óculos e sinais, nunca ganha corpo.",
+    "A expressão do mascote acompanha o tema da peça.",
+    "Logo entra por cima da arte, nunca escrito pela imagem.",
+    "TV sempre frontal e preço no bloco da marca."
+  ]
+}

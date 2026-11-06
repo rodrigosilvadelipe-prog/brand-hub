@@ -1,0 +1,60 @@
+{
+  "substituir": {
+    "- Definidas pelo usuário em 21/10/2026 [usuário].": "",
+    "- **No Figma:** os estilos de título (`HN / Número oferta`, `Título 1`, `Título 2`, `Selo e pill`, `CTA`) usam **Univia Pro** (Black e Bold) desde 21/10/2026; os demais usam Inter.": "",
+    "- **TV (cards de 19/08):** Power Seleção Esportes + WBD R$ 49,90 (93 canais) · Power Elite + WBD R$ 59,90 (99 canais). **Móvel (peças de agosto):** 5GB R$ 39,90 · 15GB R$ 49,90 · 20GB R$ 69,90. **SVAs (peças):** HBO Max R$ 29,90 · Combate R$ 19,90. Vigência de todos: [confirmar].": "- **TV e móvel:** pacotes e preços vigentes ficam na Central de Clientes."
+  },
+  "faca": [
+    "Fundo escuro em gradiente, com linhas de luz ciano",
+    "Título curto em caixa alta, com uma palavra em ciano ou azul Hyper",
+    "Card branco de preço com borda ciano",
+    "Botão em pílula azul",
+    "Trocadilho de esporte, série ou rotina"
+  ],
+  "evite": [
+    "Ciano ou verde-água como texto sobre branco",
+    "Texto fino sobre foto sem véu",
+    "Roxo como cor da marca: é da Watch",
+    "Superlativo sem prova, como \"a melhor fibra óptica da região\"",
+    "Pôster, série ou lutador real sem exceção autorizada"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/hyper-net/logo/hypernet-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Fundo escuro, no topo ou na base das peças",
+      "fundo": "#002251",
+      "arquivo": "curadoria/hyper-net/logo/hypernet-logotipo-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-hn",
+    "logo": "curadoria/hyper-net/logo/hypernet-logotipo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/hyper-net/ref-elementos.png",
+      "legenda": "Peça de referência: linhas de luz, card branco de preço, título em caixa alta e logo"
+    }
+  ],
+  "layouts": {
+    "HN1": "curadoria/hyper-net/ref-hn1.png",
+    "HN2": "curadoria/hyper-net/ref-hn2.png",
+    "HN3": "curadoria/hyper-net/ref-hn3.png",
+    "HN4": "curadoria/hyper-net/ref-hn4.png"
+  },
+  "fontes": {
+    "Univia Pro": {
+      "onde": "fonte comercial, não está na pasta do cliente. Confirme a licença antes de instalar."
+    }
+  },
+  "arquivos": [],
+  "licoes": [
+    "As peças usam azuis mais saturados que o logo: o navy e o verde-água ficam no logo."
+  ]
+}

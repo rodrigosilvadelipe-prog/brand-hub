@@ -1,0 +1,454 @@
+{
+  "slug": "rl-net",
+  "nome": "RL NET",
+  "status": "provisório",
+  "atualizado": "2026-10-28",
+  "fundo": "linear-gradient(90deg, #003492 0%, #0052D0 100%)",
+  "capa": {
+    "logo": "/clientes/rl-net/logo/rl-net-logotipo-horizontal-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Gradiente azul com onda amarela e retícula de pontos",
+    "Título que termina em ponto, com 1 ou 2 palavras em amarelo",
+    "Selo de melhor provedor e faixa de estrelas nos ADS",
+    "Card azul de oferta e CTA amarelo em pílula",
+    "Logo branco com \"Você sempre conectado!\""
+  ],
+  "evite": [
+    "Amarelo como texto sobre branco",
+    "Logo em amarelo ou sem o slogan",
+    "Cores do logo positivo fora dele",
+    "Pressão de venda no feed",
+    "\"A melhor internet do Brasil\" e promessa sem prova"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Só sobre fundo branco",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/rl-net/logo/rl-net-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Branco, padrão das peças",
+      "fundo": "#003492",
+      "src": "/clientes/rl-net/logo/rl-net-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Só sobre fundo branco",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/rl-net/logo/rl-net-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Branco, sobre os azuis",
+      "fundo": "#003492",
+      "src": "/clientes/rl-net/logo/rl-net-logotipo-vertical-negativo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Azul RL",
+      "hex": "#003492",
+      "rgb": "0 52 146",
+      "papel": "principal, início do gradiente",
+      "proporcao": "35%",
+      "pct": 35,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul claro",
+      "hex": "#0052D0",
+      "rgb": "0 82 208",
+      "papel": "fim do gradiente, card de oferta",
+      "proporcao": "25%",
+      "pct": 25,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Amarelo RL",
+      "hex": "#FDBC07",
+      "rgb": "253 188 7",
+      "papel": "palavra-chave, ondas, estrelas, GB",
+      "proporcao": "12%",
+      "pct": 12,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Amarelo conversão",
+      "hex": "#FFC20A",
+      "rgb": "255 194 10",
+      "papel": "só no CTA",
+      "proporcao": "3%",
+      "pct": 3,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul elétrico",
+      "hex": "#0057FA",
+      "rgb": "0 87 250",
+      "papel": "fundos vibrantes do FEED",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul noite",
+      "hex": "#00102E",
+      "rgb": "0 16 46",
+      "papel": "sombras, pill SEM RL",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul marinho",
+      "hex": "#002B6B",
+      "rgb": "0 43 107",
+      "papel": "fundos escuros",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul céu",
+      "hex": "#6198FF",
+      "rgb": "97 152 255",
+      "papel": "brilhos",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Amarelo claro",
+      "hex": "#FED76D",
+      "rgb": "254 215 109",
+      "papel": "brilho do selo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Creme",
+      "hex": "#FFF3D2",
+      "rgb": "255 243 210",
+      "papel": "fundos claros",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul logo",
+      "hex": "#289CD8",
+      "rgb": "40 156 216",
+      "papel": "só no logo positivo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Cinza logo",
+      "hex": "#9C9A9A",
+      "rgb": "156 154 154",
+      "papel": "só no logo positivo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "títulos e textos",
+      "proporcao": "25%",
+      "pct": 25,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "fundo-rl",
+      "css": "linear-gradient(90deg, #003492 0%, #0052D0 100%)",
+      "direcao": "esquerda para direita"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco e amarelo sobre azul-rl, azul-claro e o gradiente",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#003492"
+      },
+      {
+        "texto": "azul-rl sobre amarelo (CTA)",
+        "razao": null,
+        "fg": "#003492"
+      },
+      {
+        "texto": "azul-rl sobre branco e creme",
+        "razao": null,
+        "fg": "#003492",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "amarelo como texto sobre branco",
+        "razao": null,
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "logo em amarelo"
+      },
+      {
+        "texto": "azul-logo e cinza-logo fora do logo positivo"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "FinalSix",
+      "css": "FinalSix",
+      "uso": "títulos, destaques, números de oferta e datas",
+      "pesos": "Thin, Hairline, Light, Book, Medium, Bold, ExtraBold, Heavy e Black",
+      "onde": "pasta da marca do cliente, em Fontes/Final.Six.",
+      "link": null,
+      "disponivel": true,
+      "nomeImg": "/clientes/rl-net/img/fonte-finalsix-nome.webp",
+      "especime": "/clientes/rl-net/img/fonte-finalsix-especime.webp"
+    },
+    {
+      "nome": "Poppins",
+      "css": "Poppins",
+      "uso": "subtítulos, textos, CTA, selos, faixa de estrelas e legal",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Poppins"
+    }
+  ],
+  "familiaPrincipal": "FinalSix",
+  "fontesGoogle": [
+    {
+      "nome": "Poppins",
+      "pesos": [
+        400,
+        500,
+        600,
+        700
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "display-data",
+      "familia": "FinalSix",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 220,
+      "entrelinha": 0.82,
+      "img": "/clientes/rl-net/img/fonte-finalsix-display-data.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Número de oferta",
+      "familia": "FinalSix",
+      "peso": "Black",
+      "wght": 900,
+      "italico": false,
+      "px": 200,
+      "entrelinha": 0.85,
+      "img": "/clientes/rl-net/img/fonte-finalsix-numero-oferta.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Título 1",
+      "familia": "FinalSix",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 0.95,
+      "img": "/clientes/rl-net/img/fonte-finalsix-titulo-1.webp",
+      "imgAltura": 56
+    },
+    {
+      "papel": "Título 2",
+      "familia": "FinalSix",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 64,
+      "entrelinha": 1,
+      "img": "/clientes/rl-net/img/fonte-finalsix-titulo-2.webp",
+      "imgAltura": 37
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Poppins",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 34,
+      "entrelinha": 1.25
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Poppins",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Poppins",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Poppins",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.35
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Poppins",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Legal",
+      "familia": "Poppins",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 16,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "RA1",
+      "estrutura": "Oferta: logo e selo no topo, estrelas, título com palavra amarela, subtítulo, card 4GB + \"a partir de\", SVAs, CTA. Foto à direita",
+      "quando": "campanha de planos",
+      "src": "/clientes/rl-net/img/ref-ra1.webp"
+    },
+    {
+      "codigo": "RA2",
+      "estrutura": "Negócio: título pela dor, faixa de benefícios com ícone, selo, CTA. Foto do negócio",
+      "quando": "B2B, link dedicado",
+      "src": "/clientes/rl-net/img/ref-ra2.webp"
+    },
+    {
+      "codigo": "RA3",
+      "estrutura": "Comparativo: título, duas fotos SEM RL x COM RL NET com VS, card de oferta em linha, SVAs",
+      "quando": "diferenciação",
+      "src": "/clientes/rl-net/img/ref-ra3.webp"
+    },
+    {
+      "codigo": "RA4",
+      "estrutura": "Data especial: tag \"Especial ...\", título temático, cena regional, oferta e SVAs",
+      "quando": "Farroupilha, Natal, Black Friday",
+      "src": "/clientes/rl-net/img/ref-ra4.webp"
+    },
+    {
+      "codigo": "RA5",
+      "estrutura": "Novidade: logo grande no centro, \"Temos novidades para você.\", condições, pill \"Confira nossos novos planos!\"",
+      "quando": "lançamento, reajuste",
+      "src": "/clientes/rl-net/img/ref-ra5.webp"
+    },
+    {
+      "codigo": "RF1",
+      "estrutura": "Data: sobrescrito + palavra gigante, frase de afeto, pessoa ou objeto 3D, logo embaixo. Sem preço",
+      "quando": "datas comemorativas e causas",
+      "src": "/clientes/rl-net/img/ref-rf1.webp"
+    },
+    {
+      "codigo": "RF2",
+      "estrutura": "SVA: título com destaque amarelo, produto em destaque, parceiros, texto curto",
+      "quando": "RL Track, Skeelo, Vantagens, 5G, PABX",
+      "src": "/clientes/rl-net/img/ref-rf2.webp"
+    },
+    {
+      "codigo": "RF3",
+      "estrutura": "Meme: formato conhecido com a RL como resposta certa",
+      "quando": "engajamento",
+      "src": "/clientes/rl-net/img/ref-rf3.webp"
+    },
+    {
+      "codigo": "RF4",
+      "estrutura": "Teaser: mistério + \"Arraste para o lado\"",
+      "quando": "abertura de carrossel",
+      "src": "/clientes/rl-net/img/ref-rf4.webp"
+    },
+    {
+      "codigo": "RF5",
+      "estrutura": "Equipe: time real, título em faixa amarela, reconhecimento",
+      "quando": "dia do técnico, bastidores",
+      "src": "/clientes/rl-net/img/ref-rf5.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/rl-net/arquivos/rl-net-logos.zip",
+      "tamanho": "16 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Peça de referência: selo, estrelas, card azul, SVAs, onda amarela e CTA",
+      "src": "/clientes/rl-net/img/ref-elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "",
+  "naoGosta": "",
+  "licoes": [
+    "Peça para divulgação interna vai sem mídia de contato."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet fibra (600 mega a 4G XGSPON), RL Play, RL TV+ (até 182 canais), telefonia, internet móvel 5G (RL Móvel), RL Track, RL Cam, PABX virtual e planos empresariais com link dedicado.</li>\n<li><strong>Prova:</strong> provedor local eleito o melhor provedor de Porto Alegre em 2023, 2024 e 2025 (site; o selo das peças traz 2022 a 2026 em algumas versões: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>).</li>\n<li><strong>Assinaturas:</strong> &quot;Você sempre conectado!&quot; (slogan do logo) · &quot;A INTERNET MAIS PREMIADA DE POA!&quot; (faixa de estrelas).</li>\n<li><strong>Personalidade:</strong> calorosa, orgulhosa de ser gaúcha, confiante sem arrogância, bem-humorada / nunca: fria, técnica demais, genérica ou de &quot;provedor nacional&quot;. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Onde:</strong> Porto Alegre (Cavalhada, Moinhos de Vento, Restinga, Campo Novo) e Guaíba.</li>\n<li><strong>Quem compra:</strong> famílias que querem streaming e estabilidade; pequenos negócios (restaurante, delivery, comércio, escritório) que não podem parar; empresas que precisam de link dedicado e PABX.</li>\n<li><strong>Concorrentes:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></li>\n</ul>\n",
+    "voz": "<p><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, falar com &quot;você&quot; e &quot;a gente&quot;, até 3 emojis por legenda, &quot;até X&quot; em promessa de velocidade. Regionalismo gaúcho com respeito, sem caricatura.</p>\n<h3>3A. ADS: vende, sempre com oferta e CTA</h3>\n<ul>\n<li><strong>Título:</strong> 2 ou 3 linhas, termina em <strong>ponto final</strong> (exclamação só em novidade ou B2B forte), 1 ou 2 palavras em amarelo. Fala do leitor ou do benefício:<blockquote>\n<p>Seu plano do seu jeito. · Seu restaurante não pode perder vendas. · Internet boa em qualquer cenário. · Mais benefícios no menor preço. · Quem tem RL, vive outro nível. · Internet com sotaque daqui. · Link Dedicado que faz diferença!</p>\n</blockquote>\n</li>\n<li><strong>Subtítulo:</strong> 1 a 3 linhas com benefício concreto e um trecho em negrito ou amarelo:<blockquote>\n<p>Mais streaming, mais bônus e a internet que acompanha sua rotina. · Na Semana Farroupilha, sua conexão te acompanha <strong>onde você estiver</strong>. · Feita para o ritmo do Rio Grande: forte, estável e pronta para tudo.</p>\n</blockquote>\n</li>\n<li><strong>Oferta:</strong> &quot;Planos com até&quot; + &quot;A partir de&quot;, com o valor vigente (card azul), + &quot;Os melhores streamings!&quot; com os SVAs.</li>\n<li><strong>Fixos de toda peça:</strong> CTA &quot;CHAME NO WHATSAPP E ASSINE AGORA!&quot; · ★★★★★ &quot;A INTERNET MAIS PREMIADA DE POA!&quot; · selo Melhor Provedor · logo com &quot;Você sempre conectado!&quot;.</li>\n<li><strong>B2B:</strong> abre pela dor do negócio (&quot;não pode perder vendas&quot;, &quot;Conexão instável · Pedidos demoram · Clientes esperam&quot;) e responde com benefícios com ícone (estabilidade, suporte especializado, Wi-Fi de alta performance).</li>\n</ul>\n<h3>3B. FEED: relacionamento, datas e SVAs</h3>\n<ul>\n<li><strong>Datas comemorativas:</strong> sobrescrito curto + palavra-chave gigante + frase de afeto, sem preço e sem botão:<blockquote>\n<p>Feliz dia do <strong>Cliente</strong> · Obrigado por nos escolher, confiar no nosso trabalho e crescer junto com a gente.\nDia do técnico em <strong>TELECOM</strong> · Muito mais que cabos e antenas: eles conectam pessoas, sonhos e histórias todos os dias.\n<strong>Independência</strong> do Brasil · Juntos, escrevemos um futuro de prosperidade e paz!</p>\n</blockquote>\n</li>\n<li><strong>Causas:</strong> Setembro Amarelo e Outubro Rosa com frase de cuidado (&quot;Às vezes, silenciar a mente é o primeiro passo...&quot;), ligando a um SVA quando fizer sentido (RL Vantagens).</li>\n<li><strong>SVA e produto:</strong> título que resolve um desejo, com destaque amarelo:<blockquote>\n<p>Seu veículo seguro. Você tranquilo. (RL Track) · Os títulos que todo mundo quer ler, mais perto de você. (Skeelo) · Sua vida pede mais conexão. (5G) · Pabx Virtual!</p>\n</blockquote>\n</li>\n<li><strong>Humor:</strong> memes conhecidos com a RL como resposta certa (&quot;Assistindo tudo no HBO Max no plano da RL NET!&quot;).</li>\n<li><strong>Teaser/carrossel:</strong> mistério + &quot;Arraste para o lado&quot;.</li>\n<li><strong>Evitar:</strong> &quot;a melhor internet do Brasil&quot;, promessas sem prova, pressão de venda no FEED.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Componentes <code>Logo / Horizontal positivo</code>, <code>Horizontal negativo</code>, <code>Vertical positivo</code>, <code>Vertical negativo</code> (SVGs oficiais) e <code>Logo / Símbolo branco</code> (árvore-circuito recortada do SVG, sem redesenho).</li>\n<li><strong>Nas peças é quase sempre o negativo branco:</strong> topo à esquerda nos ADS; embaixo, no centro ou à direita, no FEED. Sempre com &quot;Você sempre conectado!&quot;.</li>\n<li>O positivo usa #289CD8 e #9C9A9A (diferente da paleta de campanha): só sobre fundo branco.</li>\n<li>Versão <strong>RL NET TV</strong> em <code>Logotipo\\TV</code> para peças da TV. Símbolo sozinho em teaser e como marca d&#39;água.</li>\n<li>Mínimo 180 px de largura <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>. Proibido: distorcer, recolorir em amarelo, separar o slogan, aplicar sombra.</li>\n</ul>\n",
+    "cores": "<p><strong>Exceção:</strong> campanhas de causa (Outubro Rosa) usam a paleta da causa, com logo branco e faixa de estrelas.</p>\n",
+    "tipografia": "<ul>\n<li>Títulos em caixa alta e baixa (FinalSix Bold); datas e números em FinalSix Black.</li>\n<li>Estilos <code>RL / Display data</code> (220, FEED), <code>Número oferta</code> (200), <code>Título 1</code> (96), <code>Título 2</code> (64), <code>Subtítulo</code> (34), <code>Selo e pill</code> (20), <code>CTA</code> (26), <code>Corpo</code> (28), <code>Apoio de preço</code> (22), <code>Legal</code> (16).</li>\n<li><strong>FEED:</strong> a palavra da data pode quebrar em sílabas (AMA/RELO, Inde/pendência, Crian/ças) e a pessoa ou o objeto interage com as letras.</li>\n<li><strong>Preço e velocidade:</strong> cada um é um texto único com trechos de estilo (&quot;4&quot; branco e &quot;GB&quot; amarelo; &quot;R$&quot; pequeno, inteiro grande, &quot;,90&quot; menor, &quot;/mês&quot;). O Figma não tem deslocamento de linha de base: centavos sobrescritos se ajustam à mão.</li>\n</ul>\n",
+    "elementos": "<p><strong>ADS:</strong></p>\n<ul>\n<li>Topo: logo branco à esquerda + <strong>selo &quot;Eleito o melhor provedor de Porto Alegre&quot;</strong> (medalha dourada com fitas azuis) à direita + ★★★★★ &quot;A INTERNET MAIS PREMIADA DE POA!&quot; (<code>Selo / Melhor provedor POA</code>, <code>Faixa / Mais premiada</code>). O selo no Figma é uma reconstrução: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> a arte oficial.</li>\n<li><strong>Card azul de oferta</strong> com &quot;Planos com até: 4GB&quot; e &quot;A partir de&quot; separados por um fio (<code>Card / Oferta</code>).</li>\n<li><strong>Círculos de SVA</strong> com borda branca: HBO Max, Watch, RL TV, RL Play, RL Vantagens, RL Cam (<code>Ícone / SVA</code>, trocar pelo logo oficial).</li>\n<li><strong>CTA amarelo</strong> em pílula com ícone do WhatsApp, texto em caixa alta azul (<code>Botão / WhatsApp</code>).</li>\n<li><strong>Onda amarela</strong> orgânica nos cantos e <strong>retícula de pontos</strong> (<code>Forma / Onda amarela</code>, <code>Textura / Pontilhado</code>).</li>\n<li>Tag de data em itálico (&quot;Especial Farroupilha&quot;, <code>Tag / Especial</code>), benefícios B2B com ícone (<code>Item / Benefício</code>) e comparativo SEM RL x COM RL NET (<code>Comparativo / Sem x Com RL</code>).</li>\n</ul>\n<p><strong>FEED:</strong></p>\n<ul>\n<li>Palavra gigante em FinalSix Black amarela, pill de data (<code>Pill / Data</code>), corações 3D azuis em datas de afeto, objetos 3D (balão, 5G neon, chip RL Móvel), símbolo como marca d&#39;água e logo embaixo com a faixa de estrelas.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li><strong>Pessoas:</strong> reais, sorridentes, em casa (sofá, TV, notebook), no negócio (restaurante, escritório) e a equipe técnica com uniforme e capacete azuis da RL.</li>\n<li><strong>Luz:</strong> interiores quentes contra o azul da marca; overlay azul do lado do texto.</li>\n<li><strong>Regional:</strong> chimarrão, lenço vermelho, bandeira do RS e cenas do campo só em datas gaúchas.</li>\n<li><strong>ADS:</strong> foto à direita ou no fundo, texto à esquerda; no comparativo, foto P&amp;B (problema) x colorida (com RL).</li>\n<li><strong>FEED:</strong> montagens criativas (logo em nuvens, Wi-Fi de erva-mate na cuia, cinto de segurança no carro) e pessoa interagindo com o título.</li>\n<li>Imagem por IA só com prompt registrado e nunca inventando a equipe real da RL.</li>\n<li>Evitar: banco de imagem frio, cabos como protagonistas, cores fora da paleta, pôster de filme ou série sem exceção autorizada.</li>\n</ul>\n",
+    "layouts": "<h3>ADS (1080 × 1080)</h3>\n<h3>FEED (1080 × 1350)</h3>\n",
+    "ofertas": "<ul>\n<li><strong>Planos e preços vigentes</strong> ficam na Central de Clientes.</li>\n<li><strong>Inclusos:</strong> RL Vantagens, RL Play, RL NET TV, RL Revista, Qualifica. RL TV+ Essencial 167, Completo 181 e Privê 182 canais.</li>\n<li><strong>Nos ADS:</strong> &quot;Planos com até&quot; + &quot;A partir de&quot;, com o valor vigente.</li>\n<li><strong>Legal:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> texto padrão (as peças não mostram); preço sempre &quot;a partir de&quot;.</li>\n<li><strong>Contato:</strong> WhatsApp 0800 387 5222 · (51) 99307-3133 · (51) 3237-8321 · @rlnet.poa.</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>RL Play, RL TV, RL TV+, RL Vantagens, RL Cam, RL Track, RL Móvel, RL Revista</td>\n<td>próprios</td>\n<td>logos a enviar <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n</tr>\n<tr>\n<td>HBO Max, Watch, Skeelo, Qualifica</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logo oficial</td>\n</tr>\n<tr>\n<td>Uber, Waze, Google Maps, Natura, O Boticário (RL Móvel e Vantagens)</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logo oficial</td>\n</tr>\n</tbody></table>\n"
+  }
+}

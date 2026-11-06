@@ -1,0 +1,41 @@
+{
+  "Univia Pro": {
+    "disponivel": true,
+    "nome": "curadoria/hyper-net/fonte-univia-pro-nome.png",
+    "especime": "curadoria/hyper-net/fonte-univia-pro-especime.png",
+    "pesos": [
+      "Thin",
+      "UltraLight",
+      "Light",
+      "Book",
+      "Regular",
+      "Medium",
+      "Bold",
+      "Black",
+      "Ultra"
+    ],
+    "estilos": {
+      "numero-oferta": {
+        "src": "curadoria/hyper-net/fonte-univia-pro-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/hyper-net/fonte-univia-pro-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/hyper-net/fonte-univia-pro-titulo-2.png",
+        "altura": 42
+      },
+      "selo-pill": {
+        "src": "curadoria/hyper-net/fonte-univia-pro-selo-pill.png",
+        "altura": 19
+      },
+      "cta": {
+        "src": "curadoria/hyper-net/fonte-univia-pro-cta.png",
+        "altura": 19
+      }
+    },
+    "faltam": []
+  }
+}

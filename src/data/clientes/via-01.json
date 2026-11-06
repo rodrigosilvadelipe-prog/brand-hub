@@ -1,0 +1,503 @@
+{
+  "slug": "via-01",
+  "nome": "VIA 01",
+  "status": "provisório",
+  "atualizado": "2026-10-28",
+  "fundo": "linear-gradient(135deg, #5B1AA8 0%, #9D27EB 100%)",
+  "capa": {
+    "logo": "/clientes/via-01/logo/via-01-logotipo-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Fundo roxo vibrante com luzes lilás",
+    "Assinatura logo + selo em toda peça",
+    "CTA no pincel laranja",
+    "Card branco de oferta",
+    "Manrope nos títulos e Poppins nos textos"
+  ],
+  "evite": [
+    "Laranja fora do CTA e do selo",
+    "Amarelo e vermelho como cor de peça",
+    "Redesenhar o selo oficial",
+    "Recolorir o logo ou separar o \"1\"",
+    "Escrever VIA01 sem espaço"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Fundo claro, em roxo #5B1AA8",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/via-01/logo/via-01-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Branco, padrão das peças",
+      "fundo": "#9D27EB",
+      "src": "/clientes/via-01/logo/via-01-logotipo-negativo.svg"
+    },
+    {
+      "titulo": "Selo A Conexão + Estável",
+      "quando": "Junto do logo, em toda peça. Texto em curvas",
+      "fundo": "#9D27EB",
+      "src": "/clientes/via-01/logo/via-01-selo-conexao-estavel.svg"
+    },
+    {
+      "titulo": "Pincel do CTA",
+      "quando": "Fundo do botão, em laranja",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/via-01/logo/via-01-fundo-cta.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Roxo VIA",
+      "hex": "#5B1AA8",
+      "rgb": "91 26 168",
+      "papel": "logo, destaque sobre claro",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo vibrante",
+      "hex": "#9D27EB",
+      "rgb": "157 39 235",
+      "papel": "fundo padrão",
+      "proporcao": "45%",
+      "pct": 45,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo noite",
+      "hex": "#2B0A45",
+      "rgb": "43 10 69",
+      "papel": "textos sobre branco, número do card",
+      "proporcao": "8%",
+      "pct": 8,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja CTA",
+      "hex": "#FFAA01",
+      "rgb": "255 170 1",
+      "papel": "**só no CTA** e no selo",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo médio",
+      "hex": "#8C46E2",
+      "rgb": "140 70 226",
+      "papel": "luzes do fundo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo escuro",
+      "hex": "#650F9F",
+      "rgb": "101 15 159",
+      "papel": "sombra do fundo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Lilás",
+      "hex": "#C39EF0",
+      "rgb": "195 158 240",
+      "papel": "apoio, contornos",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Lilás claro",
+      "hex": "#F2E3FC",
+      "rgb": "242 227 252",
+      "papel": "fundos claros, ondas",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo profundo",
+      "hex": "#2D1156",
+      "rgb": "45 17 86",
+      "papel": "só dentro do selo",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "títulos, card, apps",
+      "proporcao": "25%",
+      "pct": 25,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "roxo",
+      "css": "linear-gradient(135deg, #5B1AA8 0%, #9D27EB 100%)",
+      "direcao": "diagonal"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco sobre roxo vibrante e roxo VIA",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#9D27EB"
+      },
+      {
+        "texto": "roxo noite sobre branco e lilás claro",
+        "razao": null,
+        "fg": "#2B0A45",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "roxo noite sobre laranja (CTA)",
+        "razao": null,
+        "fg": "#2B0A45"
+      },
+      {
+        "texto": "roxo noite como destaque sobre roxo vibrante",
+        "razao": null,
+        "fg": "#2B0A45",
+        "bg": "#9D27EB"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "laranja fora do CTA"
+      },
+      {
+        "texto": "lilás como texto sobre o fundo com luz lilás",
+        "razao": null,
+        "fg": "#C39EF0",
+        "bg": "#C39EF0"
+      },
+      {
+        "texto": "amarelo e vermelho"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Manrope",
+      "css": "Manrope",
+      "uso": "títulos, destaques, números e datas",
+      "pesos": "ExtraLight a ExtraBold",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Manrope"
+    },
+    {
+      "nome": "Poppins",
+      "css": "Poppins",
+      "uso": "subtítulos, textos, CTA, pills, apps e legal",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Poppins"
+    },
+    {
+      "nome": "Exo 2",
+      "css": "Exo 2",
+      "uso": "só dentro do selo oficial A Conexão + Estável",
+      "pesos": "Bold",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Exo+2"
+    }
+  ],
+  "familiaPrincipal": "Manrope",
+  "fontesGoogle": [
+    {
+      "nome": "Manrope",
+      "pesos": [
+        400,
+        700,
+        800
+      ]
+    },
+    {
+      "nome": "Poppins",
+      "pesos": [
+        400,
+        500,
+        600
+      ]
+    },
+    {
+      "nome": "Exo 2",
+      "pesos": [
+        400
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Manrope",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 200,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "display-data",
+      "familia": "Manrope",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 190,
+      "entrelinha": 0.82
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Manrope",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 84,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Manrope",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 60,
+      "entrelinha": 1.05
+    },
+    {
+      "papel": "destaque-caixa-alta",
+      "familia": "Manrope",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 64,
+      "entrelinha": 1
+    },
+    {
+      "papel": "unidade-mega",
+      "familia": "Manrope",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 56,
+      "entrelinha": 0.9
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Poppins",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1.25
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Poppins",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1
+    },
+    {
+      "papel": "pill-pequena",
+      "familia": "Poppins",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 14,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Poppins",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1
+    },
+    {
+      "papel": "app",
+      "familia": "Poppins",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 16,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Poppins",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 26,
+      "entrelinha": 1.35
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Poppins",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 22,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Legal",
+      "familia": "Poppins",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 14,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "data-espacada",
+      "familia": "Poppins",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 20
+    },
+    {
+      "papel": "numero-selo",
+      "familia": "Manrope",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 96
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "VA1",
+      "estrutura": "título no topo, card 600 mega + preço, apps, assinatura e CTA no rodapé",
+      "quando": "Oferta",
+      "src": "/clientes/via-01/img/ref-va1.webp"
+    },
+    {
+      "codigo": "VA2",
+      "estrutura": "\"A VIA 01 não vende só internet.\", grade dos apps, assinatura + CTA",
+      "quando": "Apps",
+      "src": "/clientes/via-01/img/ref-va2.webp",
+      "alerta": "Só estrutura: nas novas peças, laranja só no CTA e no selo."
+    },
+    {
+      "codigo": "VA3",
+      "estrutura": "pessoa se divertindo, título em caixa alta, apps, selo \"Planos com até 1000 mega\"",
+      "quando": "Pessoa",
+      "src": "/clientes/via-01/img/ref-va3.webp"
+    },
+    {
+      "codigo": "VA4",
+      "estrutura": "\"Indique agora e ganhe 50%\" em 3D, pill de apoio, assinatura + CTA",
+      "quando": "Indique",
+      "src": "/clientes/via-01/img/ref-va4.webp"
+    },
+    {
+      "codigo": "VF1",
+      "estrutura": "palavra gigante em Manrope (pode quebrar), pessoa ou símbolo, frase curta, assinatura",
+      "quando": "Data",
+      "src": "/clientes/via-01/img/ref-vf1.webp"
+    },
+    {
+      "codigo": "VF2",
+      "estrutura": "\"Pare de caçar sinal de Wi-Fi pela casa.\", cena da casa, assinatura no topo",
+      "quando": "Produto",
+      "src": "/clientes/via-01/img/ref-vf2.webp",
+      "alerta": "Só estrutura: nas novas peças, laranja só no CTA e no selo."
+    },
+    {
+      "codigo": "VF3",
+      "estrutura": "conteúdo do app com \"Adicione no seu plano\"",
+      "quando": "SVA",
+      "src": "/clientes/via-01/img/ref-vf3.webp"
+    },
+    {
+      "codigo": "VF4",
+      "estrutura": "card branco \"É notícia\" com foto e \"Planos com até 1000 mega\"",
+      "quando": "Notícia",
+      "src": "/clientes/via-01/img/ref-vf4.webp"
+    },
+    {
+      "codigo": "VF5",
+      "estrutura": "\"Você indica, volta para você\" com objeto 3D",
+      "quando": "Indique",
+      "src": "/clientes/via-01/img/ref-vf5.webp"
+    },
+    {
+      "codigo": "VC1",
+      "estrutura": "capa \"Três cidades...\" + slide das 3 cidades com pinos",
+      "quando": "Cidades",
+      "src": "/clientes/via-01/img/ref-vc1.webp",
+      "alerta": "Só estrutura: nas novas peças, laranja só no CTA e no selo."
+    },
+    {
+      "codigo": "VC2",
+      "estrutura": "capa com pessoa + slides dos lançamentos com \"Conteúdo exclusivo\"",
+      "quando": "Lançamentos",
+      "src": "/clientes/via-01/img/ref-vc2.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/via-01/arquivos/via-01-logos.zip",
+      "tamanho": "20 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Peça de referência: fundo roxo com luz, card de oferta, apps, assinatura e CTA no pincel",
+      "src": "/clientes/via-01/img/ref-elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "Números do card com kerning fechado e mais peso, e composição com respiro.",
+  "naoGosta": "",
+  "licoes": [
+    "Peças antigas têm laranja em palavras e pills: a partir do kit, só no CTA.",
+    "Use o selo pronto, sempre em curvas: não redesenhe."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet 100% fibra até a casa no Sul de Minas, com Wi-Fi 6 incluso, instalação grátis, pós-pago (use agora, pague em 30 dias) e sem fidelidade; streaming à parte numa fatura só.</li>\n<li><strong>História:</strong> 6 anos conectando o Sul de Minas (site), fundada por engenheiros de telecom da região, aniversário em setembro.</li>\n<li><strong>Assinatura:</strong> &quot;A Conexão + Estável&quot; (selo oficial) · &quot;Bora conectar?&quot; (site).</li>\n<li><strong>Personalidade:</strong> jovem, vibrante, mineira e próxima / nunca: fria, técnica demais ou exagerada. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Onde:</strong> Ouro Fino, Borda da Mata e Inconfidentes (MG), 100% das cidades. Loja em Ouro Fino (R. 13 de Maio, 855).</li>\n<li><strong>Quem compra:</strong> casais e famílias (planos por perfil: &quot;Casal com poucos aparelhos&quot;, &quot;Famílias de até 4 pessoas&quot;), gamers, quem quer streaming e casa conectada.</li>\n</ul>\n",
+    "voz": "<p><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, &quot;você&quot; e &quot;a gente&quot;, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa, <strong>VIA 01</strong> com espaço.</p>\n<h3>3A. ADS: oferta e apps, sempre com CTA</h3>\n<ul>\n<li>Valor além da velocidade: &quot;A VIA 01 não vende só internet.&quot; · &quot;Leve muito mais que só internet!&quot; · &quot;Turbine seu plano de internet com os melhores aplicativos!&quot;</li>\n<li>Estabilidade e casa: &quot;Sua casa inteira conectada com mais estabilidade.&quot; · &quot;A espera está acabando. A internet feita para acompanhar tudo é VIA 01.&quot;</li>\n<li>Indicação: &quot;Indique agora e ganhe 50% de desconto na sua mensalidade&quot; (*somente após a contratação do indicado).</li>\n<li>Fixos: card de oferta, &quot;Adicione aplicativos exclusivos no seu plano:&quot;, assinatura logo + selo, CTA &quot;Contrate hoje mesmo →&quot; no pincel laranja.</li>\n</ul>\n<h3>3B. FEED: datas, produto, SVA, notícia e indicação</h3>\n<ul>\n<li>Datas com tipografia gigante e frase curta: Outubro Rosa, Consciência Negra (&quot;Que cada dia seja uma oportunidade para construir um futuro mais justo...&quot;), Dia das Crianças, Proclamação da República, Novembro Azul.</li>\n<li>Produto: &quot;Pare de caçar sinal de Wi-Fi pela casa.&quot; (Rede Mesh) · &quot;Ping alto não é mais desculpa.&quot; (ExitLag).</li>\n<li>SVA e conteúdo: &quot;Os lances do seu time, você acompanha ao vivo com o Premiere.&quot; · &quot;O jogo mais esperado vem pesado. Sua fibra tá pronta?&quot;</li>\n<li>Notícia: &quot;É notícia: clientes da VIA 01 estão aproveitando internet sem fidelidade, começam hoje e só pagam daqui a 30 dias.&quot;</li>\n<li>Indicação: &quot;Você indica, volta para você.&quot;</li>\n</ul>\n<h3>3C. Carrossel</h3>\n<ul>\n<li>&quot;Três cidades. Três jeitos de ser mineiro. Uma só conexão.&quot; + slide com as 3 cidades.</li>\n<li>Lançamentos: &quot;Os melhores lançamentos na HBO Max e Disney+ para você aproveitar.&quot; + &quot;Conteúdo exclusivo: HBO Max / Disney+&quot;.</li>\n</ul>\n<p><strong>CTAs:</strong> Contrate hoje mesmo → · Quero este plano · Bora conectar? · Adicione o Premiere no seu plano! · Quero ser VIA01 (site).\n<strong>Destaque de palavra:</strong> lilás ou branco sobre roxo; roxo vibrante sobre claro; roxo noite sobre o fundo roxo com luz. <strong>Nunca laranja</strong> (laranja só no CTA).</p>\n",
+    "logo": "<ul>\n<li>Bloco arredondado com &quot;VIA&quot; + o &quot;1&quot; ao lado. <code>Logo / Positivo</code> (#5B1AA8) e <code>Logo / Negativo</code> (branco, padrão das peças).</li>\n<li><strong>Assinatura de toda peça:</strong> logo negativo + selo &quot;A Conexão + Estável&quot; (<code>Assinatura / Logo + slogan</code>), no rodapé (ADS) ou no topo/rodapé (FEED). O selo vem pronto de <code>Logotipo\\Slogan</code> (texto em curvas + pincel laranja): não redesenhar. Usar sempre os arquivos em curvas; a versão com texto editável troca a fonte ao importar.</li>\n<li>Mínimo 120 px <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span>. Proibido: distorcer, recolorir (só roxo #5B1AA8 ou branco), separar o &quot;1&quot;.</li>\n</ul>\n",
+    "cores": "<ul>\n<li>Fora: #FABB00 (conversão do guia), a escala amarela do guia e vermelho.</li>\n<li>Campanhas de causa podem usar a cor da causa (Outubro Rosa em rosa, Novembro Azul em azul), com logo branco e selo.</li>\n</ul>\n",
+    "tipografia": "<ul>\n<li>Manrope substitui a Baloo 2 citada na Central.</li>\n<li>Estilos <code>VIA / Número oferta</code> (ExtraBold 200), <code>Display data</code> (190), <code>Título 1</code> (ExtraBold 84), <code>Título 2</code> (Bold 60), <code>Destaque caixa alta</code> (ExtraBold 64), <code>Unidade mega</code> (56), <code>Subtítulo</code> (Poppins Medium 32), <code>Selo e pill</code> (SemiBold 20), <code>Pill pequena</code> (14), <code>CTA</code> (SemiBold 26), <code>App</code> (16), <code>Corpo</code> (Regular 26), <code>Apoio de preço</code> (Medium 22), <code>Legal</code> (14), <code>Data espaçada</code>, <code>Número selo</code>.</li>\n<li>Preço em texto único com trechos de estilo; centavos sobrescritos se ajustam à mão.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo roxo vibrante</strong> com luzes lilás e roxo escuro, ondas de luz e <strong>Wi-Fi 3D de vidro lilás</strong> (<code>Fundo / Roxo vibrante</code>, <code>Grafismo / Ondas Wi-Fi</code>); gradiente <code>Fundo / Gradiente roxo</code>.</li>\n<li><strong>Card branco de oferta</strong>: velocidade em roxo noite, &quot;mega&quot; em roxo vibrante, selo &quot;Wi-Fi 6 incluso&quot;, preço (<code>Card / Oferta</code>).</li>\n<li><strong>Tiles brancos dos apps</strong> (Premiere, Disney+, HBO Max, ExitLag, SKY+, Telecine) (<code>Ícone / App</code>, <code>Bloco / Apps</code>: trocar pelo logo oficial).</li>\n<li><strong>CTA no pincel laranja</strong> (<code>Botão / CTA pincel</code>, pincel oficial em <code>Forma / Pincel CTA</code>).</li>\n<li><strong>Assinatura logo + selo</strong> (<code>Assinatura / Logo + slogan</code>).</li>\n<li><strong>Selo contornado &quot;Planos com até 1000 mega&quot;</strong> (<code>Selo / Planos com até</code>), <strong>pill branca de apoio</strong> (<code>Pill / Destaque</code>), <strong>data espaçada</strong> (<code>Texto / Data espaçada</code>), <strong>legal</strong> (<code>Texto / Legal</code>).</li>\n<li>Nas peças antigas o laranja aparecia em palavras e pills: a partir deste kit, só no CTA.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Pessoas reais e expressivas (rindo com controle e pipoca, gamer comemorando, família, amigas com o celular) cercadas pela luz roxa; casa conectada; TV com futebol; PC gamer; fotos reais das 3 cidades.</li>\n<li>Objetos 3D no roxo: casa da Rede Mesh, cartão de indicação, % de desconto.</li>\n<li>Evitar: amarelo e vermelho como cor de peça, banco de imagem frio, cabos como protagonistas.</li>\n<li>Parceiros: só logo oficial, com a classificação indicativa quando houver conteúdo.</li>\n</ul>\n",
+    "layouts": "<h3>ADS (1080 × 1080)</h3>\n<h3>FEED (1080 × 1350)</h3>\n<h3>Carrossel (1080 × 1350)</h3>\n<p>Ícone de arrastar no canto dos slides.</p>\n",
+    "ofertas": "<ul>\n<li><p><strong>Planos e preços vigentes</strong> ficam na Central de Clientes.</p>\n</li>\n<li><p><strong>Streaming à parte:</strong> HBO Max, Disney+, Telecine, Premiere, ExitLag, SKY+.</p>\n</li>\n<li><p><strong>Indique e ganhe:</strong> 50% de desconto na mensalidade, somente após a contratação do indicado.</p>\n</li>\n<li><p><strong>Legal:</strong> &quot;*Consulte condições e viabilidade técnica.&quot; · indicação: &quot;*somente após a contratação do indicado(a)&quot;.</p>\n</li>\n<li><p><strong>Contato:</strong> WhatsApp (35) 99812-2445 · <a href=\"mailto:comercial@via01.com.br\">comercial@via01.com.br</a> · @internet.via01 · suporte de segunda a domingo até as 20h.</p>\n</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>HBO Max, Disney+, Telecine, Premiere, ExitLag, SKY+</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logo oficial, com classificação indicativa</td>\n</tr>\n</tbody></table>\n"
+  }
+}

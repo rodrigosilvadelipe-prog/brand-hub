@@ -1,0 +1,403 @@
+{
+  "slug": "capital-fibra",
+  "nome": "Capital Fibra",
+  "status": "provisório",
+  "atualizado": "2026-10-26",
+  "fundo": "linear-gradient(180deg, #8457B8 0%, #6D4199 35%, #3A0F6F 100%)",
+  "capa": {
+    "logo": "/clientes/capital-fibra/logo/capital-fibra-logotipo-horizontal-negativo.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Fundo roxo com brilho neon e ondas de Wi-Fi",
+    "Número gigante em Bebas Neue, com selo laranja MEGA",
+    "Card verde-limão de oferta",
+    "Faixas diagonais laranja nos cantos",
+    "Carinhas: rosto no círculo roxo, coerente com o tema"
+  ],
+  "evite": [
+    "Criativo feito com IA: regra do cliente, use foto real",
+    "Rosa e ícones de coração",
+    "Dar corpo, braços ou mãos ao mascote",
+    "Superlativo sem prova, como \"a melhor internet da sua região\"",
+    "Trocar o roxo do logo ou remover os ícones de serviço"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/capital-fibra/logo/capital-fibra-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Fundo roxo, no canto superior direito das peças",
+      "fundo": "#3A0F6F",
+      "src": "/clientes/capital-fibra/logo/capital-fibra-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/capital-fibra/logo/capital-fibra-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Fundo roxo",
+      "fundo": "#3A0F6F",
+      "src": "/clientes/capital-fibra/logo/capital-fibra-logotipo-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Vem pra Capital positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/capital-fibra/logo/capital-fibra-vem-pra-positivo.svg"
+    },
+    {
+      "titulo": "Vem pra Capital negativo",
+      "quando": "Fundo roxo",
+      "fundo": "#3A0F6F",
+      "src": "/clientes/capital-fibra/logo/capital-fibra-vem-pra-negativo.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Roxo Capital",
+      "hex": "#6D4199",
+      "rgb": "109 65 153",
+      "papel": "principal, logo, fundos",
+      "proporcao": "40%",
+      "pct": 40,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Laranja Capital",
+      "hex": "#F15822",
+      "rgb": "241 88 34",
+      "papel": "selos, faixas diagonais",
+      "proporcao": "8%",
+      "pct": 8,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Verde-limão",
+      "hex": "#8FC640",
+      "rgb": "143 198 64",
+      "papel": "card de oferta, destaque",
+      "proporcao": "12%",
+      "pct": 12,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo escuro",
+      "hex": "#4F2F73",
+      "rgb": "79 47 115",
+      "papel": "títulos, fundos",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo noite",
+      "hex": "#3A0F6F",
+      "rgb": "58 15 111",
+      "papel": "base dos fundos",
+      "proporcao": "15%",
+      "pct": 15,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo profundo",
+      "hex": "#2F1A47",
+      "rgb": "47 26 71",
+      "papel": "fundos mais escuros",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Lilás",
+      "hex": "#8457B8",
+      "rgb": "132 87 184",
+      "papel": "brilhos, topo do gradiente",
+      "proporcao": "5%",
+      "pct": 5,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Roxo vibrante",
+      "hex": "#9900FF",
+      "rgb": "153 0 255",
+      "papel": "neon pontual",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Gelo lilás",
+      "hex": "#F3F0F7",
+      "rgb": "243 240 247",
+      "papel": "fundos claros",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "textos sobre roxo",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "fundo-capital",
+      "css": "linear-gradient(180deg, #8457B8 0%, #6D4199 35%, #3A0F6F 100%)",
+      "direcao": "topo lilás para base roxo noite"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco e verde-limão sobre roxo-capital, roxo-noite e o gradiente",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#6D4199"
+      },
+      {
+        "texto": "roxo-capital e branco sobre verde-limão (card de oferta)",
+        "razao": null,
+        "fg": "#6D4199",
+        "bg": "#8FC640"
+      },
+      {
+        "texto": "branco sobre laranja-capital (selos)",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#F15822"
+      },
+      {
+        "texto": "roxo-escuro sobre branco e gelo-lilás",
+        "razao": null,
+        "fg": "#4F2F73",
+        "bg": "#FFFFFF"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "verde-limão ou laranja como texto fino sobre branco",
+        "razao": null,
+        "fg": "#8FC640",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "laranja sobre verde-limão",
+        "razao": null,
+        "bg": "#8FC640"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Bebas Neue",
+      "css": "Bebas Neue",
+      "uso": "títulos, números de oferta e destaques (guia)",
+      "pesos": "Regular (um peso só)",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Bebas+Neue"
+    },
+    {
+      "nome": "Plus Jakarta Sans",
+      "css": "Plus Jakarta Sans",
+      "uso": "textos longos, descrições, subtítulos, CTA, selos e legal (guia)",
+      "pesos": "ExtraLight a ExtraBold, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Plus+Jakarta+Sans"
+    }
+  ],
+  "familiaPrincipal": "Bebas Neue",
+  "fontesGoogle": [
+    {
+      "nome": "Bebas Neue",
+      "pesos": [
+        400
+      ]
+    },
+    {
+      "nome": "Plus Jakarta Sans",
+      "pesos": [
+        400,
+        600,
+        700,
+        800
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Bebas Neue",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 260,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Bebas Neue",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 110,
+      "entrelinha": 0.95
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Bebas Neue",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 80,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Plus Jakarta Sans",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Plus Jakarta Sans",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Plus Jakarta Sans",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "CF1",
+      "estrutura": "Oferta: logo no topo à direita, título com destaque verde, card verde de oferta, apps, benefícios, mascote no canto, botão WhatsApp",
+      "quando": "ADS 1080 × 1080",
+      "src": "/clientes/capital-fibra/img/ref-cf1.webp"
+    },
+    {
+      "codigo": "CF2",
+      "estrutura": "Produto: telefone, roteador ou mascote em destaque com selo laranja",
+      "quando": "VoIP, Mesh, Wi-Fi Turbo",
+      "src": "/clientes/capital-fibra/img/ref-cf2.webp"
+    },
+    {
+      "codigo": "CF3",
+      "estrutura": "Prova social: avaliações do Google em cards e o mascote",
+      "quando": "confiança",
+      "src": "/clientes/capital-fibra/img/ref-cf3.webp",
+      "alerta": "Só estrutura: troque nomes e textos por avaliações reais autorizadas."
+    },
+    {
+      "codigo": "CF4",
+      "estrutura": "Pessoa + mensagem: foto real com luz roxa, título, mascote",
+      "quando": "atendimento, datas",
+      "src": "/clientes/capital-fibra/img/ref-cf4.webp"
+    },
+    {
+      "codigo": "CF5",
+      "estrutura": "B2B: link dedicado, SLA, IP fixo",
+      "quando": "foco atual do cliente",
+      "src": "/clientes/capital-fibra/img/ref-cf5.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/capital-fibra/arquivos/capital-fibra-logos.zip",
+      "tamanho": "49 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Peça de referência: card verde de oferta, apps, benefícios, faixa e mascote",
+      "src": "/clientes/capital-fibra/img/ref-elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "",
+  "naoGosta": "",
+  "licoes": [
+    "Mascote é só a cabeça no círculo roxo: muda expressão, óculos e sinais, nunca ganha corpo.",
+    "A expressão do mascote acompanha o tema da peça.",
+    "Logo entra por cima da arte, nunca escrito pela imagem.",
+    "TV sempre frontal e preço no bloco da marca."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet 100% fibra óptica residencial e empresarial, com telefonia fixa (portabilidade), Roteador Mesh, streaming (Globoplay, HBO Max, Telecine, Premiere), Capital Play e Estante Digital; celular 4.5G e câmera monitorada em breve.</li>\n<li><strong>Assinatura:</strong> &quot;Venha para uma internet que fica mais perto de você!&quot;</li>\n<li><strong>Diferencial real:</strong> atendimento humanizado, com pouca automação e menos reclamações que os concorrentes; instalação em 24h a 48h; suporte 24/7; podcast Capital Cast.</li>\n<li><strong>Foco atual:</strong> B2B.</li>\n<li><strong>Personalidade:</strong> colorida, próxima, divertida (mascote) / nunca: fria, minimalista demais, exagerada.</li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Onde:</strong> Fazenda Rio Grande (100% de cobertura: Centro, Pioneiros, Santa Maria, Iguaçu, Estados, Veneza, Eucaliptos, Santa Terezinha, Santarém, Gralha Azul, Nações), Curitiba (Guaíra, CIC, Tatuquara, Caximba, Parolin, Novo Mundo, Umbará, Campo de Santana) e Mandirituba (Ciman, Colônia Lima).</li>\n<li><strong>Quem compra:</strong> famílias das classes C, D e E, que preferem elementos grandes, números em destaque e cores; empresas (foco B2B).</li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> animado e direto, com números grandes e humor leve (&quot;Sua internet não pode viver na corda bamba!&quot;, &quot;Batalha de gigantes!&quot;).</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> muito + internet, perto de você, turbinar, atendimento humano, Fazenda Rio Grande.</li>\n<li><strong>Evitar:</strong> &quot;a melhor internet da sua região&quot; (visto em peça) em ADS; ícones de coração.</li>\n<li><strong>Exemplo bom:</strong><blockquote>\n<p>Pode falar... tem gente aqui para ouvir. Na Capital Fibra, você encontra atendimento humano para contratar, tirar dúvidas e pedir ajuda.</p>\n</blockquote>\n</li>\n<li><strong>Exemplo ruim:</strong><blockquote>\n<p>A internet mais rápida do Paraná, sem igual!</p>\n</blockquote>\n</li>\n<li><strong>CTAs:</strong> &quot;Assine agora pelo WhatsApp&quot;, &quot;Contrate já&quot;, &quot;EU QUERO&quot;, &quot;Consultar&quot; (CEP), &quot;Indique e Ganhe&quot;.</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Componentes <code>Logo / Horizontal positivo</code>, <code>Logo / Horizontal negativo</code>, <code>Logo / Vertical positivo</code>, <code>Logo / Vem pra Capital negativo</code>: &quot;Capital&quot; em roxo com &quot;fibra&quot; embaixo e os ícones de serviço (Wi-Fi, telefone, TV, câmera, celular).</li>\n<li>Nas peças: logo branco no canto superior direito.</li>\n<li>Mínimo 140 px <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>. Proibido: distorcer, trocar o roxo, remover os ícones de serviço. Ícone isolado: não existe (o círculo do mascote cumpre esse papel nas peças) <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>.</li>\n</ul>\n",
+    "cores": "<p>O guia repete &quot;Pantone 2587 C&quot; para o verde: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> o Pantone correto do verde.</p>\n",
+    "tipografia": "<ul>\n<li>Definidas no guia de marca. O site novo usa Antonio/Anton nos títulos: peças seguem o guia (Bebas Neue).</li>\n<li>Oferta como no guia: número gigante em Bebas Neue com selo laranja &quot;MEGA&quot; sobreposto, &quot;Wi-Fi + Capital TV&quot; em Plus Jakarta e &quot;INSTALAÇÃO GRÁTIS*&quot; em Bebas Neue.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo roxo</strong> com brilho neon e ondas de Wi-Fi (<code>Fundo / Gradiente Fundo capital</code>, <code>Fundo / Brilho</code>).</li>\n<li><strong>Faixas diagonais laranja</strong> nos cantos (<code>Faixa / Diagonal laranja</code>; girar a instância).</li>\n<li><strong>Card verde-limão de oferta</strong>: &quot;Contrate 600&quot;, &quot;Leve&quot; 900 mega roxo, preço branco (<code>Card / Oferta</code>).</li>\n<li><strong>Selos</strong> laranja (MEGA) e verde (PLANO PREMIUM) (<code>Selo / Laranja</code>, <code>Selo / Verde</code>).</li>\n<li><strong>Cards brancos de streaming</strong> (<code>Selo / App</code>, só logos oficiais); <strong>benefícios com ícone</strong> (<code>Item / Benefício</code>); <strong>botão branco do WhatsApp</strong> (<code>Botão / WhatsApp</code>).</li>\n<li><strong>Mascote: as Carinhas.</strong> Rosto branco dentro do círculo roxo (a mesma forma do &quot;C&quot;), com expressões desenhadas. Componentes <code>Mascote / Feliz</code>, <code>Assustada</code>, <code>Afirmação</code>, <code>Saborosa</code>, <code>Sapeca</code> e <code>Base</code>.md). Mais poses em <code>Mascote\\</code> (quadros de 25 expressões, carinhas com acessórios e profissões, versão Outubro Rosa). Nome: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span>. <strong>O mascote não tem corpo</strong> (sem braços, mãos, pernas ou pescoço): é só a cabeça redonda no círculo roxo. Pode mudar a expressão, usar óculos e sinais de expressão (gotas, lágrimas, brilhos, linhas de movimento); a estrutura nunca muda. <strong>Usar só poses existentes</strong>; como o cliente pede não usar IA, não gerar poses novas. O cliente também usa bonecos infláveis em ações de rua.</li>\n<li>Os anéis neon laranja e verde da pasta <code>Mascote\\</code> são grafismos de apoio.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Pessoas reais (famílias, crianças, atendentes) com luz roxa, cenas de casa e vista aérea de Fazenda Rio Grande.</li>\n<li><strong>Não usar IA nos criativos</strong> (regra do cliente): fotos reais licenciadas ou do cliente; sem fachadas das lojas.</li>\n<li>Evitar: rosa, corações, escritório frio, cabos como protagonistas, pôster de filme ou série sem exceção autorizada.</li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><p><strong>Ofertas e preços vigentes</strong> ficam na Central de Clientes. Download 100% e upload 50%.</p>\n</li>\n<li><p><strong>Adicionais:</strong> Roteador Mesh, telefonia e streamings, com valores na Central de Clientes.</p>\n</li>\n<li><p><strong>Indique e ganhe:</strong> 1 amigo 50%, 2 amigos 100% de desconto na próxima mensalidade (após o indicado pagar a 1ª).</p>\n</li>\n<li><p><strong>Instalação:</strong> grátis com CPF sem restrição; sempre com asterisco (&quot;Instalação grátis*&quot;).</p>\n</li>\n<li><p><strong>Contato:</strong> 0800 941 0094 (telefone e WhatsApp) · <a href=\"mailto:sac@capitalfibra.com.br\">sac@capitalfibra.com.br</a>.</p>\n</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Globoplay, HBO Max, Telecine, Premiere</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logos oficiais</td>\n</tr>\n<tr>\n<td>Capital Play, Estante Digital, Capital TV</td>\n<td>próprios</td>\n<td>logos a enviar <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n</tr>\n</tbody></table>\n"
+  }
+}

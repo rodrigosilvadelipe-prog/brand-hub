@@ -242,6 +242,7 @@
   "familias": [
     {
       "nome": "Archivo",
+      "css": "Archivo",
       "uso": "títulos e destaques",
       "pesos": "ExtraBold e Black nos títulos, Bold em subtítulos",
       "onde": "Google Fonts",
@@ -249,6 +250,7 @@
     },
     {
       "nome": "Inter",
+      "css": "Inter",
       "uso": "demais textos, botões em caixa alta e legal",
       "pesos": "Regular, Medium, SemiBold, Bold",
       "onde": "Google Fonts",

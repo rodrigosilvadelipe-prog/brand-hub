@@ -1,0 +1,89 @@
+{
+  "substituir": {
+    " Cerca de 3.000 assinantes; meta de 4.300 ativos.": "",
+    "- **Concorrentes:** Vivo, Claro, Asa, Diginet, Multifibra, Sol, GNET. [cliente]": "",
+    "- **Planos do site (22/10/2026):** Velox Light 500 Mbps R$ 119,90 · Velox Plus 700 Mbps R$ 149,90 (mais vendido, + Deezer) · Velox Max 1.000 Mbps R$ 179,90 (+ Disney ou Max) · Velox Gamer 1.000 Mbps R$ 169,90 (+ ExitLag). Todos com Wi-Fi grátis, instalação grátis, app de livros, +120 canais. O briefing (fev/2026) cita valores diferentes (gamer R$ 165; combo futebol R$ 199): [confirmar].": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- Definida pelo usuário em 22/10/2026 [usuário].": "",
+    "- **No Figma:** os 9 estilos `VELOX / …` usam **Neulis** (Black, ExtraBold, Bold, SemiBold, Regular) desde 22/10/2026, quando a fonte foi enviada ao Figma. Atenção: fonte ativada só no PC (FontBase) não aparece para a montagem automática; ela precisa estar enviada ao Figma no time dono do arquivo.": "",
+    "Extraídas do site (cores do tema) e do logo, como pedido [usuário].": "Extraídas do site e do logo.",
+    " As imagens \"ChatGPT Image\" da pasta são de IA: não tratar como fotos reais.": ""
+  },
+  "faca": [
+    "Fundo vermelho intenso com brilho no centro",
+    "Velocidade gigante com \"mega\" vermelho contornado de branco",
+    "Card escuro de preço",
+    "Tag preta com a cidade",
+    "Plano e preço só nos ADS"
+  ],
+  "evite": [
+    "Plano e preço nas redes sociais: regra do cliente",
+    "Vermelho sobre bordô ou vinho sem contorno",
+    "Texto fino sobre foto sem véu",
+    "Personagem de terceiros sem exceção autorizada",
+    "Superlativo sem prova, como \"a internet mais veloz da região\""
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/velox-fiber/logo/velox-fiber-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Fundo vermelho ou escuro",
+      "fundo": "#101010",
+      "arquivo": "curadoria/velox-fiber/logo/velox-fiber-logotipo-horizontal-negativo.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/velox-fiber/logo/velox-fiber-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Fundo vermelho ou escuro",
+      "fundo": "#101010",
+      "arquivo": "curadoria/velox-fiber/logo/velox-fiber-logotipo-vertical-negativo.svg"
+    },
+    {
+      "titulo": "Ícone positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/velox-fiber/logo/velox-fiber-icone-positivo.svg"
+    },
+    {
+      "titulo": "Ícone negativo",
+      "quando": "No canto das peças, em fundo escuro",
+      "fundo": "#101010",
+      "arquivo": "curadoria/velox-fiber/logo/velox-fiber-icone-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-velox",
+    "logo": "curadoria/velox-fiber/logo/velox-fiber-logotipo-horizontal-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/velox-fiber/ref-elementos.png",
+      "legenda": "Peça de referência: velocidade gigante, selos de apps, botão do WhatsApp e ícone no canto"
+    }
+  ],
+  "layouts": {
+    "VF1": "curadoria/velox-fiber/ref-vf1.png",
+    "VF2": "curadoria/velox-fiber/ref-vf2.png",
+    "VF3": "curadoria/velox-fiber/ref-vf3.png",
+    "VF4": {
+      "origem": "curadoria/velox-fiber/ref-vf4.png",
+      "alerta": "Só estrutura: nas redes sociais não entra plano nem preço."
+    }
+  },
+  "fontes": {
+    "Neulis": {
+      "onde": "pasta da marca do cliente, em Fontes. No PC, ative pelo FontBase."
+    }
+  },
+  "arquivos": [],
+  "licoes": []
+}

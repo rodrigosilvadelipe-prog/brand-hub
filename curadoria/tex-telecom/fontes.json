@@ -1,0 +1,57 @@
+{
+  "Rink": {
+    "disponivel": true,
+    "nome": "curadoria/tex-telecom/fonte-rink-nome.png",
+    "especime": "curadoria/tex-telecom/fonte-rink-especime.png",
+    "pesos": [
+      "Thin",
+      "Extralight",
+      "Light",
+      "Regular",
+      "Medium",
+      "Semibold",
+      "Bold",
+      "Extrabold",
+      "Black"
+    ],
+    "estilos": {
+      "numero-oferta": {
+        "src": "curadoria/tex-telecom/fonte-rink-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/tex-telecom/fonte-rink-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/tex-telecom/fonte-rink-titulo-2.png",
+        "altura": 42
+      },
+      "subtitulo": {
+        "src": "curadoria/tex-telecom/fonte-rink-subtitulo.png",
+        "altura": 26
+      },
+      "selo-pill": {
+        "src": "curadoria/tex-telecom/fonte-rink-selo-pill.png",
+        "altura": 21
+      },
+      "cta": {
+        "src": "curadoria/tex-telecom/fonte-rink-cta.png",
+        "altura": 19
+      },
+      "corpo": {
+        "src": "curadoria/tex-telecom/fonte-rink-corpo.png",
+        "altura": 18
+      },
+      "apoio-preco": {
+        "src": "curadoria/tex-telecom/fonte-rink-apoio-preco.png",
+        "altura": 17
+      },
+      "legal": {
+        "src": "curadoria/tex-telecom/fonte-rink-legal.png",
+        "altura": 17
+      }
+    },
+    "faltam": []
+  }
+}

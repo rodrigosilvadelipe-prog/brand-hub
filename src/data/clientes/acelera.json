@@ -255,6 +255,7 @@
   "familias": [
     {
       "nome": "Krub",
+      "css": "Krub",
       "uso": "todos os textos das peças",
       "pesos": "ExtraLight, Light, Regular, Medium, SemiBold e Bold, cada um com itálico; não existe Black",
       "onde": "Google Fonts",

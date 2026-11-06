@@ -1,0 +1,56 @@
+{
+  "substituir": {
+    "- **Planos no site (21/10/2026):** 600 Mega R$ 119,90 (de R$ 129,90) · 1 Giga R$ 139,90 (de R$ 149,90, \"mais escolhido\") · 1,5 Giga R$ 219,80 (de R$ 229,80). Detalhes em `cliente.md`. Os ADS antigos usam \"800 mega R$ 99,90\": [confirmar] se ainda vale.": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "O amarelo #FFDA00 faz parte da paleta oficial (decisão do usuário em 21/10/2026).": "O amarelo #FFDA00 faz parte da paleta oficial.",
+    "Definidas pelo usuário em 21/10/2026 [usuário]. ": "",
+    "- **Wi-Fi 3D de vidro** (bolha branca com arcos azuis) entrando pelos cantos: imagem 3D, pedir arquivo-fonte ou gerar com `gerar-imagem-codex.ps1 -Transparente` mediante aprovação.": "- **Wi-Fi 3D de vidro** (bolha branca com arcos azuis) entrando pelos cantos: é imagem 3D, peça o arquivo-fonte."
+  },
+  "faca": [
+    "Gradiente azul, do elétrico ao marinho",
+    "Logo branco centralizado no topo",
+    "Botão amarelo em pílula, com texto marinho e seta",
+    "Número branco com \"mega\" amarelo",
+    "Humor de mar, datas e cultura pop, com promessa concreta"
+  ],
+  "evite": [
+    "Branco sobre amarelo",
+    "Amarelo ou azul céu como texto sobre branco",
+    "Azul elétrico em texto fino sobre marinho",
+    "Superlativo sem prova, como \"a melhor internet\"",
+    "Recolorir o \"mar\" do logo ou aplicar sobre foto sem contraste"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "\"via\" em gradiente e \"mar\" preto, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/viamar/logo/viamar-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Branco, sobre o azul, no topo das peças",
+      "fundo": "#0B1E79",
+      "arquivo": "curadoria/viamar/logo/viamar-logotipo-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-viamar",
+    "logo": "curadoria/viamar/logo/viamar-logotipo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/viamar/ref-elementos.png",
+      "legenda": "Peça de referência: Wi-Fi 3D, card de interface, oferta, benefícios e faixa amarela de rodapé"
+    }
+  ],
+  "layouts": {
+    "VM1": "curadoria/viamar/ref-vm1.png",
+    "VM2": "curadoria/viamar/ref-vm2.png",
+    "VM3": "curadoria/viamar/ref-vm3.png",
+    "VM4": "curadoria/viamar/ref-vm4.png"
+  },
+  "arquivos": [],
+  "licoes": [
+    "Peças antigas usam outra fonte geométrica: nas novas, Space Grotesk e IBM Plex Sans."
+  ]
+}

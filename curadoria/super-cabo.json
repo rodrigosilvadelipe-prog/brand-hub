@@ -1,0 +1,99 @@
+{
+  "substituir": {
+    "; cerca de 22 mil assinantes": "",
+    "- **Concorrentes:** Vivo, Claro, Imicro, Mult Net. [cliente]": "",
+    "- **Oferta:** \"360 Mega · Por apenas R$ 99,90/mês\" + \"Benefícios inclusos no seu plano\" (apps).": "- **Oferta:** velocidade + \"Por apenas\" com o valor vigente + \"Benefícios inclusos no seu plano\" (apps).",
+    "caixa azul viva \"Por apenas: R$ 99,90/mês\"": "caixa azul viva \"Por apenas\", com o valor vigente",
+    "- **Planos (site, 28/10/2026):** Combo Super Life (56 canais): 360 Mb R$ 89,90 · Super Fitness 520 Mb R$ 99,90 · Super Conexão Max 680 Mb R$ 119,90 · Super Cinema 820 Mb R$ 139,90 · Super Sports 820 Mb R$ 149,90 · Super Premium 820 Mb R$ 199,90. Combo Super Plus (98 canais): 360 Mb R$ 99,90 · 520 Mb R$ 109,90 · 680 Mb R$ 129,90 · 820 Mb R$ 149,90 / 159,90 / 209,90. Telefonia móvel de 2 Gb (R$ 29,99) a 80 Gb (R$ 129,99), MAX ou Disney por + R$ 29,90. [cliente]": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- **Campanha que deu certo:** Carnaval com HBO Max de brinde.": "",
+    "- Definida pelo usuário em 28/10/2026. A pasta `Fontes` está vazia e os arquivos de logo citam Montserrat: **não usar Montserrat** nas peças.": "- **Não usar Montserrat** nas peças.",
+    "- Uma peça de ADS tem nome \"ChatGPT Image\": fora das referências. Imagem por IA só com prompt registrado e sem inventar a equipe real.": "- Imagem por IA só com prompt registrado e sem inventar a equipe real."
+  },
+  "faca": [
+    "Fundo azul elétrico com luz azul viva",
+    "Título com palavra-chave laranja",
+    "Card de oferta com velocidade gigante e \"Mega\" laranja",
+    "Box completo da oferta em toda peça de campanha",
+    "Logo branco no canto inferior direito"
+  ],
+  "evite": [
+    "Peça carregada ou elementos encostados",
+    "Preço dominando a imagem",
+    "Montserrat nas peças",
+    "Laranja como texto fino sobre branco",
+    "Azul Super como texto sobre azul elétrico"
+  ],
+  "logos": [
+    {
+      "titulo": "Padrão positivo",
+      "quando": "Fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/super-cabo/logo/super-cabo-logotipo-padrao-positivo.svg"
+    },
+    {
+      "titulo": "Padrão negativo azul",
+      "quando": "Fundo azul",
+      "fundo": "#0006A0",
+      "arquivo": "curadoria/super-cabo/logo/super-cabo-logotipo-padrao-azul-negativo.svg"
+    },
+    {
+      "titulo": "Padrão negativo laranja",
+      "quando": "Fundo laranja",
+      "fundo": "#FC6132",
+      "arquivo": "curadoria/super-cabo/logo/super-cabo-logotipo-padrao-laranja-negativo.svg"
+    },
+    {
+      "titulo": "Slogan positivo",
+      "quando": "Com \"Liberdade que te move!\", fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/super-cabo/logo/super-cabo-logotipo-slogan-positivo.svg"
+    },
+    {
+      "titulo": "Slogan negativo azul",
+      "quando": "Com slogan, fundo azul",
+      "fundo": "#0006A0",
+      "arquivo": "curadoria/super-cabo/logo/super-cabo-logotipo-slogan-azul-negativo.svg"
+    },
+    {
+      "titulo": "Slogan negativo laranja",
+      "quando": "Com slogan, fundo laranja",
+      "fundo": "#FC6132",
+      "arquivo": "curadoria/super-cabo/logo/super-cabo-logotipo-slogan-laranja-negativo.svg"
+    }
+  ],
+  "capa": {
+    "fundo": "#0006A0",
+    "logo": "curadoria/super-cabo/logo/super-cabo-logotipo-padrao-azul-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/super-cabo/ref-elementos.png",
+      "legenda": "Peça de referência: selo de campanha, card de oferta, apps, logo branco e faixa do CTA"
+    }
+  ],
+  "layouts": {
+    "SA1": {
+      "origem": "curadoria/super-cabo/ref-sa1.png",
+      "alerta": "Só estrutura: peça feita com IA, fora das referências aprovadas."
+    },
+    "SA2": "curadoria/super-cabo/ref-sa2.png",
+    "SA3": "curadoria/super-cabo/ref-sa3.png",
+    "SA4": {
+      "origem": "curadoria/super-cabo/ref-sa4.png",
+      "alerta": "Só estrutura: troque nomes e textos por avaliações reais autorizadas."
+    },
+    "SF1": "curadoria/super-cabo/ref-sf1.png",
+    "SF2": "curadoria/super-cabo/ref-sf2.png",
+    "SF3": "curadoria/super-cabo/ref-sf3.png",
+    "SF4": "curadoria/super-cabo/ref-sf4.png",
+    "SF5": "curadoria/super-cabo/ref-sf5.png"
+  },
+  "arquivos": [],
+  "licoes": [
+    "Imagem é protagonista, título em segundo e box compacto, sem brilho.",
+    "Dê respiro entre todos os grupos: nada encostado.",
+    "Fidelidade de 12 meses não entra nas artes."
+  ],
+  "gosta": "Cenas reais com humor (pet, república, família), criatividade que quebra padrão, Barlow Condensed nos títulos e selo 3D de campanha.",
+  "naoGosta": "Peças carregadas, preço dominando a imagem e elementos encostados."
+}

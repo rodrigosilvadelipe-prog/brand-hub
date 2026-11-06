@@ -1,0 +1,368 @@
+{
+  "slug": "gnet-network",
+  "nome": "Gnet Network",
+  "status": "provisório",
+  "atualizado": "2026-10-23",
+  "fundo": "linear-gradient(180deg, #00076A 0%, #001634 60%, #000000 100%)",
+  "capa": {
+    "logo": "/clientes/gnet-network/logo/gnet-logotipo-negativo-azul.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Sempre laranja, com azul-escuro, roxo-escuro ou preto",
+    "Fundo azul profundo a preto com linhas de luz",
+    "Título em caixa alta com uma palavra em laranja",
+    "Velocidade gigante com \"mega\" laranja e card azul de preço",
+    "Logo negativo no canto inferior esquerdo"
+  ],
+  "evite": [
+    "Instalação grátis nos criativos: não vale na zona rural",
+    "Outra cor principal que não o laranja",
+    "Verde fora do botão do WhatsApp",
+    "Laranja como texto fino sobre branco",
+    "Superlativo sem prova, como \"a melhor internet da sua região\""
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Símbolo laranja e gnet marinho, fundo claro",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/gnet-network/logo/gnet-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo azul",
+      "quando": "Símbolo laranja e gnet branco, fundo azul",
+      "fundo": "#001634",
+      "src": "/clientes/gnet-network/logo/gnet-logotipo-negativo-azul.svg"
+    },
+    {
+      "titulo": "Negativo laranja",
+      "quando": "Para fundo laranja",
+      "fundo": "#FF7700",
+      "src": "/clientes/gnet-network/logo/gnet-logotipo-negativo-laranja.svg"
+    },
+    {
+      "titulo": "Branco",
+      "quando": "Uma cor, fundo escuro",
+      "fundo": "#00076A",
+      "src": "/clientes/gnet-network/logo/gnet-logotipo-branco.svg"
+    },
+    {
+      "titulo": "Ícone laranja",
+      "quando": "Fundo claro ou escuro",
+      "fundo": "#001634",
+      "src": "/clientes/gnet-network/logo/gnet-icone-laranja.svg"
+    },
+    {
+      "titulo": "Ícone branco",
+      "quando": "Fundo escuro ou laranja",
+      "fundo": "#00076A",
+      "src": "/clientes/gnet-network/logo/gnet-icone-branco.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "Laranja Gnet",
+      "hex": "#FF7700",
+      "rgb": "255 119 0",
+      "papel": "símbolo, mega, palavra-chave, etiquetas",
+      "proporcao": "20%",
+      "pct": 20,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Marinho Gnet",
+      "hex": "#001634",
+      "rgb": "0 22 52",
+      "papel": "letras gnet, fundos escuros",
+      "proporcao": "30%",
+      "pct": 30,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul card",
+      "hex": "#001A43",
+      "rgb": "0 26 67",
+      "papel": "card de preço",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul profundo",
+      "hex": "#00076A",
+      "rgb": "0 7 106",
+      "papel": "fundos azul-escuros",
+      "proporcao": "20%",
+      "pct": 20,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Azul royal",
+      "hex": "#355BA9",
+      "rgb": "53 91 169",
+      "papel": "luzes e linhas",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Preto",
+      "hex": "#000000",
+      "rgb": "0 0 0",
+      "papel": "base do gradiente",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Verde WhatsApp",
+      "hex": "#05A405",
+      "rgb": "5 164 5",
+      "papel": "só no botão do WhatsApp",
+      "proporcao": "pontual",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "Branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "textos, cards de apps",
+      "proporcao": "10%",
+      "pct": 10,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "fundo-gnet",
+      "css": "linear-gradient(180deg, #00076A 0%, #001634 60%, #000000 100%)",
+      "direcao": "topo azul profundo para base preta"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "laranja-gnet e branco sobre marinho-gnet, azul-profundo, azul-card e preto",
+        "razao": null,
+        "fg": "#FF7700",
+        "bg": "#001634"
+      },
+      {
+        "texto": "marinho-gnet sobre branco",
+        "razao": null,
+        "fg": "#001634",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "branco sobre verde-whatsapp (só no botão)",
+        "razao": null,
+        "fg": "#FFFFFF",
+        "bg": "#05A405"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "laranja-gnet como texto fino sobre branco",
+        "razao": null,
+        "fg": "#FF7700",
+        "bg": "#FFFFFF"
+      },
+      {
+        "texto": "laranja-gnet sobre azul-royal",
+        "razao": null,
+        "fg": "#FF7700",
+        "bg": "#355BA9"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Montserrat",
+      "css": "Montserrat",
+      "uso": "títulos, números de oferta, destaques, CTA e selos",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Montserrat"
+    },
+    {
+      "nome": "Inter",
+      "css": "Inter",
+      "uso": "subtítulos, corpo, apoio de preço e textos legais",
+      "pesos": "Thin a Black, com itálicos",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Inter"
+    }
+  ],
+  "familiaPrincipal": "Montserrat",
+  "fontesGoogle": [
+    {
+      "nome": "Montserrat",
+      "pesos": [
+        400,
+        700,
+        800
+      ]
+    },
+    {
+      "nome": "Inter",
+      "pesos": [
+        400,
+        600
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 240,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Montserrat",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 96,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 72,
+      "entrelinha": 1.05
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 44,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Montserrat",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 32,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 30,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Inter",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.15
+    },
+    {
+      "papel": "Legal",
+      "familia": "Inter",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 20,
+      "entrelinha": 1.3
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "GN1",
+      "estrutura": "Oferta: título em caixa alta com destaque laranja, velocidade + card de preço, apps, botão WhatsApp, logo no canto",
+      "quando": "ADS 1080 × 1080",
+      "src": "/clientes/gnet-network/img/ref-gn1.webp"
+    },
+    {
+      "codigo": "GN2",
+      "estrutura": "Produto 3D (roteador, celular, casa) com brilho laranja e oferta ao lado",
+      "quando": "Wi-Fi Mesh, combos",
+      "src": "/clientes/gnet-network/img/ref-gn2.webp"
+    },
+    {
+      "codigo": "GN3",
+      "estrutura": "Cidade nova: cena da cidade ou zona rural, título de chegada, oferta",
+      "quando": "expansão",
+      "src": "/clientes/gnet-network/img/ref-gn3.webp"
+    },
+    {
+      "codigo": "GN4",
+      "estrutura": "Interface: celular com notificação e card de oferta",
+      "quando": "campanhas de impacto",
+      "src": "/clientes/gnet-network/img/ref-gn4.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/gnet-network/arquivos/gnet-network-logos.zip",
+      "tamanho": "14 KB",
+      "ext": "zip"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Peça de referência: card azul de preço, cards de apps, logo no canto, botão do WhatsApp e legal vertical",
+      "src": "/clientes/gnet-network/img/ref-elementos.webp"
+    }
+  ],
+  "planos": [],
+  "gosta": "",
+  "naoGosta": "",
+  "licoes": [
+    "O verde só aparece no botão do WhatsApp."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><p><strong>O que fazemos:</strong> internet fibra óptica, banda larga e redes, com combos de TV (Watch, Pluto TV, Globoplay, +1500 filmes), câmeras de segurança (app Gnetcam) e telefone fixo.</p>\n</li>\n<li><p><strong>História:</strong> desde 2012, independente desde 2017.</p>\n</li>\n<li><p><strong>Diferencial real:</strong> único provedor da região que atende a área rural; suporte ágil, rápido e humanizado; Wi-Fi Mesh.</p>\n</li>\n<li><p><strong>Personalidade:</strong> próxima, rápida, confiável / nunca: fria, técnica demais, exagerada. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></p>\n</li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Onde:</strong> Guariroba (sede), Vila Negri, Jurupinga, Nova América, Bairro da Cachoeirinha, Clube Náutico Guaratinga e área rural do entorno; expansão: Taquaritinga, Monte Alto, São Lourenço do Turvo e Matão (urgente).</li>\n<li><strong>Quem compra:</strong> famílias urbanas e rurais, casas com área externa (churrasco, piscina), quem quer TV e câmeras junto.</li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> direto e com energia, títulos em caixa alta com uma palavra em laranja, trocadilhos leves (&quot;Até a lesma pegou velocidade.&quot;, &quot;Mude de cômodo. Continue conectado.&quot;).</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Regra do cliente:</strong> <strong>não colocar instalação grátis nos criativos</strong> (não vale na zona rural).</li>\n<li><strong>Palavras que usamos:</strong> fibra, estabilidade, Wi-Fi 360, casa toda, conectado, sinal que faltava.</li>\n<li><strong>Evitar:</strong> superlativo sem prova (&quot;a melhor internet da sua região&quot;, visto numa peça) em ADS.</li>\n<li><strong>Exemplo bom:</strong><blockquote>\n<p>Equilíbrio que conecta estabilidade e te leva mais longe! Na Gnet, estabilidade não é promessa, é entrega.</p>\n</blockquote>\n</li>\n<li><strong>Exemplo ruim:</strong><blockquote>\n<p>A internet mais rápida do interior de São Paulo!</p>\n</blockquote>\n</li>\n<li><strong>CTA:</strong> &quot;CONTRATE PELO WHATSAPP!&quot;</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Componentes <code>Logo / Positivo</code> (símbolo laranja + gnet marinho), <code>Logo / Negativo</code> (símbolo laranja + gnet branco), <code>Ícone / Laranja</code>, <code>Ícone / Branco</code>. Também há versões para fundo laranja em <code>Logotipo\\SVG\\</code>.</li>\n<li>Símbolo: G com ondas de sinal em laranja. Nas peças: logo negativo no canto inferior esquerdo.</li>\n<li>Mínimo 120 px (logo) e 40 px (ícone) <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span>. Proibido: distorcer, trocar o laranja, separar símbolo e nome fora das versões oficiais.</li>\n</ul>\n",
+    "cores": "<p><strong>Regra do cliente:</strong> sempre laranja, combinado com azul-escuro, roxo-escuro ou preto; jamais outra cor principal.</p>\n",
+    "tipografia": "<ul>\n<li>Títulos em caixa alta Montserrat ExtraBold; velocidade gigante branca com &quot;mega&quot; laranja; preço com &quot;Planos a partir de:&quot;, &quot;R$&quot; pequeno, número grande, centavos sobrescritos e &quot;/mês&quot;.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo azul profundo a preto</strong> com linhas de luz azuis e laranjas (<code>Fundo / Gradiente Fundo gnet</code>, <code>Fundo / Brilho</code> laranja).</li>\n<li><strong>Velocidade gigante</strong> com &quot;mega&quot; laranja (<code>Bloco / Velocidade</code>).</li>\n<li><strong>Card azul de preço</strong> com borda clara (<code>Card / Preço</code>).</li>\n<li><strong>Cards brancos de apps</strong> (Watch, Pluto TV, Globoplay; só logos oficiais) (<code>Selo / App</code>).</li>\n<li><strong>Etiqueta laranja</strong> de destaque (<code>Tag / Destaque</code>).</li>\n<li><strong>Botão verde do WhatsApp</strong> (<code>Botão / WhatsApp</code>): o verde só aparece aqui.</li>\n<li><strong>Legal na vertical</strong> na lateral direita (<code>Legal / Vertical</code>, girar a instância 90°).</li>\n<li>Objetos 3D (roteador, celular, casa, ponteiro de mapa com Wi-Fi) e cenas noturnas. <strong>Mascote:</strong> não tem.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li>Cenas noturnas em azul com luz laranja: casa iluminada, pessoas no celular e na TV, área externa e churrasco; cidade e zona rural nas campanhas de expansão.</li>\n<li>Evitar: escritório frio, cabos como protagonistas, pôster de filme ou série sem exceção autorizada, rosto real da marca gerado por IA.</li>\n<li>Base de prompt: <em>cinematic night photo of a Brazilian countryside house with warm orange window light and a family using phones, deep blue sky (#00076A), realistic faces and hands, clean area for text in the upper third, no text, no logos.</em></li>\n</ul>\n",
+    "layouts": "",
+    "ofertas": "<ul>\n<li><strong>Planos e preços vigentes</strong> ficam na Central de Clientes.</li>\n<li><strong>Combos</strong> de TV e câmeras: valores na Central de Clientes.</li>\n<li><strong>Condições:</strong> fidelidade de 1 ano; instalação condicionada à consulta do CPF; rural e empresarial sob consulta (empresa: IP fixo).</li>\n<li><strong>Legal das peças:</strong> &quot;*Consulte condições.&quot; / &quot;Valor com desconto para pagamento até o vencimento.&quot;</li>\n<li><strong>CTA:</strong> WhatsApp (número a enviar pelo cliente: <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">a definir</span>).</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Watch, Pluto TV, Globoplay, +1500 filmes</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só logos oficiais</td>\n</tr>\n<tr>\n<td>Gnetcam (app das câmeras)</td>\n<td>próprio</td>\n<td>3 a 5 dias de gravação conforme o combo</td>\n</tr>\n</tbody></table>\n"
+  }
+}

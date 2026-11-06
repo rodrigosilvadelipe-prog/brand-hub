@@ -206,6 +206,7 @@
   "familias": [
     {
       "nome": "Montserrat",
+      "css": "Montserrat",
       "uso": "toda a marca: títulos e números em ExtraBold e Black, textos em Medium e Regular",
       "pesos": "Thin a Black, com itálicos",
       "onde": "Google Fonts",

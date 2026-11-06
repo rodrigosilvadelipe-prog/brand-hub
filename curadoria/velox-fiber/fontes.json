@@ -1,0 +1,57 @@
+{
+  "Neulis": {
+    "disponivel": true,
+    "nome": "curadoria/velox-fiber/fonte-neulis-nome.png",
+    "especime": "curadoria/velox-fiber/fonte-neulis-especime.png",
+    "pesos": [
+      "Thin",
+      "ExtraLight",
+      "Light",
+      "Regular",
+      "Medium",
+      "SemiBold",
+      "Bold",
+      "ExtraBold",
+      "Black"
+    ],
+    "estilos": {
+      "numero-oferta": {
+        "src": "curadoria/velox-fiber/fonte-neulis-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/velox-fiber/fonte-neulis-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/velox-fiber/fonte-neulis-titulo-2.png",
+        "altura": 42
+      },
+      "subtitulo": {
+        "src": "curadoria/velox-fiber/fonte-neulis-subtitulo.png",
+        "altura": 26
+      },
+      "selo-pill": {
+        "src": "curadoria/velox-fiber/fonte-neulis-selo-pill.png",
+        "altura": 19
+      },
+      "cta": {
+        "src": "curadoria/velox-fiber/fonte-neulis-cta.png",
+        "altura": 19
+      },
+      "corpo": {
+        "src": "curadoria/velox-fiber/fonte-neulis-corpo.png",
+        "altura": 18
+      },
+      "apoio-preco": {
+        "src": "curadoria/velox-fiber/fonte-neulis-apoio-preco.png",
+        "altura": 17
+      },
+      "legal": {
+        "src": "curadoria/velox-fiber/fonte-neulis-legal.png",
+        "altura": 17
+      }
+    },
+    "faltam": []
+  }
+}

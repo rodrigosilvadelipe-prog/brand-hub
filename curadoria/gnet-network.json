@@ -1,0 +1,83 @@
+{
+  "substituir": {
+    "; equipe enxuta (3 funcionários, 2 técnicos). ~900 assinantes, metade na zona rural.": ".",
+    "- **Objetivo atual:** ficar conhecida nas cidades novas e dobrar as vendas (meta 30/mês). [cliente]": "",
+    "- **Concorrentes:** WordNet e Invistanet (maior). [cliente]": "",
+    "- **Planos (briefing 22/05/2026, com desconto para pagamento até o vencimento):** 100 mega R$ 69,99 · 300 mega R$ 79,99 (com Pluto TV e Globoplay básico; + Watch TV abertos R$ 10) · 500 mega R$ 99,99 · 600 mega R$ 119,99 (com Pluto TV, Globoplay básico, Watch TV abertos e 1500 filmes). Vigência: [confirmar].": "- **Planos e preços vigentes** ficam na Central de Clientes.",
+    "- **Combos:** TV completa (Telecine, SporTV, Premiere, ESPN) 500 mega R$ 149,99 · 600 mega R$ 159,99; câmeras 500 mega + 1 câmera R$ 149,99, 2 R$ 189,99, 3 R$ 219,99; 600 mega + câmera mini dome R$ 289,99; telefone fixo + R$ 59,99 (100/300) ou + R$ 49,99 (500/600).": "- **Combos** de TV e câmeras: valores na Central de Clientes.",
+    "Definidas pelo usuário em 23/10/2026 [usuário]. ": "",
+    " As imagens \"ChatGPT Image\" da pasta são de IA.": ""
+  },
+  "faca": [
+    "Sempre laranja, com azul-escuro, roxo-escuro ou preto",
+    "Fundo azul profundo a preto com linhas de luz",
+    "Título em caixa alta com uma palavra em laranja",
+    "Velocidade gigante com \"mega\" laranja e card azul de preço",
+    "Logo negativo no canto inferior esquerdo"
+  ],
+  "evite": [
+    "Instalação grátis nos criativos: não vale na zona rural",
+    "Outra cor principal que não o laranja",
+    "Verde fora do botão do WhatsApp",
+    "Laranja como texto fino sobre branco",
+    "Superlativo sem prova, como \"a melhor internet da sua região\""
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Símbolo laranja e gnet marinho, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/gnet-network/logo/gnet-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo azul",
+      "quando": "Símbolo laranja e gnet branco, fundo azul",
+      "fundo": "#001634",
+      "arquivo": "curadoria/gnet-network/logo/gnet-logotipo-negativo-azul.svg"
+    },
+    {
+      "titulo": "Negativo laranja",
+      "quando": "Para fundo laranja",
+      "fundo": "#FF7700",
+      "arquivo": "curadoria/gnet-network/logo/gnet-logotipo-negativo-laranja.svg"
+    },
+    {
+      "titulo": "Branco",
+      "quando": "Uma cor, fundo escuro",
+      "fundo": "#00076A",
+      "arquivo": "curadoria/gnet-network/logo/gnet-logotipo-branco.svg"
+    },
+    {
+      "titulo": "Ícone laranja",
+      "quando": "Fundo claro ou escuro",
+      "fundo": "#001634",
+      "arquivo": "curadoria/gnet-network/logo/gnet-icone-laranja.svg"
+    },
+    {
+      "titulo": "Ícone branco",
+      "quando": "Fundo escuro ou laranja",
+      "fundo": "#00076A",
+      "arquivo": "curadoria/gnet-network/logo/gnet-icone-branco.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-gnet",
+    "logo": "curadoria/gnet-network/logo/gnet-logotipo-negativo-azul.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/gnet-network/ref-elementos.png",
+      "legenda": "Peça de referência: card azul de preço, cards de apps, logo no canto, botão do WhatsApp e legal vertical"
+    }
+  ],
+  "layouts": {
+    "GN1": "curadoria/gnet-network/ref-gn1.png",
+    "GN2": "curadoria/gnet-network/ref-gn2.png",
+    "GN3": "curadoria/gnet-network/ref-gn3.png",
+    "GN4": "curadoria/gnet-network/ref-gn4.png"
+  },
+  "arquivos": [],
+  "licoes": [
+    "O verde só aparece no botão do WhatsApp."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "substituir": {
+    "  (superlativo sem prova e urgência falsa: risco de reprovação no Meta; reescrever como \"Último dia da promoção: 600 Mega por R$ 49,90\", se a data for real)": "  (superlativo sem prova e urgência falsa: risco de reprovação no Meta; urgência só com data real)",
+    " (ver skill `prompt-imagem`)": "",
+    "líder local (~70% em Dianópolis)": "líder local",
+    "- **Figma:** a Rink foi enviada ao Figma (19/10/2026) e os estilos `TEX / …` já usam a fonte oficial. Para mudar a tipografia de todas as peças, edite só os estilos.": ""
+  },
+  "faca": [
+    "Gradiente teal para violeta com círculos de sinal",
+    "Número de velocidade gigante, com mega em verde",
+    "Card de oferta de vidro",
+    "Barra de CTA verde de ponta a ponta",
+    "Foto de família em casa, com o gradiente entrando pelas bordas"
+  ],
+  "evite": [
+    "Verde ou menta como texto sobre branco",
+    "Texto fino sobre o gradiente",
+    "Superlativo sem prova, como \"a melhor da região\"",
+    "Urgência sem data real",
+    "Separar \"telecom\" do logo ou aplicar sobre foto sem área limpa"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo",
+      "quando": "Sobre branco ou gelo",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/tex-telecom/logo/tex-telecom-logotipo-positivo.svg"
+    },
+    {
+      "titulo": "Negativo",
+      "quando": "Sobre azul-noite, violeta ou gradiente",
+      "fundo": "#4543C2",
+      "arquivo": "curadoria/tex-telecom/logo/tex-telecom-logotipo-negativo.svg"
+    },
+    {
+      "titulo": "Preto e branco",
+      "quando": "Uma cor, em fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "curadoria/tex-telecom/logo/tex-telecom-logotipo-pb-positivo.svg"
+    },
+    {
+      "titulo": "Ícone positivo",
+      "quando": "Sobre branco ou gelo",
+      "fundo": "#DCF5E7",
+      "arquivo": "curadoria/tex-telecom/logo/tex-telecom-icone-positivo.svg"
+    },
+    {
+      "titulo": "Ícone negativo",
+      "quando": "Sobre azul-noite, violeta ou gradiente",
+      "fundo": "#131F7A",
+      "arquivo": "curadoria/tex-telecom/logo/tex-telecom-icone-negativo.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "assinatura",
+    "logo": "curadoria/tex-telecom/logo/tex-telecom-logotipo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/tex-telecom/regua-acabamento.png",
+      "legenda": "Peça de referência de acabamento: pill de cidade, card de vidro, pills de benefício e faixa de contato"
+    }
+  ],
+  "layouts": {
+    "T1": "curadoria/tex-telecom/ref-t1.png",
+    "T2": "curadoria/tex-telecom/ref-t2.png",
+    "T3": "curadoria/tex-telecom/ref-t3.png",
+    "T4": {
+      "origem": "curadoria/tex-telecom/ref-t4.png",
+      "alerta": "Só estrutura: não repita \"melhor internet\" nem urgência sem data real."
+    }
+  },
+  "fontes": {
+    "Rink": {
+      "onde": "pasta da marca do cliente, em Fontes/Rink. Confira a licença no Readme da pasta."
+    }
+  },
+  "arquivos": [],
+  "licoes": [
+    "Trate as peças como campanha: mesma base de card, pills e faixa, variando cena e título.",
+    "O gradiente entra pela esquerda e pela base e some na foto, sem overlay chapado.",
+    "Título em caixa alta e baixa, peso Black, com a palavra-chave em verde.",
+    "Prefira o lado positivo (economia, alívio) à dor de preço."
+  ],
+  "gosta": "Número de velocidade gigante, card de vidro, fotos de família em momentos de lazer e humor leve."
+}
