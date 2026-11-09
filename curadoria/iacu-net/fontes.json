@@ -1,0 +1,47 @@
+{
+  "Univia Pro": {
+    "disponivel": true,
+    "nome": "curadoria/iacu-net/fonte-univia-pro-nome.png",
+    "especime": "curadoria/iacu-net/fonte-univia-pro-especime.png",
+    "pesos": [
+      "Book",
+      "Regular",
+      "Ultra",
+      "Medium",
+      "Bold",
+      "Black"
+    ],
+    "estilos": {
+      "numero-oferta": {
+        "src": "curadoria/iacu-net/fonte-univia-pro-numero-oferta.png",
+        "altura": 56
+      },
+      "titulo-1": {
+        "src": "curadoria/iacu-net/fonte-univia-pro-titulo-1.png",
+        "altura": 56
+      },
+      "titulo-2": {
+        "src": "curadoria/iacu-net/fonte-univia-pro-titulo-2.png",
+        "altura": 42
+      },
+      "selo-pill": {
+        "src": "curadoria/iacu-net/fonte-univia-pro-selo-pill.png",
+        "altura": 21
+      }
+    },
+    "faltam": []
+  },
+  "Friz Quadrata": {
+    "disponivel": true,
+    "nome": "curadoria/iacu-net/fonte-friz-quadrata-nome.png",
+    "especime": "curadoria/iacu-net/fonte-friz-quadrata-especime.png",
+    "pesos": [
+      "Regularos5870333951e7c"
+    ],
+    "estilos": {},
+    "faltam": []
+  },
+  "Handel Gothic BT": {
+    "disponivel": false
+  }
+}

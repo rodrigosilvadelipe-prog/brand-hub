@@ -38,6 +38,7 @@ def pastas():
         Path(os.environ.get('LOCALAPPDATA', '')) / 'Microsoft/Windows/Fonts',
         casa / 'FontBase',
         Path(os.environ.get('APPDATA', '')) / 'FontBase',
+        Path(os.environ.get('APPDATA', '')) / 'VectorCraft/Fonts',
     ]
     return pasta_manual() + [p for p in locais if p.exists()]
 
@@ -127,14 +128,19 @@ for f in tipo['familias']:
     declarados = [p for p in tipo.get('pesos_disponiveis', []) if nome == tipo.get('familia')]
     pesos = [p for p in declarados if chave(p) in estilos] or [p for p in estilos if 'italic' not in p]
     pesos = [p if p in declarados else p.capitalize() for p in pesos]
-    item = {
+    try:
+        item = {
         'disponivel': True,
         'nome': linha(nome, forte(estilos), 34, round(pymupdf.Font(fontfile=str(forte(estilos))).text_length(nome, 34)) + 8, 46, f'{base}-nome.png'),
         'especime': especime(nome, estilos, pesos, f'{base}-especime.png'),
         'pesos': pesos,
         'estilos': {},
         'faltam': [],
-    }
+        }
+    except Exception as erro:  # fonte que o renderizador não abre: fica indisponível, sem substituta
+        manifesto[nome] = {'disponivel': False}
+        print(f'AVISO {nome}: não foi possível gerar a amostra ({erro})')
+        continue
     for k, e in tipo['estilos'].items():
         if e.get('familia', tipo['familia']) != nome:
             continue

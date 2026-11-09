@@ -1,0 +1,158 @@
+{
+  "substituir": {
+    "Oito SVGs oficiais copiados sem alteração para logo/. Manifesto SHA256 em jobs/2026-11-brand-kit/producao/qa/logos-manifesto.json.": "Oito SVGs oficiais, sem alteração.",
+    "- Planos, preços e SVAs confirmados pelo usuário constam na tabela comercial abaixo, montados no layout oficial do cliente (páginas 11 a 13 do guia). Demais condições dependem do brief.": "- Preço e plano vigente ficam na Central de Clientes. As ofertas usam o layout oficial de planos do cliente (veja Planos). Demais condições dependem do brief.",
+    "Univia Pro e Inter confirmadas em text.fontList no VectorCraft 0.22.0. Nenhuma substituição necessária. ": "",
+    "Matriz atual informada pelo usuário: 400 Mega inclui Deezer; 600 Mega inclui Deezer + Watch; Plano Sem Controle inclui Deezer + Watch + HBO. Serviço: Streaming by Watch. EANET e outros presentes em referências antigas não foram incluídos nesta atualização.": "Apps por plano ficam na Central de Clientes. Serviço: Streaming by Watch. EANET e outros apps das referências antigas não entram nas peças atuais."
+  },
+  "fontes": {
+    "Univia Pro": {
+      "onde": "Solicitar ao time de design (fonte licenciada, não vai no pacote)"
+    },
+    "Friz Quadrata": {
+      "onde": "Só histórico, não usar em peças novas"
+    },
+    "Handel Gothic BT": {
+      "onde": "Só histórico, não usar em peças novas"
+    }
+  },
+  "faca": [
+    "Azul profundo dominante com curvas e faixas laranjas",
+    "Univia Pro nos títulos e números, Inter no resto",
+    "Pessoas em cenas do dia a dia, com luz azul e acentos quentes",
+    "Ofertas no layout oficial: número grande, mega laranja, centavos elevados e apps ao lado ou abaixo",
+    "Cards arredondados e um CTA de destaque por peça"
+  ],
+  "evite": [
+    "Recolorir, esticar ou redesenhar o logo e os arcos",
+    "Branco sobre laranja ou azul-vivo em texto corrido",
+    "Fontes históricas da pasta (Friz Quadrata, Handel Gothic)",
+    "Promessa absoluta, como \"nunca trava\" ou \"zero quedas\"",
+    "Recriar pôster, artista ou logo de parceiro com IA"
+  ],
+  "logos": [
+    {
+      "titulo": "Horizontal positivo",
+      "quando": "Uso principal, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/iaçu-net-logotipo-horizontal-positivo.svg"
+    },
+    {
+      "titulo": "Horizontal negativo",
+      "quando": "Fundo azul escuro ou foto escura",
+      "fundo": "#020626",
+      "arquivo": "logo/iaçu-net-logotipo-horizontal-negativo-1-solido.svg"
+    },
+    {
+      "titulo": "Horizontal positivo sólido",
+      "quando": "Fundo claro, sem degradê",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/iaçu-net-logotipo-horizontal-positivo-solido.svg"
+    },
+    {
+      "titulo": "Vertical positivo",
+      "quando": "Peças centrais, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/iaçu-net-logotipo-vertical-positivo.svg"
+    },
+    {
+      "titulo": "Vertical negativo",
+      "quando": "Peças centrais, fundo azul escuro",
+      "fundo": "#020626",
+      "arquivo": "logo/iaçu-net-logotipo-vertical-negativo-1-solido.svg"
+    },
+    {
+      "titulo": "Vertical positivo sólido",
+      "quando": "Fundo claro, sem degradê",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/iaçu-net-logotipo-vertical-positivo-solido.svg"
+    },
+    {
+      "titulo": "Arcos",
+      "quando": "Símbolo sozinho, fundo claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/iaçu-net-arcos-positivo.svg"
+    },
+    {
+      "titulo": "Arcos sólido",
+      "quando": "Símbolo sozinho, sem degradê",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/iaçu-net-arcos-positivo-solido.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "azul-profundidade",
+    "logo": "logo/iaçu-net-logotipo-horizontal-negativo-1-solido.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/iacu-net/pagina-5.png",
+      "legenda": "Curva laranja, cards, CTA e arcos oficiais"
+    },
+    {
+      "origem": "curadoria/iacu-net/pagina-14.png",
+      "legenda": "Exemplo de composição montado com os elementos da marca"
+    }
+  ],
+  "planos": [
+    {
+      "origem": "curadoria/iacu-net/pagina-11.png",
+      "legenda": "Lista vertical, negativo e positivo. Valores de exemplo: preço vigente na Central de Clientes"
+    },
+    {
+      "origem": "curadoria/iacu-net/pagina-12.png",
+      "legenda": "Linha horizontal, negativo e positivo"
+    },
+    {
+      "origem": "curadoria/iacu-net/pagina-13.png",
+      "legenda": "Anatomia do bloco: velocidade, preço em texto único e apps inclusos"
+    }
+  ],
+  "layouts": {
+    "IACU1": {
+      "origem": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-iacu-net-11-2026-feed-5-png.jpg",
+      "alerta": "Só estrutura: apps e oferta da peça são antigos"
+    },
+    "IACU2": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-iacu-net-11-2026-feed-2-png.jpg",
+    "IACU3": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-iacu-net-11-2026-feed-1-png.jpg",
+    "IACU4": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-iacu-net-11-2026-feed-8-png.jpg"
+  },
+  "arquivos": [
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Cores e gradientes IACU",
+      "origem": "vectorcraft/bibliotecas/iacu-net-cores.vcswatches"
+    },
+    {
+      "titulo": "Aparências do VectorCraft",
+      "descricao": "Fundo azul e curva laranja",
+      "origem": "vectorcraft/bibliotecas/iacu-net-aparencias.vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, fundo, curva, cards, CTA e blocos de planos",
+      "origem": "vectorcraft/bibliotecas/iacu-net-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Layout de planos",
+      "descricao": "SVG do cliente com os apps embutidos",
+      "origem": "jobs/2026-11-brand-kit/assets/layout-planos/layout-limpo.svg"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "origem": "vectorcraft/iacu-net-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Guia em PDF",
+      "descricao": "As 14 páginas do kit",
+      "origem": "vectorcraft/iacu-net-brand-kit.pdf"
+    }
+  ],
+  "licoes": [
+    "O plano de topo se chama Plano Sem Controle e não tem velocidade em número.",
+    "Toda oferta segue o layout oficial de planos, em positivo e negativo. Nada de card genérico.",
+    "Preço em texto único: troque só os números, mantendo R$, centavos elevados e /mês."
+  ],
+  "gosta": "Azul profundo com curvas laranjas, gente em cenas do dia a dia com luz azul e acentos quentes, e números de plano grandes com mega em laranja."
+}
