@@ -1,0 +1,529 @@
+{
+  "format": "vcswatches",
+  "version": 1,
+  "name": "Milenium / Cores",
+  "swatches": [
+    {
+      "name": "MIL / fundo-verde",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.011764706,
+                "g": 0.26666668,
+                "b": 0.003921569
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-profundo"
+            },
+            {
+              "offset": 0.45,
+              "color": {
+                "model": "rgb",
+                "r": 0.050980393,
+                "g": 0.5529412,
+                "b": 0.21960784
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-milenium"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.09411765,
+                "g": 0.68235296,
+                "b": 0.14117648
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-vivo"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "MIL / fundo-noite",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.039215688,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / preto-noite"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.011764706,
+                "g": 0.26666668,
+                "b": 0.003921569
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-profundo"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "MIL / card-oferta",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.050980393,
+                "g": 0.5529412,
+                "b": 0.21960784
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-milenium"
+            },
+            {
+              "offset": 0.4,
+              "color": {
+                "model": "rgb",
+                "r": 0.64705884,
+                "g": 0.8352941,
+                "b": 0.6
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.56078434,
+                "g": 0.972549,
+                "b": 0.3019608
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-neon"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "MIL / pill-escura",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.02,
+              "color": {
+                "model": "rgb",
+                "r": 0.011764706,
+                "g": 0.26666668,
+                "b": 0.003921569
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-profundo"
+            },
+            {
+              "offset": 0.35,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.039215688,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / preto-noite"
+            },
+            {
+              "offset": 0.65,
+              "color": {
+                "model": "rgb",
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.96,
+              "color": {
+                "model": "rgb",
+                "r": 0.003921569,
+                "g": 0.27058825,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "MIL / contorno-neon",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.56078434,
+                "g": 0.972549,
+                "b": 0.3019608
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-neon"
+            },
+            {
+              "offset": 0.3,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / branco"
+            },
+            {
+              "offset": 0.58,
+              "color": {
+                "model": "rgb",
+                "r": 0.56078434,
+                "g": 0.972549,
+                "b": 0.3019608
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-neon"
+            },
+            {
+              "offset": 0.79,
+              "color": {
+                "model": "rgb",
+                "r": 0.9490196,
+                "g": 0.9490196,
+                "b": 0.9490196
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / branco-gelo"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.56078434,
+                "g": 0.972549,
+                "b": 0.3019608
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-neon"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "MIL / esfera",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Radial",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.72156864,
+                "g": 1.0,
+                "b": 0.5411765
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.5,
+              "color": {
+                "model": "rgb",
+                "r": 0.09411765,
+                "g": 0.68235296,
+                "b": 0.14117648
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-vivo"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.011764706,
+                "g": 0.26666668,
+                "b": 0.003921569
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "MIL / verde-profundo"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "MIL / barra-cta",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.23529412,
+                "g": 0.69803923,
+                "b": 0.050980393
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.18,
+              "color": {
+                "model": "rgb",
+                "r": 0.6117647,
+                "g": 0.76862746,
+                "b": 0.4117647
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.5,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.9411765,
+                "b": 1.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.82,
+              "color": {
+                "model": "rgb",
+                "r": 0.6784314,
+                "g": 1.0,
+                "b": 0.7921569
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.11764706,
+                "g": 1.0,
+                "b": 0.34509805
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "MIL / Cores",
+      "swatches": [
+        {
+          "name": "MIL / verde-milenium",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.050980393,
+              "g": 0.5529412,
+              "b": 0.21960784
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / grafite-milenium",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.2509804,
+              "g": 0.22352941,
+              "b": 0.24705882
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / verde-neon",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.56078434,
+              "g": 0.972549,
+              "b": 0.3019608
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / verde-folha",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.24705882,
+              "g": 0.6666667,
+              "b": 0.18039216
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / verde-profundo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.011764706,
+              "g": 0.26666668,
+              "b": 0.003921569
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / preto-noite",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.0,
+              "g": 0.039215688,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / verde-vivo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.09411765,
+              "g": 0.68235296,
+              "b": 0.14117648
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / branco-gelo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.9490196,
+              "g": 0.9490196,
+              "b": 0.9490196
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "MIL / branco",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        }
+      ]
+    }
+  ]
+}

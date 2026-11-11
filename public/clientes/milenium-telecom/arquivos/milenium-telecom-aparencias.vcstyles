@@ -1,0 +1,209 @@
+{
+  "format": "vcstyles",
+  "version": 2,
+  "name": "Milenium / Aparência",
+  "styles": [
+    {
+      "name": "MIL / Fundo verde",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.011764706,
+                      "g": 0.26666668,
+                      "b": 0.003921569
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.45,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.050980393,
+                      "g": 0.5529412,
+                      "b": 0.21960784
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.09411765,
+                      "g": 0.68235296,
+                      "b": 0.14117648
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 90.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "MIL / Card oferta",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.050980393,
+                      "g": 0.5529412,
+                      "b": 0.21960784
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.4,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.64705884,
+                      "g": 0.8352941,
+                      "b": 0.6
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.56078434,
+                      "g": 0.972549,
+                      "b": 0.3019608
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 0.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "MIL / Barra CTA",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.23529412,
+                      "g": 0.69803923,
+                      "b": 0.050980393
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.18,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.6117647,
+                      "g": 0.76862746,
+                      "b": 0.4117647
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.5,
+                    "color": {
+                      "model": "rgb",
+                      "r": 1.0,
+                      "g": 0.9411765,
+                      "b": 1.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.82,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.6784314,
+                      "g": 1.0,
+                      "b": 0.7921569
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.11764706,
+                      "g": 1.0,
+                      "b": 0.34509805
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 0.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "substituir": {
+    "- **Planos do site (11/11/2026):** Confort 400 Mega R$ 99,90 · Premium 500 Mega R$ 109,90 (Recomendado, com Milenium Play) · Plus 700 Mega R$ 149,90 (2 roteadores, Milenium Play). Vigência `[confirmar]` com o account antes de cada pack.": "- **Planos:** Confort, Premium e Plus. Preço e plano vigente ficam na Central de Clientes. Use os blocos de planos do kit (veja Planos).",
+    "- **Black Friday 2026:** só temática visual, preços e planos atuais (ata de 30/10/2026).\n": "",
+    "- Promoção Indique e Ganhe (R$ 50 via Pix) apareceu no ADS 8: usar só se o brief do mês confirmar.": "- Promoções, como o Indique e Ganhe, só entram quando o brief do mês confirmar.",
+    " (régua do usuário, 11/11/2026)": "",
+    " Nas peças de rede vale Play, como pedido pelo usuário. [divergência registrada no dossiê]": " Nas peças de rede e nos ADS vale Play.",
+    " (Central de Clientes)": ""
+  },
+  "faca": [
+    "Verde Milenium dominante, com luz e palavras-chave em verde-neon",
+    "Play nos títulos e números, Montserrat no resto",
+    "Esferas verdes 3D saindo das bordas e rastros de luz neon atrás das pessoas",
+    "Oferta no card verde com MEGA na vertical, preço em texto único e pill Milenium PLAY",
+    "Fechar toda peça de oferta com a barra de CTA do WhatsApp"
+  ],
+  "evite": [
+    "Recolorir, esticar ou redesenhar o logo",
+    "Branco ou verde-neon sobre fundo claro, e branco em texto corrido sobre o verde Milenium",
+    "Promessa absoluta, como \"nunca cai\" ou \"zero quedas\"",
+    "Foto fria de banco de imagem sem a luz verde da marca",
+    "Pessoa da empresa gerada por IA"
+  ],
+  "logos": [
+    { "titulo": "Horizontal branco", "quando": "Uso principal, sobre verde, escuro e foto", "fundo": "#0D8D38", "arquivo": "logo/milenium-telecom-logotipo-horizontal-branco.svg" },
+    { "titulo": "Horizontal positivo", "quando": "Fundo branco ou branco-gelo", "fundo": "#FFFFFF", "arquivo": "logo/milenium-telecom-logotipo-horizontal-positivo.svg" },
+    { "titulo": "Horizontal negativo", "quando": "Fundo escuro ou neutro que pede a cor da marca", "fundo": "#000A00", "arquivo": "logo/milenium-telecom-logotipo-horizontal-negativo.svg" },
+    { "titulo": "Vertical branco", "quando": "Peça quadrada com pouco espaço lateral, sobre verde", "fundo": "#0D8D38", "arquivo": "logo/milenium-telecom-logotipo-vertical-branco.svg" },
+    { "titulo": "Vertical positivo", "quando": "Peça quadrada, fundo claro", "fundo": "#FFFFFF", "arquivo": "logo/milenium-telecom-logotipo-vertical-positivo.svg" },
+    { "titulo": "Vertical negativo", "quando": "Peça quadrada, fundo escuro", "fundo": "#000A00", "arquivo": "logo/milenium-telecom-logotipo-vertical-negativo.svg" },
+    { "titulo": "Ícone branco", "quando": "Assinatura secundária, sobre verde ou foto", "fundo": "#0D8D38", "arquivo": "logo/milenium-telecom-icone-branco.svg" },
+    { "titulo": "Ícone positivo", "quando": "Assinatura secundária, fundo claro", "fundo": "#FFFFFF", "arquivo": "logo/milenium-telecom-icone-positivo.svg" },
+    { "titulo": "Ícone negativo", "quando": "Assinatura secundária, fundo escuro", "fundo": "#000A00", "arquivo": "logo/milenium-telecom-icone-negativo.svg" }
+  ],
+  "capa": {
+    "gradiente": "fundo-verde",
+    "logo": "logo/milenium-telecom-logotipo-horizontal-branco.svg"
+  },
+  "elementos": [
+    { "origem": "curadoria/milenium-telecom/pagina-5.png", "legenda": "Esferas 3D, rastros de luz, card de oferta, pill Milenium PLAY, benefícios, selo, botão e barra de CTA" },
+    { "origem": "curadoria/milenium-telecom/pagina-13.png", "legenda": "Exemplo de ADS montado só com os elementos da marca. Oferta de exemplo: preço vigente na Central de Clientes" }
+  ],
+  "planos": [
+    { "origem": "curadoria/milenium-telecom/pagina-11.png", "legenda": "Negativo, sobre verde ou foto escura: agrupamento horizontal, vertical e card de oferta. Valores de exemplo" },
+    { "origem": "curadoria/milenium-telecom/pagina-12.png", "legenda": "Positivo, sobre fundo claro. \"Por\" e \"R$\" empilhados à esquerda do número, centavos no alto e /mês embaixo" }
+  ],
+  "layouts": {
+    "MIL1": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-ads-2-png.png",
+    "MIL2": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-ads-4-png.png",
+    "MIL3": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-ads-7-png.jpg",
+    "MIL4": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-ads-6-png.jpg",
+    "MIL5": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-feed-2-png.png",
+    "MIL6": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-feed-6-png.png"
+  },
+  "arquivos": [
+    { "titulo": "Amostras do VectorCraft", "descricao": "Cores e degradês MIL", "origem": "vectorcraft/bibliotecas/milenium-telecom-cores.vcswatches" },
+    { "titulo": "Cores em ASE", "descricao": "Paleta para Illustrator e Photoshop", "origem": "vectorcraft/bibliotecas/milenium-telecom-cores.ase" },
+    { "titulo": "Aparências do VectorCraft", "descricao": "Fundo verde, card de oferta e barra de CTA", "origem": "vectorcraft/bibliotecas/milenium-telecom-aparencias.vcstyles" },
+    { "titulo": "Símbolos do VectorCraft", "descricao": "Logos, esferas, luz, card, pill, barra de CTA, benefícios e blocos de planos", "origem": "vectorcraft/bibliotecas/milenium-telecom-simbolos.vectorcraft" },
+    { "titulo": "Forma oficial dos planos", "descricao": "SVG do cliente, positivo e negativo (números em Archivo, linguagem do site)", "origem": "logo/planos/milenium-telecom-forma-planos.svg" },
+    { "titulo": "Brand kit editável", "descricao": "Arquivo completo no VectorCraft", "origem": "vectorcraft/milenium-telecom-brand-kit.vectorcraft" },
+    { "titulo": "Guia em PDF", "descricao": "As 13 páginas do kit", "origem": "vectorcraft/milenium-telecom-brand-kit.pdf" }
+  ],
+  "licoes": [
+    "Preço em texto único: \"Por\" e \"R$\" empilhados à esquerda do número, no mesmo corpo. Nunca \"Por\" solto acima nem \"R$\" em linha com o número.",
+    "O certo é \"Suporte ágil\", com acento agudo. Uma peça antiga saiu com crase.",
+    "A cidade pelo nome (Clevelândia, Treze Tílias) aproxima a marca do público."
+  ],
+  "gosta": "Verde vivo com luz neon, esferas 3D e rastros de luz, gente real em casa, e o card de oferta com número grande e MEGA na vertical."
+}
