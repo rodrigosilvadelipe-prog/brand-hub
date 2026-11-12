@@ -1,0 +1,524 @@
+{
+  "slug": "vello",
+  "nome": "Vello Fibra",
+  "sigla": "VEL",
+  "status": "aprovado",
+  "atualizado": "2026-11-12",
+  "fundo": "linear-gradient(180deg, #3A1208 0%, #0D0605 100%)",
+  "capa": {
+    "logo": "/clientes/vello/logo/vello-logotipo-positivo-inline.svg",
+    "slogan": null
+  },
+  "faca": [
+    "Luz quente de fim de tarde, com laranja e âmbar na foto",
+    "Plus Jakarta Sans em tudo: ExtraBold nos números, SemiBold nos títulos",
+    "Título em caixa baixa, frase natural, com o trecho final em laranja",
+    "Oferta em card laranja ou branco, número enorme com \"mega\" colado e preço em texto único",
+    "Botão verde de WhatsApp e legal na vertical, na borda direita"
+  ],
+  "evite": [
+    "Recolorir, contornar ou trocar o degradê do logo",
+    "Texto pequeno laranja sobre branco ou creme (use vermelho Vello)",
+    "Verde fora do botão de WhatsApp",
+    "Promessa sem prova, como \"a melhor da região\" ou \"nunca cai\"",
+    "Luz fria azul e pessoa da empresa gerada por IA"
+  ],
+  "logos": [
+    {
+      "titulo": "Positivo em degradê",
+      "quando": "Fundo claro, branco ou creme",
+      "fundo": "#FFFFFF",
+      "src": "/clientes/vello/logo/vello-logotipo-positivo-inline.svg"
+    },
+    {
+      "titulo": "Degradê sobre escuro",
+      "quando": "ADS noturnos, fundo brasa ou preto",
+      "fundo": "#0D0605",
+      "src": "/clientes/vello/logo/vello-logotipo-positivo-inline.svg"
+    },
+    {
+      "titulo": "Negativo branco",
+      "quando": "Sobre foto e sobre laranja",
+      "fundo": "#FF5F00",
+      "src": "/clientes/vello/logo/vello-logotipo-negativo-inline.svg"
+    },
+    {
+      "titulo": "Negativo sobre brasa",
+      "quando": "Fundo escuro quente",
+      "fundo": "#3A1208",
+      "src": "/clientes/vello/logo/vello-logotipo-negativo-inline.svg"
+    }
+  ],
+  "cores": [
+    {
+      "nome": "laranja-vello",
+      "hex": "#F37124",
+      "rgb": "243 113 36",
+      "papel": "destaque do título, ícones, selos",
+      "proporcao": "laranja e degradê 45%",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "telha-vello",
+      "hex": "#D94026",
+      "rgb": "217 64 38",
+      "papel": "meio do degradê",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "vermelho-vello",
+      "hex": "#CE2027",
+      "rgb": "206 32 39",
+      "papel": "fim do degradê, quadrado de ícone, destaque pequeno sobre claro",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "laranja-vivo",
+      "hex": "#FF5F00",
+      "rgb": "255 95 0",
+      "papel": "card de oferta, pill de frase",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "pessego",
+      "hex": "#FEAB6A",
+      "rgb": "254 171 106",
+      "papel": "luz dos fundos laranja",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "creme",
+      "hex": "#F8EFE4",
+      "rgb": "248 239 228",
+      "papel": "fundo claro",
+      "proporcao": "branco e creme 20%",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "brasa",
+      "hex": "#3A1208",
+      "rgb": "58 18 8",
+      "papel": "fundo escuro quente",
+      "proporcao": "brasa e preto 30%",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "preto-noite",
+      "hex": "#0D0605",
+      "rgb": "13 6 5",
+      "papel": "ADS noturnos, número no card branco",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "verde-whatsapp",
+      "hex": "#25C313",
+      "rgb": "37 195 19",
+      "papel": "só o botão de WhatsApp",
+      "proporcao": "≤5%",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    },
+    {
+      "nome": "branco",
+      "hex": "#FFFFFF",
+      "rgb": "255 255 255",
+      "papel": "texto sobre foto e escuro, card claro",
+      "proporcao": "",
+      "pct": 0,
+      "cmyk": null,
+      "pantone": null
+    }
+  ],
+  "gradientes": [
+    {
+      "nome": "degrade-vello",
+      "css": "linear-gradient(90deg, #F37124 0%, #F37124 21%, #D94026 71%, #CE2027 100%)",
+      "direcao": "esquerda para direita, igual ao logo"
+    },
+    {
+      "nome": "fundo-laranja",
+      "css": "linear-gradient(135deg, #CE2027 0%, #F37124 50%, #FEAB6A 100%)",
+      "direcao": "diagonal, vermelho no canto superior esquerdo até pêssego no inferior direito"
+    },
+    {
+      "nome": "fundo-brasa",
+      "css": "linear-gradient(180deg, #3A1208 0%, #0D0605 100%)",
+      "direcao": "de cima para baixo"
+    },
+    {
+      "nome": "luz-laranja",
+      "css": "radial-gradient(circle at center, #F37124 0%, #D94026 35%, #3A1208 100%)",
+      "direcao": "centro laranja para borda brasa, brilho atrás do objeto"
+    },
+    {
+      "nome": "botao-whatsapp",
+      "css": "linear-gradient(180deg, #3BD12E 0%, #25C313 50%, #1AA80C 100%)",
+      "direcao": "de cima para baixo"
+    }
+  ],
+  "contraste": {
+    "ok": [
+      {
+        "texto": "branco sobre preto-noite",
+        "razao": "20,09",
+        "fg": "branco",
+        "bg": "preto-noite"
+      },
+      {
+        "texto": "branco sobre brasa",
+        "razao": "16,54",
+        "fg": "branco",
+        "bg": "brasa"
+      },
+      {
+        "texto": "laranja-vello sobre preto-noite",
+        "razao": "6,89",
+        "fg": "laranja-vello",
+        "bg": "preto-noite"
+      },
+      {
+        "texto": "laranja-vello sobre brasa",
+        "razao": "5,67",
+        "fg": "laranja-vello",
+        "bg": "brasa"
+      },
+      {
+        "texto": "preto-noite sobre laranja-vivo",
+        "razao": "6,59",
+        "fg": "preto-noite",
+        "bg": "laranja-vivo"
+      },
+      {
+        "texto": "preto-noite sobre branco",
+        "razao": "20,09",
+        "fg": "preto-noite",
+        "bg": "branco"
+      },
+      {
+        "texto": "preto-noite sobre creme",
+        "razao": "17,66",
+        "fg": "preto-noite",
+        "bg": "creme"
+      },
+      {
+        "texto": "branco sobre vermelho-vello",
+        "razao": "5,44",
+        "fg": "branco",
+        "bg": "vermelho-vello"
+      },
+      {
+        "texto": "vermelho-vello sobre branco",
+        "razao": "5,44",
+        "fg": "vermelho-vello",
+        "bg": "branco"
+      },
+      {
+        "texto": "preto-noite sobre pessego",
+        "razao": "10,76",
+        "fg": "preto-noite",
+        "bg": "pessego"
+      }
+    ],
+    "nao": [
+      {
+        "texto": "branco sobre telha-vello",
+        "razao": "4,46",
+        "fg": "branco",
+        "bg": "telha-vello"
+      },
+      {
+        "texto": "branco sobre laranja-vivo",
+        "razao": "3,05",
+        "fg": "branco",
+        "bg": "laranja-vivo"
+      },
+      {
+        "texto": "branco sobre laranja-vello",
+        "razao": "2,92",
+        "fg": "branco",
+        "bg": "laranja-vello"
+      },
+      {
+        "texto": "laranja-vello sobre branco",
+        "razao": "2,92",
+        "fg": "laranja-vello",
+        "bg": "branco"
+      },
+      {
+        "texto": "laranja-vello sobre creme",
+        "razao": "2,56",
+        "fg": "laranja-vello",
+        "bg": "creme"
+      },
+      {
+        "texto": "branco sobre verde-whatsapp",
+        "razao": "2,36",
+        "fg": "branco",
+        "bg": "verde-whatsapp"
+      },
+      {
+        "texto": "branco sobre pessego",
+        "razao": "1,87",
+        "fg": "branco",
+        "bg": "pessego"
+      }
+    ]
+  },
+  "familias": [
+    {
+      "nome": "Plus Jakarta Sans",
+      "css": "Plus Jakarta Sans",
+      "uso": "Família única da marca em redes, ADS e impressos: números, títulos, apoio, corpo, CTA e legal",
+      "pesos": "Regular, Medium, SemiBold, Bold e ExtraBold (com itálicos)",
+      "onde": "Google Fonts",
+      "link": "https://fonts.google.com/specimen/Plus+Jakarta+Sans"
+    }
+  ],
+  "familiaPrincipal": "Plus Jakarta Sans",
+  "fontesGoogle": [
+    {
+      "nome": "Plus Jakarta Sans",
+      "pesos": [
+        400,
+        500,
+        600,
+        700,
+        800
+      ]
+    }
+  ],
+  "estilos": [
+    {
+      "papel": "Número de oferta",
+      "familia": "Plus Jakarta Sans",
+      "peso": "ExtraBold",
+      "wght": 800,
+      "italico": false,
+      "px": 220,
+      "entrelinha": 0.85
+    },
+    {
+      "papel": "Título 1",
+      "familia": "Plus Jakarta Sans",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 72,
+      "entrelinha": 1
+    },
+    {
+      "papel": "Título 2",
+      "familia": "Plus Jakarta Sans",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 56,
+      "entrelinha": 1.05
+    },
+    {
+      "papel": "Subtítulo",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Medium",
+      "wght": 500,
+      "italico": false,
+      "px": 34,
+      "entrelinha": 1.2
+    },
+    {
+      "papel": "Selo e pílula",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 24,
+      "entrelinha": 1
+    },
+    {
+      "papel": "CTA",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Bold",
+      "wght": 700,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Corpo",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 28,
+      "entrelinha": 1.3
+    },
+    {
+      "papel": "Apoio de preço",
+      "familia": "Plus Jakarta Sans",
+      "peso": "SemiBold",
+      "wght": 600,
+      "italico": false,
+      "px": 24,
+      "entrelinha": 1.1
+    },
+    {
+      "papel": "Legal",
+      "familia": "Plus Jakarta Sans",
+      "peso": "Regular",
+      "wght": 400,
+      "italico": false,
+      "px": 16,
+      "entrelinha": 1.25
+    }
+  ],
+  "layouts": [
+    {
+      "codigo": "VEL1",
+      "estrutura": "Foto quente + card laranja no alto à esquerda, título à direita, pill de frase, logo e botão contorno no rodapé",
+      "quando": "ADS de oferta com família",
+      "src": "/clientes/vello/img/referencias-ads-material-de-campanha-vello-agostoads-1-copiar-png.webp"
+    },
+    {
+      "codigo": "VEL2",
+      "estrutura": "Fundo brasa, título à direita com destaque, objeto em luz laranja, card branco, botão verde, legal vertical",
+      "quando": "ADS de oferta noturnos, campanhas (Black)",
+      "src": "/clientes/vello/img/referencias-ads-vello-11-2026-ads-black-feed-2-png.webp"
+    },
+    {
+      "codigo": "VEL3",
+      "estrutura": "Fundo laranja em degradê, título branco no topo, objeto do produto, selo e logo branco",
+      "quando": "Produto (Vello Segurança, app)",
+      "src": "/clientes/vello/img/referencias-ads-material-de-campanha-vello-agostofeed-6-copiar-2-png.webp"
+    },
+    {
+      "codigo": "VEL4",
+      "estrutura": "Foto emocional tela cheia, título na base, selo de data, logo branco",
+      "quando": "Datas comemorativas",
+      "src": "/clientes/vello/img/referencias-feed-material-de-campanha-vello-agostofeed-2-png.webp"
+    },
+    {
+      "codigo": "VEL5",
+      "estrutura": "Fundo creme, colagem de telas, título escuro com destaque, logo em degradê",
+      "quando": "Conteúdo e institucional claro",
+      "src": "/clientes/vello/img/referencias-feed-material-de-campanha-vello-agostofeed-2-copiar-png.webp"
+    },
+    {
+      "codigo": "VEL6",
+      "estrutura": "Cena da cidade, título com o nome dela, selos de benefício e apps",
+      "quando": "Regional, expansão",
+      "src": "/clientes/vello/img/referencias-feed-material-de-campanha-vello-agostofeed-7-png.webp"
+    }
+  ],
+  "arquivos": [
+    {
+      "titulo": "Todos os logos",
+      "descricao": "SVGs oficiais em um ZIP",
+      "href": "/clientes/vello/arquivos/vello-logos.zip",
+      "tamanho": "4 KB",
+      "ext": "zip"
+    },
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Cores e degradês VEL",
+      "href": "/clientes/vello/arquivos/vello-cores.vcswatches",
+      "tamanho": "9 KB",
+      "ext": "vcswatches"
+    },
+    {
+      "titulo": "Cores em ASE",
+      "descricao": "Paleta para Illustrator e Photoshop",
+      "href": "/clientes/vello/arquivos/vello-cores.ase",
+      "tamanho": "1 KB",
+      "ext": "ase"
+    },
+    {
+      "titulo": "Aparências do VectorCraft",
+      "descricao": "Fundo laranja, fundo brasa, degradê Vello e botão WhatsApp",
+      "href": "/clientes/vello/arquivos/vello-aparencias.vcstyles",
+      "tamanho": "6 KB",
+      "ext": "vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, fundos, Wi-Fi em luz, cards, pills, botões, selos, ícones e blocos de planos",
+      "href": "/clientes/vello/arquivos/vello-simbolos.vectorcraft",
+      "tamanho": "327 KB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "href": "/clientes/vello/arquivos/vello-brand-kit.vectorcraft",
+      "tamanho": "1,8 MB",
+      "ext": "vectorcraft"
+    },
+    {
+      "titulo": "Guia em PDF",
+      "descricao": "As 13 páginas do kit",
+      "href": "/clientes/vello/arquivos/vello-brand-kit.pdf",
+      "tamanho": "722 KB",
+      "ext": "pdf"
+    }
+  ],
+  "elementos": [
+    {
+      "legenda": "Cards de oferta laranja e branco, Wi-Fi em luz, pill de frase, botões de WhatsApp, selos, benefícios e legal vertical",
+      "src": "/clientes/vello/img/pagina-6.webp"
+    },
+    {
+      "legenda": "Exemplo de ADS montado só com os elementos da marca. Oferta de exemplo: preço vigente na Central de Clientes",
+      "src": "/clientes/vello/img/exemplo-1080.webp"
+    }
+  ],
+  "planos": [
+    {
+      "legenda": "Negativo, sobre brasa, preto ou foto escura: agrupamento horizontal e vertical. Valores de exemplo",
+      "src": "/clientes/vello/img/pagina-12.webp"
+    },
+    {
+      "legenda": "Positivo, sobre creme ou branco, preço em degradê. \"Por\" e \"R$\" empilhados à esquerda do número, centavos no alto",
+      "src": "/clientes/vello/img/pagina-13.webp"
+    }
+  ],
+  "gosta": "Fotos quentes de família em casa no fim de tarde, laranja dominante, card de oferta com número enorme e o botão verde de WhatsApp.",
+  "naoGosta": "",
+  "licoes": [
+    "O logo tem só duas versões: degradê e branco. Nunca em cor chapada.",
+    "A cidade pelo nome (São José dos Campos, Caçapava, Taubaté) aproxima a marca do público."
+  ],
+  "html": {
+    "regras": "",
+    "essencia": "<ul>\n<li><strong>O que fazemos:</strong> internet 100% fibra óptica para casa, empresa e condomínio, com Wi-Fi 6, apps inclusos (Ubook, ExitLag, Deezer, Disney+) e câmeras de segurança (Vello Segurança).</li>\n<li><strong>Promessa:</strong> &quot;Sua internet mais próxima e mais veloz.&quot; (site)</li>\n<li><strong>Diferencial real:</strong> empresa da região (nasceu em Caçapava), atendimento humanizado com nome e rosto, avaliações no Google.</li>\n<li><strong>Personalidade:</strong> próxima, calorosa, descomplicada / nunca: fria, técnica demais, exagerada.</li>\n</ul>\n",
+    "publico": "<ul>\n<li><strong>Quem compra:</strong> famílias do Vale do Paraíba (Caçapava, São José dos Campos, Taubaté, Paraibuna, Jambeiro); também empresas e condomínios.</li>\n<li><strong>O que quer:</strong> casa toda conectada (streaming, jogos, trabalho, estudo) sem dor de cabeça.</li>\n<li><strong>O que teme:</strong> queda na hora do jogo ou do filme, atendimento que não resolve. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">inferido</span></li>\n<li><strong>Como fala / objeções:</strong> <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> com o account.</li>\n</ul>\n",
+    "voz": "<ul>\n<li><strong>Tom:</strong> caloroso e familiar, frases naturais em caixa baixa, emoção da família e da rotina.</li>\n<li><strong>Regras fixas:</strong> linguagem humana, frases curtas, <strong>nunca usar travessão</strong>, até 3 emojis por legenda, &quot;até X Mega&quot; em promessa.</li>\n<li><strong>Palavras que usamos:</strong> conexão que aproxima, sua região, família, gente de verdade, Wi-Fi 6 incluso, assine pelo WhatsApp.</li>\n<li><strong>Evitamos:</strong> &quot;a melhor da região&quot;, &quot;mais estável&quot; e &quot;nunca cai&quot; sem prova; jargão técnico.</li>\n<li><strong>Copy boa (aprovada):</strong><blockquote>\n<p>Do outro lado da conexão, tem gente de verdade.</p>\n</blockquote>\n</li>\n<li><strong>Copy ruim:</strong><blockquote>\n<p>A internet mais estável e rápida do Brasil, que nunca cai!</p>\n</blockquote>\n</li>\n</ul>\n",
+    "logo": "<ul>\n<li>Símbolos no VectorCraft: <code>Logo / Positivo</code> (degradê) e <code>Logo / Negativo</code> (branco).</li>\n<li><strong>Uso:</strong> branco sobre foto e sobre laranja; degradê sobre escuro (ADS noturnos) e sobre claro.</li>\n<li><strong>Proteção e mínimo:</strong> altura do &quot;o&quot; em volta; mínimo 200 px em arte de 1080. <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">sugerido</span></li>\n<li><strong>Proibido:</strong> redesenhar, trocar o degradê, recolorir em cor chapada, distorcer, contornar.</li>\n<li><strong>Logo 3D (letreiro na cidade):</strong> aparece em peças aprovadas; é imagem pronta da agência, usar só o arquivo existente <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> onde está o original. Ícone isolado: só em PNG no site, <span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> vetor.</li>\n</ul>\n",
+    "cores": "<p>Degradês: <code>degrade-vello</code> (logo), <code>fundo-laranja</code>, <code>fundo-brasa</code>, <code>luz-laranja</code>, <code>botao-whatsapp</code>.\n<strong>Atenção:</strong> branco sobre laranja-vivo (3,05) só em número e título grandes; branco sobre laranja-vello (2,92) e laranja sobre branco ou creme só em título de 56 px ou mais (como nas peças); texto pequeno de destaque sobre claro em vermelho-vello. Botão verde com texto branco (2,36) é padrão aprovado: Bold 26 px ou mais.</p>\n",
+    "tipografia": "<ul>\n<li>Estilos <code>VEL / numero-oferta</code> (220 ExtraBold), <code>titulo-1</code> (72 SemiBold), <code>titulo-2</code> (56), <code>subtitulo</code> (34 Medium), <code>selo-pill</code> (24 Bold), <code>cta</code> (28 Bold), <code>corpo</code> (28 Regular), <code>apoio-preco</code> (24 SemiBold), <code>legal</code> (16 Regular).</li>\n<li><strong>Figma:</strong> Plus Jakarta Sans está no Google Fonts, então funciona no Figma sem envio.</li>\n<li><strong>Particularidades:</strong> número enorme em ExtraBold com tracking apertado; &quot;mega&quot; colado embaixo (card laranja) ou em pill de degradê sobre o número (card branco). Preço num texto só (R$ pequeno, centavos sobrescritos, /mês). Títulos em caixa baixa com o trecho final em laranja.</li>\n</ul>\n",
+    "elementos": "<ul>\n<li><strong>Fundo:</strong> foto quente em âmbar e laranja; fundo laranja em degradê (vermelho para pêssego); fundo brasa com luz laranja. Símbolos <code>Fundo / Laranja</code>, <code>Fundo / Brasa</code>, <code>Luz / Laranja</code>, <code>Marca dágua / Logo</code>.</li>\n<li><strong>Cards:</strong> <code>Card / Oferta laranja 600</code> (vertical, número branco, &quot;mega&quot; preto, apps), <code>Card / Oferta branco 400</code> e <code>800</code> (número preto com pill &quot;mega&quot;, preço em degradê).</li>\n<li><strong>Pills, selos, botões:</strong> <code>Pill / Frase</code> (laranja com quadrado vermelho de ícone), <code>Botão / WhatsApp</code> (verde), <code>Botão / Contorno</code> (branco translúcido), <code>Selo / Wi-Fi 6</code>, <code>Selo / Atendimento humanizado</code>, <code>Selo / Data</code>, <code>Selo / Online</code>, <code>Legal / Vertical</code>.</li>\n<li><strong>Ícones:</strong> traço arredondado, brancos dentro de quadrado vermelho-vello de cantos 12 px. <code>Wi-Fi / Neon</code> (Wi-Fi em luz laranja) para ADS noturnos.</li>\n<li><strong>Extras:</strong> objeto do produto (câmera, celular, Wi-Fi) com brilho laranja; logo 3D na cidade. <strong>Mascote:</strong> não tem.</li>\n</ul>\n",
+    "imagem": "<ul>\n<li><strong>Estilo:</strong> foto real, luz de fim de tarde, tons laranja e âmbar, profundidade de campo.</li>\n<li><strong>Pessoas:</strong> famílias, casais, pai e filhos, estudante, atendente com headset. Pessoa da empresa nunca por IA.</li>\n<li><strong>Evitar:</strong> luz fria azul, banco de imagem genérico de escritório, telas com marcas de terceiros inventadas.</li>\n<li><strong>Base de prompt:</strong> cinematic photo, warm golden hour light, orange and amber tones (#F37124, #FEAB6A), real Brazilian family at home, soft depth of field, clean area for text at the top right, no text, no logo.</li>\n</ul>\n",
+    "layouts": "<p>Não repetir estrutura em peças seguidas; alternar claro, laranja e escuro.</p>\n",
+    "ofertas": "<ul>\n<li><strong>CTA:</strong> WhatsApp (12) 3221-5400. Na arte: &quot;Assine agora pelo WhatsApp&quot; ou &quot;Entre em contato pelo WhatsApp&quot;. Botão Meta: Enviar mensagem.</li>\n<li><strong>Legal:</strong> &quot;*Consulte condições e viabilidade técnica&quot;, na vertical, borda direita. Promoção com período no legal (&quot;Período de preço promocional apenas no mês de …&quot;).</li>\n<li><strong>Planos:</strong> 400 Mega, 600 Mega, 800 Mega e 1 Giga. Preço e plano vigente ficam na Central de Clientes. Use os blocos de planos do kit (veja Planos).</li>\n<li><strong>Restrições:</strong> preço &quot;De/Por&quot; só com fonte e período; nada de superlativo sem prova.</li>\n</ul>\n",
+    "svas": "<table>\n<thead>\n<tr>\n<th>SVA</th>\n<th>Logo autorizado?</th>\n<th>Regras</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Ubook</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> (aparece nas peças)</td>\n<td>só arquivo oficial</td>\n</tr>\n<tr>\n<td>ExitLag</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span> (aparece nas peças)</td>\n<td>só arquivo oficial</td>\n</tr>\n<tr>\n<td>Deezer</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só arquivo oficial</td>\n</tr>\n<tr>\n<td>Disney+ (com anúncios)</td>\n<td><span class=\"ml-1 rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-medium whitespace-nowrap text-amber-800\">confirmar</span></td>\n<td>só arquivo oficial, regra da marca</td>\n</tr>\n</tbody></table>\n"
+  }
+}

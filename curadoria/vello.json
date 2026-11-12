@@ -1,0 +1,61 @@
+{
+  "substituir": {
+    "- **Planos (site, 12/11/2026, vigência `[confirmar]`):** 400 Mega R$ 89,90 · 600 Mega R$ 99,90 · 800 Mega R$ 119,90 · 1 Giga R$ 159,90. Blocos em positivo e negativo, vertical e horizontal, no board (pranchetas 11 e 12).": "- **Planos:** 400 Mega, 600 Mega, 800 Mega e 1 Giga. Preço e plano vigente ficam na Central de Clientes. Use os blocos de planos do kit (veja Planos).",
+    " Banco de personas pela skill `persona-cliente` no primeiro pack.": "",
+    " (sem briefing)": "",
+    "`[confirmar]`": "[confirmar]"
+  },
+  "faca": [
+    "Luz quente de fim de tarde, com laranja e âmbar na foto",
+    "Plus Jakarta Sans em tudo: ExtraBold nos números, SemiBold nos títulos",
+    "Título em caixa baixa, frase natural, com o trecho final em laranja",
+    "Oferta em card laranja ou branco, número enorme com \"mega\" colado e preço em texto único",
+    "Botão verde de WhatsApp e legal na vertical, na borda direita"
+  ],
+  "evite": [
+    "Recolorir, contornar ou trocar o degradê do logo",
+    "Texto pequeno laranja sobre branco ou creme (use vermelho Vello)",
+    "Verde fora do botão de WhatsApp",
+    "Promessa sem prova, como \"a melhor da região\" ou \"nunca cai\"",
+    "Luz fria azul e pessoa da empresa gerada por IA"
+  ],
+  "logos": [
+    { "titulo": "Positivo em degradê", "quando": "Fundo claro, branco ou creme", "fundo": "#FFFFFF", "arquivo": "logo/vello-logotipo-positivo-inline.svg" },
+    { "titulo": "Degradê sobre escuro", "quando": "ADS noturnos, fundo brasa ou preto", "fundo": "#0D0605", "arquivo": "logo/vello-logotipo-positivo-inline.svg" },
+    { "titulo": "Negativo branco", "quando": "Sobre foto e sobre laranja", "fundo": "#FF5F00", "arquivo": "logo/vello-logotipo-negativo-inline.svg" },
+    { "titulo": "Negativo sobre brasa", "quando": "Fundo escuro quente", "fundo": "#3A1208", "arquivo": "logo/vello-logotipo-negativo-inline.svg" }
+  ],
+  "capa": {
+    "gradiente": "fundo-brasa",
+    "logo": "logo/vello-logotipo-positivo-inline.svg"
+  },
+  "elementos": [
+    { "origem": "curadoria/vello/pagina-6.png", "legenda": "Cards de oferta laranja e branco, Wi-Fi em luz, pill de frase, botões de WhatsApp, selos, benefícios e legal vertical" },
+    { "origem": "curadoria/vello/exemplo-1080.png", "legenda": "Exemplo de ADS montado só com os elementos da marca. Oferta de exemplo: preço vigente na Central de Clientes" }
+  ],
+  "planos": [
+    { "origem": "curadoria/vello/pagina-12.png", "legenda": "Negativo, sobre brasa, preto ou foto escura: agrupamento horizontal e vertical. Valores de exemplo" },
+    { "origem": "curadoria/vello/pagina-13.png", "legenda": "Positivo, sobre creme ou branco, preço em degradê. \"Por\" e \"R$\" empilhados à esquerda do número, centavos no alto" }
+  ],
+  "layouts": {
+    "VEL1": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-material-de-campanha-vello-agostoads-1-copiar-png.jpg",
+    "VEL2": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-vello-11-2026-ads-black-feed-2-png.jpg",
+    "VEL3": "jobs/2026-11-brand-kit/fontes/previas/referencias-ads-material-de-campanha-vello-agostofeed-6-copiar-2-png.jpg",
+    "VEL4": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-material-de-campanha-vello-agostofeed-2-png.jpg",
+    "VEL5": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-material-de-campanha-vello-agostofeed-2-copiar-png.jpg",
+    "VEL6": "jobs/2026-11-brand-kit/fontes/previas/referencias-feed-material-de-campanha-vello-agostofeed-7-png.jpg"
+  },
+  "arquivos": [
+    { "titulo": "Amostras do VectorCraft", "descricao": "Cores e degradês VEL", "origem": "vectorcraft/bibliotecas/vello-cores.vcswatches" },
+    { "titulo": "Cores em ASE", "descricao": "Paleta para Illustrator e Photoshop", "origem": "vectorcraft/bibliotecas/vello-cores.ase" },
+    { "titulo": "Aparências do VectorCraft", "descricao": "Fundo laranja, fundo brasa, degradê Vello e botão WhatsApp", "origem": "vectorcraft/bibliotecas/vello-aparencias.vcstyles" },
+    { "titulo": "Símbolos do VectorCraft", "descricao": "Logos, fundos, Wi-Fi em luz, cards, pills, botões, selos, ícones e blocos de planos", "origem": "vectorcraft/bibliotecas/vello-simbolos.vectorcraft" },
+    { "titulo": "Brand kit editável", "descricao": "Arquivo completo no VectorCraft", "origem": "vectorcraft/vello-brand-kit.vectorcraft" },
+    { "titulo": "Guia em PDF", "descricao": "As 13 páginas do kit", "origem": "vectorcraft/vello-brand-kit.pdf" }
+  ],
+  "licoes": [
+    "O logo tem só duas versões: degradê e branco. Nunca em cor chapada.",
+    "A cidade pelo nome (São José dos Campos, Caçapava, Taubaté) aproxima a marca do público."
+  ],
+  "gosta": "Fotos quentes de família em casa no fim de tarde, laranja dominante, card de oferta com número enorme e o botão verde de WhatsApp."
+}
