@@ -1,0 +1,365 @@
+{
+  "format": "vcswatches",
+  "version": 1,
+  "name": "GNEX / Cores",
+  "swatches": [
+    {
+      "name": "GNX / fundo-vermelho",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Radial",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.6666667,
+                "g": 0.043137256,
+                "b": 0.043137256
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / vermelho-gnex"
+            },
+            {
+              "offset": 0.55,
+              "color": {
+                "model": "rgb",
+                "r": 0.36078432,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / vermelho-profundo"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.16078432,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / vermelho-noite"
+            }
+          ]
+        },
+        "angle": 0.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "GNX / fundo-noite",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.16078432,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / vermelho-noite"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.05490196,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "GNX / card-oferta",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / branco"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.99215686,
+                "g": 0.9254902,
+                "b": 0.9254902
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / rosa-claro"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "GNX / titulo-ouro",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.8235294,
+                "b": 0.47843137
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.65882355,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / amarelo-ouro"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    },
+    {
+      "name": "GNX / arco-wifi",
+      "paint": {
+        "type": "gradient",
+        "gradient": {
+          "kind": "Linear",
+          "stops": [
+            {
+              "offset": 0.0,
+              "color": {
+                "model": "rgb",
+                "r": 1.0,
+                "g": 0.16470589,
+                "b": 0.101960786
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5
+            },
+            {
+              "offset": 0.5,
+              "color": {
+                "model": "rgb",
+                "r": 0.6666667,
+                "g": 0.043137256,
+                "b": 0.043137256
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / vermelho-gnex"
+            },
+            {
+              "offset": 1.0,
+              "color": {
+                "model": "rgb",
+                "r": 0.36078432,
+                "g": 0.0,
+                "b": 0.0
+              },
+              "opacity": 1.0,
+              "midpoint": 0.5,
+              "swatch": "GNX / vermelho-profundo"
+            }
+          ]
+        },
+        "angle": 90.0
+      },
+      "global": false,
+      "spot": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "GNX / Cores",
+      "swatches": [
+        {
+          "name": "GNX / vermelho-gnex",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.6666667,
+              "g": 0.043137256,
+              "b": 0.043137256
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / vermelho-vivo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.0,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / vinho",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.4509804,
+              "g": 0.0,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / vermelho-profundo",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.36078432,
+              "g": 0.0,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / vermelho-noite",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.16078432,
+              "g": 0.0,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / amarelo-ouro",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 0.65882355,
+              "b": 0.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / grafite",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.1764706,
+              "g": 0.1764706,
+              "b": 0.1764706
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / rosa-claro",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.99215686,
+              "g": 0.9254902,
+              "b": 0.9254902
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / branco",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0
+            }
+          },
+          "global": true,
+          "spot": false
+        },
+        {
+          "name": "GNX / roxo-gnex-play",
+          "paint": {
+            "type": "solid",
+            "color": {
+              "model": "rgb",
+              "r": 0.5529412,
+              "g": 0.11372549,
+              "b": 0.5019608
+            }
+          },
+          "global": true,
+          "spot": false
+        }
+      ]
+    }
+  ]
+}

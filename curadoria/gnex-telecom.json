@@ -1,0 +1,145 @@
+{
+  "substituir": {
+    "- Símbolos no VectorCraft: `Logo / Completo / Padrão`, `Cinza negativo` e `Negativo`, e os mesmos em `Logo / Compacto / …` (arquivos em `clientes/gnex-telecom/logo/`) [cliente].": "- Três versões oficiais (padrão, cinza negativo e negativo), cada uma completa e compacta. Todas no ZIP de logos e nos símbolos do VectorCraft.",
+    "- Na cópia do kit o branco foi normalizado (13 tons quase brancos viraram #FFFFFF) e tons duplicados foram unificados, sem mexer no desenho.\n": "",
+    " (não existe versão vermelha oficial; a peça 01 recoloriu)": " (não existe versão vermelha oficial)",
+    "- **Praça:** Amapá e Pará, desde 2010, cerca de 4.170 assinantes (briefing de 06/2026). Aniversário em 13 de novembro [cliente].": "- **Praça:** Amapá e Pará, desde 2010. Aniversário em 13 de novembro.",
+    "- Combos do site (cidade 3, 13/11/2026): Basic Plus + TV R$ 129,90 · Gnex + Móvel 5GB R$ 144,90 · 10GB R$ 154,90 · Top + TV R$ 159,90 · 15GB R$ 164,90 · 20GB R$ 174,90 · Premium + TV R$ 189,90. Vigência `[confirmar]`.": "- **Combos:** Basic Plus, Top e Premium com TV, e Gnex com móvel (5 a 20GB), todos com velocidade ilimitada. Preço e plano vigente ficam na Central de Clientes. Use os blocos de planos do kit (veja Planos).",
+    "- `[confirmar]` Canais: peças antigas dizem \"até 184\" e \"até 96\"; o site diz 109, 199 e 207.\n": "- Quantidade de canais de cada combo: confirmar na Central de Clientes antes de usar na peça.\n",
+    "- Indique e ganhe: 50% na próxima fatura (briefing) `[confirmar vigência]`.": "- Promoções, como o Indique e Ganhe, só entram quando o brief do mês confirmar.",
+    " WhatsApp do site: 0800 280 0325 [cliente].": " O número do WhatsApp vem do brief do mês.",
+    " Personas completas: skill `persona-cliente` (ainda não criadas).": "",
+    "- As peças antigas usam outra fonte (geométrica arredondada). Por decisão do usuário a régua passa a ser a Inter.": "- As peças antigas usam outra fonte (geométrica arredondada); daqui em diante, Inter."
+  },
+  "faca": [
+    "Vermelho profundo dominante, com arcos de Wi-Fi atrás da cena e pontilhado suave nos cantos",
+    "Inter em tudo: Black nos números e títulos, palavra-chave do título em amarelo-ouro",
+    "Card branco de oferta com VELOCIDADE e \"ilimitada\" em vermelho vivo, preço em texto único e pills de canais e SVAs",
+    "Logo negativo sobre vermelho e foto; compacto no topo dos ADS",
+    "Fechar toda peça de oferta com a barra branca de CTA ou o botão de WhatsApp, e \"*Consulte condições\" na vertical"
+  ],
+  "evite": [
+    "Laranja: é a cor de um concorrente. O destaque é amarelo-ouro",
+    "Recolorir o logo (não existe versão vermelha) ou usar o logo colorido sobre vermelho profundo",
+    "Amarelo-ouro sobre branco e vermelho vivo em texto pequeno sobre branco",
+    "Superlativo sem prova, como \"a número 1\" ou \"a melhor da região\"",
+    "Pessoa da empresa gerada por IA"
+  ],
+  "logos": [
+    {
+      "titulo": "Negativo",
+      "quando": "Uso principal nos ADS: sobre vermelho e foto",
+      "fundo": "#5C0000",
+      "arquivo": "logo/gnex-logo-negativo.svg"
+    },
+    {
+      "titulo": "Cinza negativo",
+      "quando": "Fundo escuro neutro, com os ícones coloridos",
+      "fundo": "#290000",
+      "arquivo": "logo/gnex-logo-cinza-negativo.svg"
+    },
+    {
+      "titulo": "Padrão",
+      "quando": "Fundo branco ou claro",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/gnex-logo-padrao.svg"
+    },
+    {
+      "titulo": "Compacto negativo",
+      "quando": "Topo dos ADS, sem a assinatura, sobre vermelho",
+      "fundo": "#5C0000",
+      "arquivo": "logo/gnex-logo-compacto-negativo.svg"
+    },
+    {
+      "titulo": "Compacto cinza negativo",
+      "quando": "Topo de peça escura, sem a assinatura",
+      "fundo": "#290000",
+      "arquivo": "logo/gnex-logo-compacto-cinza-negativo.svg"
+    },
+    {
+      "titulo": "Compacto padrão",
+      "quando": "Topo de peça clara, sem a assinatura",
+      "fundo": "#FFFFFF",
+      "arquivo": "logo/gnex-logo-compacto-padrao.svg"
+    }
+  ],
+  "capa": {
+    "gradiente": "fundo-vermelho",
+    "logo": "logo/gnex-logo-negativo.svg"
+  },
+  "elementos": [
+    {
+      "origem": "curadoria/gnex-telecom/pagina-5.png",
+      "legenda": "Arcos de Wi-Fi, card de oferta, card de notificação, pill Gnex Play, benefícios, botões e barra de CTA"
+    },
+    {
+      "origem": "vectorcraft/gnex-telecom-exemplo-1080.png",
+      "legenda": "Exemplo de ADS montado só com os elementos da marca. Oferta de exemplo: preço vigente na Central de Clientes"
+    }
+  ],
+  "planos": [
+    {
+      "origem": "curadoria/gnex-telecom/pagina-11.png",
+      "legenda": "Negativo, sobre vermelho: agrupamento horizontal, vertical e card de oferta. Valores de exemplo"
+    },
+    {
+      "origem": "curadoria/gnex-telecom/pagina-12.png",
+      "legenda": "Positivo, sobre fundo claro. \"Por\" e \"R$\" empilhados à esquerda do número, centavos no alto e /mês embaixo"
+    }
+  ],
+  "layouts": {
+    "GNX1": "jobs/2026-11-brand-kit/fontes/previas/marca-referencias-ads-03-png.png",
+    "GNX2": "jobs/2026-11-brand-kit/fontes/previas/marca-referencias-ads-01-png.png",
+    "GNX3": "jobs/2026-11-brand-kit/fontes/previas/marca-referencias-ads-material-de-campanha-gnex-setembroprancheta-1-copiar-5-png.jpg",
+    "GNX4": {
+      "origem": "jobs/2026-11-brand-kit/fontes/previas/marca-referencias-ads-material-de-campanha-gnex-setembroprancheta-1-copiar-6-png.jpg",
+      "alerta": "Só estrutura: não repetir \"a número 1 da sua região\" (superlativo sem prova)"
+    },
+    "GNX5": {
+      "origem": "jobs/2026-11-brand-kit/fontes/previas/marca-referencias-ads-material-de-campanha-gnex-setembroprancheta-1-copiar-3-png.jpg",
+      "alerta": "Só estrutura: não repetir \"a melhor internet da sua região\" nem os preços da peça"
+    },
+    "GNX6": {
+      "origem": "jobs/2026-11-brand-kit/fontes/previas/marca-referencias-ads-material-de-campanha-gnex-setembroprancheta-1-png.png",
+      "alerta": "Só estrutura: o título desta peça puxou para laranja; use amarelo-ouro"
+    }
+  },
+  "arquivos": [
+    {
+      "titulo": "Amostras do VectorCraft",
+      "descricao": "Cores e degradês GNX",
+      "origem": "vectorcraft/bibliotecas/gnex-telecom-cores.vcswatches"
+    },
+    {
+      "titulo": "Cores em ASE",
+      "descricao": "Paleta para Illustrator e Photoshop",
+      "origem": "vectorcraft/bibliotecas/gnex-telecom-cores.ase"
+    },
+    {
+      "titulo": "Aparências do VectorCraft",
+      "descricao": "Fundo vermelho, card de oferta e título ouro",
+      "origem": "vectorcraft/bibliotecas/gnex-telecom-aparencias.vcstyles"
+    },
+    {
+      "titulo": "Símbolos do VectorCraft",
+      "descricao": "Logos, arcos, cards, pills, botões, barra de CTA, benefícios e blocos de planos",
+      "origem": "vectorcraft/bibliotecas/gnex-telecom-simbolos.vectorcraft"
+    },
+    {
+      "titulo": "Brand kit editável",
+      "descricao": "Arquivo completo no VectorCraft",
+      "origem": "vectorcraft/gnex-telecom-brand-kit.vectorcraft"
+    },
+    {
+      "titulo": "Guia em PDF",
+      "descricao": "As 13 páginas do kit",
+      "origem": "vectorcraft/gnex-telecom-brand-kit.pdf"
+    }
+  ],
+  "licoes": [
+    "O logo oficial é grafite com ícones coloridos. Sobre o vermelho da marca, use o negativo: o ícone vermelho do Wi-Fi some no fundo.",
+    "Velocidade sempre \"ilimitada\", como no site da Gnex. Nada de número de Mega na peça.",
+    "Ícones do logo têm traço irregular: para fachada, banner ou adesivo grande, pedir o redesenho antes."
+  ],
+  "gosta": "Vermelho profundo com arcos de Wi-Fi, humor de rotina (caracol, churrasqueira, notificação no celular), gente real em casa e o card branco com VELOCIDADE ilimitada."
+}

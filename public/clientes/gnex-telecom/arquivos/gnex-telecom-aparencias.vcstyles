@@ -1,0 +1,165 @@
+{
+  "format": "vcstyles",
+  "version": 2,
+  "name": "GNEX / Aparência",
+  "styles": [
+    {
+      "name": "GNX / Fundo vermelho",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Radial",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.6666667,
+                      "g": 0.043137256,
+                      "b": 0.043137256
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 0.55,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.36078432,
+                      "g": 0.0,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.16078432,
+                      "g": 0.0,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 0.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "GNX / Card oferta",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 1.0,
+                      "g": 1.0,
+                      "b": 1.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 0.99215686,
+                      "g": 0.9254902,
+                      "b": 0.9254902
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 90.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    },
+    {
+      "name": "GNX / Título ouro",
+      "appearance": {
+        "items": [
+          {
+            "kind": "fill",
+            "paint": {
+              "type": "gradient",
+              "gradient": {
+                "kind": "Linear",
+                "stops": [
+                  {
+                    "offset": 0.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 1.0,
+                      "g": 0.8235294,
+                      "b": 0.47843137
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  },
+                  {
+                    "offset": 1.0,
+                    "color": {
+                      "model": "rgb",
+                      "r": 1.0,
+                      "g": 0.65882355,
+                      "b": 0.0
+                    },
+                    "opacity": 1.0,
+                    "midpoint": 0.5
+                  }
+                ]
+              },
+              "angle": 90.0
+            }
+          },
+          {
+            "kind": "stroke",
+            "paint": {
+              "type": "none"
+            },
+            "width": 0.0
+          }
+        ]
+      },
+      "unit_box": true
+    }
+  ]
+}

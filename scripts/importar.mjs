@@ -41,7 +41,7 @@ function limpar(md) {
     .replace(/\[sugerido[^\]]*\]/g, () => pill('sugerido'))
     .replace(/\[inferido[^\]]*\]/g, () => pill('inferido'))
     .replace(/`?\[a definir\]`?/g, () => pill('a definir'))
-    .replace(/\[confirmar[^\]]*\]/g, () => pill('confirmar'));
+    .replace(/`?\[confirmar[^\]]*\]`?/g, () => pill('confirmar'));
 }
 const html = (md) => marked.parse(limpar(md).replace(/^\s*-\s*$/gm, '').trim());
 
